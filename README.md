@@ -1,5 +1,4 @@
-# [[TITLE]]
-![Build Status]([[BUILD_STATUS_URL]])
+# Rule Designer for Developer
 
 ## Features
 - describe
