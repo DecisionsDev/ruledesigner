@@ -1,5 +1,5 @@
 # Rule Designer for Developer
-
+This repository is the home directory of IBM Operational Decision Manager for Developers, where you can find early access material for this program.
 ## Features
 - describe
 
