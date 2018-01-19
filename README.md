@@ -1,3 +1,4 @@
+
 # IBM Operational Decision Manager for Developers - Rule Designer
 
 ## Features
@@ -31,5 +32,5 @@ For issues relating specifically to this project and scripts, please use the [Gi
 # License
 The files found in this project are licensed under the [IBM Operational Decision Manager for Developers license](LICENSE).
 
-# Notice
+# Copyright
 © Copyright IBM Corporation 2018.
