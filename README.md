@@ -1,3 +1,4 @@
+This repository is the home directory of IBM Operational Decision Manager for Developers, where you can find early access material for this program.
 
 # IBM Operational Decision Manager for Developers - Rule Designer
 
@@ -10,7 +11,7 @@ In the designer, developers can edit and debug Java code and rules alongside eac
 - Eclipse 4.4 Luna Packages
 
 ## Installation
-You must install the update site for Rule Designer into an existing Eclipse. 
+You must install the update site for Rule Designer into an existing Eclipse.
 
 1. Start Eclipse.
 2. Switch to the **Java** perspective (click **Window** > **Open Perspective** > **Java**).
