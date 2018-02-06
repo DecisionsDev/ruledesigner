@@ -27,6 +27,25 @@ You must install the update site for Rule Designer into an existing Eclipse.
 8. If you are prompted to restart Eclipse, click **Yes**.
 9. If not displayed by default, switch to the **Rule** perspective (**Window** > **Open Perspective** > **Rule**).
 
+## What to do next
+If you want to establish a secure TLS connection with ODM for dev on IBM Cloud Private, you need to import a certificate into the cacerts file in the JVM used to launch Rule Designer.
+ 
+ODM on IBM Cloud Private is delivered with a [default certificate](odmonicpserver.cer). To connect to ODM on ICP with this certificate, you must copy the file to the JVM used to launch Rule Designer. 
+ 
+To add the `odmonicpserver.cer` certificate to the JVM's default cacerts truststore, use the keystore keytool: 
+```
+cd <JAVA_HOME>/jre/lib/security
+keytool -importcert -file odmonicpserver.cer -keystore cacerts -storepass changeit -alias odmicpserver
+```
+**Where** `changeit` is the password to protect the integrity of the `cacerts` file.
+ 
+You can also use the [truststore.jks](truststore.jks) file, which contains the `odmonicpserver.cer` certificate. To use the truststore in Rule Designer, copy the `truststore.jks` file to your Rule Designer installation directory next to the `eclipse.ini` file, add the following lines at the end of your `eclipse.ini` file, and then restart Rule Designer.
+```
+-Djavax.net.ssl.trustStore=truststore.jks
+-Djavax.net.ssl.trustStorePassword=changeme
+```
+**Where** `changeme` corresponds to the password for the default `truststore.jks` file.
+
 # Issues and contributions
 For issues relating specifically to this project and scripts, please use the [GitHub issue tracker](../../issues).
 
