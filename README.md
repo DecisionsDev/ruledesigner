@@ -1,4 +1,4 @@
-This repository is the home directory of IBM Operational Decision Manager for Developers, where you can find early access material for this program.
+This repository is the home directory of IBM Operational Decision Manager for Developers.
 
 # IBM Operational Decision Manager for Developers - Rule Designer
 
@@ -19,7 +19,7 @@ You must install the update site for Rule Designer into an existing Eclipse.
 4. Add the update site to install:
    - In the Install wizard, next to the **Work with** field, click **Add**.
    - In the **Name** field, enter a name for the repository. For example, enter Rule Designer.
-   - In the **Location** field, enter https://github.com/ODMDev/ruledesigner/raw/master/p2.
+   - In the **Location** field, enter https://raw.githubusercontent.com/ODMDev/ruledesigner/8.9.2/p2 .
    - Click **OK**.
 5. Click **Select All**, and click **Next**. Eclipse calculates the dependencies and requirements.
 6. In the **Install** dialog, click **Next**.
