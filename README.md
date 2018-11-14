@@ -8,8 +8,13 @@ Rule Designer is the Eclipse-based development environment for ODM developers. R
 In the designer, developers can edit and debug Java code and rules alongside each other. The key features include auto correction of rules, decision flow control, code-generation wizards, source code control integration, and conflict and redundancy detection. Used with Decision Center and Rule Execution Server, Rule Designer completes a collaborative work environment for developers, business users, integrators, and release managers to automate a company's business policies.
 
 ## Requirements
-- Eclipse 4.4 Luna Packages
-- You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
+For 8.9.2 Release:
+	- Eclipse 4.4 Luna Packages
+	- You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
+
+For 8.10.0 Release:
+	- Eclipse 4.7 Oxygen Packages
+	- You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
 
 ## Installation
 You must install the update site for Rule Designer into an existing Eclipse.
@@ -20,7 +25,9 @@ You must install the update site for Rule Designer into an existing Eclipse.
 4. Add the update site to install:
    - In the Install wizard, next to the **Work with** field, click **Add**.
    - In the **Name** field, enter a name for the repository. For example, enter Rule Designer.
-   - In the **Location** field, enter https://raw.githubusercontent.com/ODMDev/ruledesigner/8.9.2/p2 .
+   - In the **Location** field, enter
+   		- For 8.9.2:  https://raw.githubusercontent.com/ODMDev/ruledesigner/8.9.2/p2 .
+   		- For 8.10.0:  https://raw.githubusercontent.com/ODMDev/ruledesigner/8.10.0/p2 .
    - Click **OK**.
 5. Click **Select All**, and click **Next**. Eclipse calculates the dependencies and requirements.
 6. In the **Install** dialog, click **Next**.
