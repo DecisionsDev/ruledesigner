@@ -9,12 +9,12 @@ In the designer, developers can edit and debug Java code and rules alongside eac
 
 ## Requirements
 For 8.9.2 Release:
-	- Eclipse 4.4 Luna Packages
-	- You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
+ - Eclipse 4.4 Luna Packages
+ - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
 
 For 8.10.0 Release:
-	- Eclipse 4.7 Oxygen Packages
-	- You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
+ - Eclipse 4.7 Oxygen Packages
+ - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
 
 ## Installation
 You must install the update site for Rule Designer into an existing Eclipse.
