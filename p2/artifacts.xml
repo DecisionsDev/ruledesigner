@@ -1,0 +1,739 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1622051241234'/>
+    <property name='publishPackFilesAsSiblings' value='true'/>
+  </properties>
+  <mappings size='5'>
+    <rule filter='(&amp; (classifier=osgi.bundle) (format=packed))' output='${repoUrl}/plugins/${id}_${version}.jar.pack.gz'/>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature) (format=packed))' output='${repoUrl}/features/${id}_${version}.jar.pack.gz'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='135'>
+    <artifact classifier='osgi.bundle' id='ilog.rules.vocabulary.bom' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='249462'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.debug.opensource' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='337178'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.commonbrm.extension' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='192657'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.rule' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='46694'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.reporting' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='113811'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.decisionservice.ui' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='1080633'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.xml' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='24834'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.bdsl.runtime.eclipse' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='21923'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.bal' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='54651'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.debug' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='118144'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.ui.opensource' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='117808'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ibm.rules.studio.base.feature' version='8.10.5.1'>
+      <properties size='6'>
+        <property name='artifact.size' value='2709'/>
+        <property name='download.size' value='2709'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.base.feature'/>
+        <property name='maven-version' value='8.10.5.1'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.bomupdate' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='175856'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.bdsl.runtime' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='148629'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.brl.l10n' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='13627'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.ui.ruleprojecttemplates' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='73149'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.irl.ui' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='67185'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.jackson' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='1668394'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.icu.charsets' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='3017245'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.meta' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='39520'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.views.eclipse.framework.runtime' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='6551036'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.bom' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='258309'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.synchronization.eclipseui' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='603656'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.brl.bel' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='134923'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.httpclient' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='1303225'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.eclipsemonkey' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='28520'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.dt.bundle' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='2150399'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.technical' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='120716'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='com.ibm.rules.studio.container.feature_root' version='8.10.5.1'>
+      <properties size='6'>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.container.feature'/>
+        <property name='maven-version' value='8.10.5.1'/>
+        <property name='maven-classifier' value='root'/>
+        <property name='maven-extension' value='zip'/>
+        <property name='download.size' value='29367029'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.vocabulary.ui' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='147802'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.xmlbeans' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='2195279'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.language.shared' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='35380'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.zh_TW' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='83373'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.views.eclipse.utilities.runtime' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='954033'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.irl' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='123103'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.ui.diagram' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='723808'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.javascript' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='34200'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.bcel' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='462115'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.pl' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='69606'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.bom' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='148178'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.brl' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='294768'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.irleditor' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='318771'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.views.eclipse.diagrammer.runtime' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='2876062'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.res.ui' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='556635'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.ui' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='255007'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.es' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='75239'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.synchronization.shared' version='8.10.5.1'>
+      <properties size='5'>
+        <property name='artifact.size' value='583013'/>
+        <property name='download.size' value='583013'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.synchronization.shared'/>
+        <property name='maven-version' value='8.10.5.1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.dtreeeditor' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='58436'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='151427'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.rfeditor' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='361134'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.shared' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='374517'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.launching' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='153353'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.brldf' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='783060'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.dt' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='268836'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.projectmap' version='8.10.5.1'>
+      <properties size='5'>
+        <property name='artifact.size' value='114280'/>
+        <property name='download.size' value='114280'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.projectmap'/>
+        <property name='maven-version' value='8.10.5.1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.dttemplate' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='44538'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.ui' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='173485'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.brm' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='11156'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.log4j' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='1528023'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model' version='8.10.5.1'>
+      <properties size='5'>
+        <property name='artifact.size' value='1294527'/>
+        <property name='download.size' value='1294527'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.model'/>
+        <property name='maven-version' value='8.10.5.1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.zh' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='84052'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.logging' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='51636'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.bom.wizards' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='218702'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.shared' version='8.10.5.1'>
+      <properties size='5'>
+        <property name='artifact.size' value='345022'/>
+        <property name='download.size' value='345022'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.shared'/>
+        <property name='maven-version' value='8.10.5.1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.ar' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='70459'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.jdom' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='145027'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.decisionservice.bundle' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='377380'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.dom4j' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='306139'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.parsing' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='697705'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.staticanalysis' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='181462'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.engine' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='13301579'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.rve' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='199268'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.vocabulary' version='8.10.5.1'>
+      <properties size='5'>
+        <property name='artifact.size' value='75097'/>
+        <property name='download.size' value='75097'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.model.vocabulary'/>
+        <property name='maven-version' value='8.10.5.1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.sv' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='51162'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.it' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='67334'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.meta.ui' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='441176'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.collections' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='667022'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.ui' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='228961'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.query' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='160883'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.dvs' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='10963789'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ibm.rules.studio.container.feature' version='8.10.5.1'>
+      <properties size='6'>
+        <property name='artifact.size' value='20818'/>
+        <property name='download.size' value='20818'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.container.feature'/>
+        <property name='maven-version' value='8.10.5.1'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.decisionservice.headless' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='101382'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.debug.ui.opensource' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='19753'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.pt' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='73357'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.bom.editor' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='624729'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.vocabulary.model' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='389031'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.doc' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='72196'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.ko' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='66177'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.brl.bel.ui' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='20771'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.args4j' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='40935'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.beans.syntacticeditor' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='13608'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.vocabulary.bom.editor' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='326084'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.rhino' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='677627'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.fr' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='82497'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.scribejava' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='215571'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.syntacticeditor' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='170130'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.dvs.ui' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='918421'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.commonbrm.model' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='353166'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.res.ui.client' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='296619'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.poi' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='10166971'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.infocenter' version='8.10.5.1'>
+      <properties size='5'>
+        <property name='artifact.size' value='26101'/>
+        <property name='download.size' value='26101'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.infocenter'/>
+        <property name='maven-version' value='8.10.5.1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.compress' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='554473'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.base' version='8.10.5.1'>
+      <properties size='5'>
+        <property name='artifact.size' value='22558'/>
+        <property name='download.size' value='22558'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.base'/>
+        <property name='maven-version' value='8.10.5.1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.nl' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='65174'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.ruleflow' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='189155'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.lang' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='229387'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.model.decisionservice.edit' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='61767'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.model.decisionservice' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='191559'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.container.branding' version='8.10.5.1'>
+      <properties size='5'>
+        <property name='artifact.size' value='2471'/>
+        <property name='download.size' value='2471'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.container.branding'/>
+        <property name='maven-version' value='8.10.5.1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.codec' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='293203'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.bql' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='124019'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.bdsl.viewer' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='379657'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.brltemplate' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='59795'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.ui' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='2264622'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.bdsl.editor' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='173990'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.function' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='31993'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.diagram' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='32838'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.de' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='82784'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.brleditor' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='705458'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.validation' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='1597851'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.rf.bundle' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='472219'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.res' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='278863'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.decisionservice' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='224132'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.ruleanalysis' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='111960'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.rve' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='224357'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.ru' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='72121'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.iw' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='90668'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.ja' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='87107'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.automation' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='46404'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.res.tools' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='1998529'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.queryeditor' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='187207'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.tokenmodel' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='369606'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.velocity' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='634578'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.debug.ui' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='381019'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.dtableeditor' version='8.10.5.1'>
+      <properties size='1'>
+        <property name='download.size' value='189963'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
