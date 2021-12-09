@@ -40,6 +40,11 @@ For 8.10.5.1 Release:
    - Eclipse 4.7.3 Oxygen Packages
    - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
 
+For 8.11.0 Release:
+   - Eclipse IDE 2020-06 R (4.16) Packages
+   - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
+
+
 ## Installation
 You must install the update site for Rule Designer into an existing Eclipse.
 
@@ -58,6 +63,7 @@ You must install the update site for Rule Designer into an existing Eclipse.
      - For 8.10.4: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.10.4/p2 .
      - For 8.10.5: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.10.5/p2 .
      - For 8.10.5.1: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.10.5.1/p2 .
+     - For 8.11.0.0: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.11.0/p2 .
    - Click **OK**.
 5. Click **Select All**, and click **Next**. Eclipse calculates the dependencies and requirements.
 6. In the **Install** dialog, click **Next**.
@@ -91,4 +97,4 @@ For issues relating specifically to this project and scripts, please use the [Gi
 The files found in this project are licensed under the [IBM Operational Decision Manager for Developers license](LICENSE).
 
 # Copyright
-© Copyright IBM Corporation 2019.
+© Copyright IBM Corporation 2021.
