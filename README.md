@@ -41,7 +41,7 @@ For 8.10.5.1 Release:
    - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
 
 For 8.11.0 Release:
-   - Eclipse IDE 2020-06 R (4.16) Packages
+   - Eclipse IDE 2020-06 R (4.16) Modeling Tools Packages 
    - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
 
 
