@@ -44,6 +44,10 @@ For 8.11.0 Release:
    - Eclipse IDE 2020-06 R (4.16) Modeling Tools Packages 
    - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
 
+For 8.11.0.1 Release:
+   - Eclipse IDE 2020-06 R (4.16) Modeling Tools Packages 
+   - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
+
 
 ## Installation
 You must install the update site for Rule Designer into an existing Eclipse.
@@ -64,6 +68,7 @@ You must install the update site for Rule Designer into an existing Eclipse.
      - For 8.10.5: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.10.5/p2 .
      - For 8.10.5.1: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.10.5.1/p2 .
      - For 8.11.0.0: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.11.0/p2 .
+     - For 8.11.0.1: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.11.0.1/p2 .
    - Click **OK**.
 5. Click **Select All**, and click **Next**. Eclipse calculates the dependencies and requirements.
 6. In the **Install** dialog, click **Next**.
@@ -74,7 +79,7 @@ You must install the update site for Rule Designer into an existing Eclipse.
 ## What to do next
 If you want to establish a secure TLS connection or/and use an OpenID provider with ODM on Kubernetes, you need to import a certificate into the cacerts file and configure the OpenID provider in the JVM used to launch Rule Designer. 
 Steps to configure Rule Designer are explains :
-- In the [Cloud Pak for Business Automation 21.0.3 ](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/21.0.3?topic=designer-importing-security-certificate-in-rule) documentation
+- In the [Cloud Pak for Business Automation 22.0.1 ](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/22.0.1?topic=designer-importing-security-certificate-in-rule) documentation
 - In the [Operational Decision Manager for Kubernetes 8.11.0](https://www.ibm.com/docs/en/odm/8.11.0?topic=designer-importing-security-certificate-in-rule) documentation
 
 
