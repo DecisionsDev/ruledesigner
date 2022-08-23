@@ -8,37 +8,6 @@ Rule Designer is the Eclipse-based development environment for ODM developers. R
 In the designer, developers can edit and debug Java code and rules alongside each other. The key features include auto correction of rules, decision flow control, code-generation wizards, source code control integration, and conflict and redundancy detection. Used with Decision Center and Rule Execution Server, Rule Designer completes a collaborative work environment for developers, business users, integrators, and release managers to automate a company's business policies.
 
 ## Requirements
-For 8.9.2 Release:
- - Eclipse 4.4 Luna Packages
- - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
-
-For 8.10.0 Release:
- - Eclipse 4.7 Oxygen Packages
- - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
-
-For 8.10.1 Release:
- - Eclipse 4.7.3 Oxygen Packages
- - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
-
-For 8.10.2 Release:
-  - Eclipse 4.7.3 Oxygen Packages
-  - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
-
-For 8.10.3 Release:
-   - Eclipse 4.7.3 Oxygen Packages
-   - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
-
-For 8.10.4 Release:
-   - Eclipse 4.7.3 Oxygen Packages
-   - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
-
-For 8.10.5 Release:
-   - Eclipse 4.7.3 Oxygen Packages
-   - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
-
-For 8.10.5.1 Release:
-   - Eclipse 4.7.3 Oxygen Packages
-   - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
 
 For 8.11.0 Release:
    - Eclipse IDE 2020-06 R (4.16) Modeling Tools Packages 
@@ -47,6 +16,9 @@ For 8.11.0 Release:
 For 8.11.0.1 Release:
    - Eclipse IDE 2020-06 R (4.16) Modeling Tools Packages 
    - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
+
+For all releases of 8.11.0.1 after and including interim IF002 note that the engine version has been updated and Rule Designer need to be updated specifically. Follow instructions for 8.11.0.x 
+
 
 
 ## Installation
@@ -59,16 +31,8 @@ You must install the update site for Rule Designer into an existing Eclipse.
    - In the Install wizard, next to the **Work with** field, click **Add**.
    - In the **Name** field, enter a name for the repository. For example, enter Rule Designer.
    - In the **Location** field, enter
-   		- For 8.9.2:  https://raw.githubusercontent.com/ODMDev/ruledesigner/8.9.2/p2 .
-   		- For 8.10.0:  https://raw.githubusercontent.com/ODMDev/ruledesigner/8.10.0/p2 .
-     - For 8.10.1: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.10.1/p2 .
-     - For 8.10.2: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.10.2/p2 .
-     - For 8.10.3: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.10.3/p2 .
-     - For 8.10.4: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.10.4/p2 .
-     - For 8.10.5: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.10.5/p2 .
-     - For 8.10.5.1: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.10.5.1/p2 .
-     - For 8.11.0.0: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.11.0/p2 .
      - For 8.11.0.1: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.11.0.1/p2 .
+     - For 8.11.0.x: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.11.0.x-ifix/p2  (applies to 8.11.0.1-IF002 and later)
    - Click **OK**.
 5. Click **Select All**, and click **Next**. Eclipse calculates the dependencies and requirements.
 6. In the **Install** dialog, click **Next**.
