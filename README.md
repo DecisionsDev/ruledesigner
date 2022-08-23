@@ -17,7 +17,7 @@ For 8.11.0.1 Release:
    - Eclipse IDE 2020-06 R (4.16) Modeling Tools Packages 
    - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
 
-For all releases of 8.11.0.1 after and including interim IF002 note that the engine version has been updated and Rule Designer need to be updated specifically. Follow instructions for 8.11.0.x 
+**For all releases of 8.11.0.1 after and including interim IF002 note that the engine version has been updated and Rule Designer need to be updated specifically. Follow instructions for 8.11.0.x** 
 
 
 
