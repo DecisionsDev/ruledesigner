@@ -13,11 +13,9 @@ For 8.11.0 Release:
    - Eclipse IDE 2020-06 R (4.16) Modeling Tools Packages 
    - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
 
-For 8.11.0.1 Release:
+For 8.11.1.0 Release:
    - Eclipse IDE 2020-06 R (4.16) Modeling Tools Packages 
    - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
-
-**For all releases of 8.11.0.1 after and including interim IF002 note that the engine version has been updated and Rule Designer need to be updated specifically. Follow instructions for 8.11.0.x** 
 
 
 
@@ -31,8 +29,8 @@ You must install the update site for Rule Designer into an existing Eclipse.
    - In the Install wizard, next to the **Work with** field, click **Add**.
    - In the **Name** field, enter a name for the repository. For example, enter Rule Designer.
    - In the **Location** field, enter
-     - For 8.11.0.1: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.11.0.1/p2 .
-     - For 8.11.0.x: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.11.0.x-ifix/p2  (applies to 8.11.0.1-IF002 and later)
+     - For 8.11.1: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.11.1/p2 .
+     
    - Click **OK**.
 5. Click **Select All**, and click **Next**. Eclipse calculates the dependencies and requirements.
 6. In the **Install** dialog, click **Next**.
@@ -43,8 +41,8 @@ You must install the update site for Rule Designer into an existing Eclipse.
 ## What to do next
 If you want to establish a secure TLS connection or/and use an OpenID provider with ODM on Kubernetes, you need to import a certificate into the cacerts file and configure the OpenID provider in the JVM used to launch Rule Designer. 
 Steps to configure Rule Designer are explains :
-- In the [Cloud Pak for Business Automation 22.0.1 ](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/22.0.1?topic=designer-importing-security-certificate-in-rule) documentation
-- In the [Operational Decision Manager for Kubernetes 8.11.0](https://www.ibm.com/docs/en/odm/8.11.0?topic=designer-importing-security-certificate-in-rule) documentation
+- In the [Cloud Pak for Business Automation 22.0.2 ](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/22.0.2?topic=designer-importing-security-certificate-in-rule) documentation
+- In the [Operational Decision Manager for Kubernetes 8.11.1](https://www.ibm.com/docs/en/odm/8.11.1?topic=designer-importing-security-certificate-in-rule) documentation
 
 
 # Issues and contributions
