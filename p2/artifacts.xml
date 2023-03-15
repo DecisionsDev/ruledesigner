@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
-<repository name='' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+<repository name='IBM ODM for Developers - Rule Designer - P2 repository' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1678766858695'/>
+    <property name='p2.timestamp' value='1678453657551'/>
     <property name='publishPackFilesAsSiblings' value='true'/>
   </properties>
   <mappings size='5'>
@@ -12,746 +12,1473 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature) (format=packed))' output='${repoUrl}/features/${id}_${version}.jar.pack.gz'/>
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
-  <artifacts size='138'>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.zh_TW' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='83379'/>
+  <artifacts size='133'>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.diagram' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='32112'/>
+        <property name='download.size' value='32112'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.diagram'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='16ea54649db936bdf5188a0749902ffb'/>
+        <property name='download.checksum.md5' value='16ea54649db936bdf5188a0749902ffb'/>
+        <property name='download.checksum.sha-256' value='8f98d32b98088f707ca39609de531fef806d7d30ec93fb274030ef71a62354ad'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.jackson' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='1817136'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.brleditor' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='707962'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.bomupdate' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='150493'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.no' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='48442'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.bom' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='148185'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.xml' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='24840'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.decisionservice' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='225034'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.rfeditor' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='361655'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.eclipsemonkey' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='28537'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.decisionservice.ui' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='1100762'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.ar' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='70468'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.bdsl.runtime.eclipse' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='21934'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.projectmap' version='8.11.0.1-IF015'>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.parsing' version='8.11.1.0-IF004'>
       <properties size='5'>
-        <property name='artifact.size' value='114305'/>
-        <property name='download.size' value='114305'/>
+        <property name='artifact.size' value='695753'/>
+        <property name='download.size' value='695753'/>
+        <property name='download.md5' value='6568fd87557af379289917c4a769de24'/>
+        <property name='download.checksum.md5' value='6568fd87557af379289917c4a769de24'/>
+        <property name='download.checksum.sha-256' value='486580a9966cd93a3ddc9f34e471afec94b752b389f47321bd7a5b12a8620fa5'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.ui' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='254377'/>
+        <property name='download.size' value='254377'/>
+        <property name='download.md5' value='79d88a8ea1af9d6b42576fe51a4f6994'/>
+        <property name='download.checksum.md5' value='79d88a8ea1af9d6b42576fe51a4f6994'/>
+        <property name='download.checksum.sha-256' value='fc26108c3020be288c302c3b8824b46d410a165bce8c8a9ef7958d8c731b2479'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.model.decisionservice' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='195913'/>
+        <property name='download.size' value='195913'/>
         <property name='maven-groupId' value='com.ibm.rules.studio'/>
-        <property name='maven-artifactId' value='com.ibm.rules.studio.projectmap'/>
-        <property name='maven-version' value='8.11.0.1-IF015'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.model.decisionservice'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='b2b2de0ab3abe46023c4a2cd2f806915'/>
+        <property name='download.checksum.md5' value='b2b2de0ab3abe46023c4a2cd2f806915'/>
+        <property name='download.checksum.sha-256' value='dff9a8253ea4fb35f5a39587b57e1ce2f15b8203c1955bb7f2b02d1ca17ca34e'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.ruleanalysis' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='112580'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.syntacticeditor' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='169779'/>
+        <property name='download.size' value='169779'/>
+        <property name='download.md5' value='4177c14a2f5ababa080a4726b798e5cc'/>
+        <property name='download.checksum.md5' value='4177c14a2f5ababa080a4726b798e5cc'/>
+        <property name='download.checksum.sha-256' value='b9505084f52b36dc40647a27d6d37b8293e51aec117e9b6a0574e4ece8577360'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.rve' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='225972'/>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.velocity' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='489911'/>
+        <property name='download.size' value='489911'/>
+        <property name='download.md5' value='0abca7c926bf258ac32bf3f694df4797'/>
+        <property name='download.checksum.md5' value='0abca7c926bf258ac32bf3f694df4797'/>
+        <property name='download.checksum.sha-256' value='46d2f598cbe67e41a5130b0cd323aba2b7456ab499fde7eef2a2896162be382b'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.diagram' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='32844'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.vocabulary.bom' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='249495'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.commonbrm.extension' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='192666'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.ui.ruleprojecttemplates' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='72596'/>
-      </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='com.ibm.rules.studio.cloud.feature' version='8.11.0.1-IF015'>
-      <properties size='6'>
-        <property name='artifact.size' value='20984'/>
-        <property name='download.size' value='20984'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.dtreeeditor' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='59682'/>
+        <property name='download.size' value='59682'/>
         <property name='maven-groupId' value='com.ibm.rules.studio'/>
-        <property name='maven-artifactId' value='com.ibm.rules.studio.cloud.feature'/>
-        <property name='maven-version' value='8.11.0.1-IF015'/>
-        <property name='download.contentType' value='application/zip'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.dtreeeditor'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='32d65948cbc7864996936106dd598650'/>
+        <property name='download.checksum.md5' value='32d65948cbc7864996936106dd598650'/>
+        <property name='download.checksum.sha-256' value='4daf2fbc59f281004eb0366c3205da2790e45743fe9068fac4e83a475ac2d961'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.brl.l10n' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='15013'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.ui' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='255007'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.staticanalysis' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='181531'/>
-      </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='com.ibm.rules.studio.base.feature' version='8.11.0.1-IF015'>
-      <properties size='6'>
-        <property name='artifact.size' value='2735'/>
-        <property name='download.size' value='2735'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.dvs.ui' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='904202'/>
+        <property name='download.size' value='904202'/>
         <property name='maven-groupId' value='com.ibm.rules.studio'/>
-        <property name='maven-artifactId' value='com.ibm.rules.studio.base.feature'/>
-        <property name='maven-version' value='8.11.0.1-IF015'/>
-        <property name='download.contentType' value='application/zip'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.dvs.ui'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='d89226a33a094cfb7a7736bc0b15f74a'/>
+        <property name='download.checksum.md5' value='d89226a33a094cfb7a7736bc0b15f74a'/>
+        <property name='download.checksum.sha-256' value='96eec1a71586e23b3ced10fc358d166b10627dc32e7a1bf24337791243a14520'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.parsing' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='697711'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.rfeditor' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='357826'/>
+        <property name='download.size' value='357826'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.rfeditor'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='8f6f49dd1f4d29719502206b9b4b105b'/>
+        <property name='download.checksum.md5' value='8f6f49dd1f4d29719502206b9b4b105b'/>
+        <property name='download.checksum.sha-256' value='b6efe1258436e2a062201e57efbc85cbcf49a2af5e53f501f54af16ec2e6708e'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.velocity' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='489916'/>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.rf.bundle' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='470722'/>
+        <property name='download.size' value='470722'/>
+        <property name='download.md5' value='132e55e0644cecbb7809295e2da9a6b0'/>
+        <property name='download.checksum.md5' value='132e55e0644cecbb7809295e2da9a6b0'/>
+        <property name='download.checksum.sha-256' value='229f51512fe71bb345d62e3fa2b7f6460e95b19242499f517044215d894ed9f8'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.ru' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='72129'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.bom' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='146105'/>
+        <property name='download.size' value='146105'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.bom'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='47a4ef5d169c439e1bacca7cfd2a7502'/>
+        <property name='download.checksum.md5' value='47a4ef5d169c439e1bacca7cfd2a7502'/>
+        <property name='download.checksum.sha-256' value='98c26b9b42fd1706b7ecf2c7fb4be485d841e1de96fe61b2e3cbc0c963723298'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.ja' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='87115'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.pl' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='69578'/>
+        <property name='download.size' value='69578'/>
+        <property name='download.md5' value='fae06728f9f317bb108a75459d5723fb'/>
+        <property name='download.checksum.md5' value='fae06728f9f317bb108a75459d5723fb'/>
+        <property name='download.checksum.sha-256' value='cbff9074b0e24ba30818e864d4d3c9ada53fddf8b0a2489598637201ec443f1c'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.lang' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='528162'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.res.ui.client' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='291486'/>
+        <property name='download.size' value='291486'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.res.ui.client'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='c0e9521d11663a482f0e25cc272a438e'/>
+        <property name='download.checksum.md5' value='c0e9521d11663a482f0e25cc272a438e'/>
+        <property name='download.checksum.sha-256' value='4f8d39a72f3bc286c7292b56ad450281b4e0ba01400654d2b8da13f82f75efed'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.de' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='82790'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.debug.ui.opensource' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='19214'/>
+        <property name='download.size' value='19214'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.debug.ui.opensource'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='0db3e6effd847f2982e12e8a9ff9034d'/>
+        <property name='download.checksum.md5' value='0db3e6effd847f2982e12e8a9ff9034d'/>
+        <property name='download.checksum.sha-256' value='2a75e682736e5723ff1a4962d6b086363ca2ae1b1df78513d4cc9942997bc965'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.decisionservice.bundle' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='376952'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.pt' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='73319'/>
+        <property name='download.size' value='73319'/>
+        <property name='download.md5' value='7ef3280d53e655f8703ad621430b23d5'/>
+        <property name='download.checksum.md5' value='7ef3280d53e655f8703ad621430b23d5'/>
+        <property name='download.checksum.sha-256' value='aa9c42ec0bbe984ed6a7c9849a55fab5e082c348c1d900a492fc37732c03529f'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.jdom' version='8.11.0.1-IF015'>
-      <properties size='1'>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.jdom' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='297454'/>
         <property name='download.size' value='297454'/>
+        <property name='download.md5' value='ceee484372754363c5afa4f124ae0e67'/>
+        <property name='download.checksum.md5' value='ceee484372754363c5afa4f124ae0e67'/>
+        <property name='download.checksum.sha-256' value='3c628a31600f34dd1a471efc61250f27f75eda7ddf4a42ca71fce25b40b25af7'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.doc' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='72203'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.pt' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='73363'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.debug.ui.opensource' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='19781'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.dt.bundle' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='2153231'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.iw' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='90676'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.debug.ui' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='380283'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.dtableeditor' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='192029'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.cloud.ui' version='8.11.0.1-IF015'>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.no' version='8.11.1.0-IF004'>
       <properties size='5'>
-        <property name='artifact.size' value='235513'/>
-        <property name='download.size' value='235513'/>
+        <property name='artifact.size' value='48382'/>
+        <property name='download.size' value='48382'/>
+        <property name='download.md5' value='8534fef7d4116a35b736f4c3b510421b'/>
+        <property name='download.checksum.md5' value='8534fef7d4116a35b736f4c3b510421b'/>
+        <property name='download.checksum.sha-256' value='6ef2879e3548477a07c4a334f417e927bf17f1c38544be76aecafcf1fc663c87'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.ja' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='87073'/>
+        <property name='download.size' value='87073'/>
+        <property name='download.md5' value='12e2be4fc002d3616a73324b0cb2091e'/>
+        <property name='download.checksum.md5' value='12e2be4fc002d3616a73324b0cb2091e'/>
+        <property name='download.checksum.sha-256' value='49a811e692f03090afe1f0b5153a980bb91580188c37416f39ab53c96bc8d6f5'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.automation' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='45996'/>
+        <property name='download.size' value='45996'/>
         <property name='maven-groupId' value='com.ibm.rules.studio'/>
-        <property name='maven-artifactId' value='com.ibm.rules.studio.cloud.ui'/>
-        <property name='maven-version' value='8.11.0.1-IF015'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.automation'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='7740b4898cecd5399ad200afd1149365'/>
+        <property name='download.checksum.md5' value='7740b4898cecd5399ad200afd1149365'/>
+        <property name='download.checksum.sha-256' value='cc4d5b48d6a63842ea640cd27357944c6a981a3d1e7f09ee7c86ecd4f74643bf'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.bal' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='54658'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.brltemplate' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='59801'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.queryeditor' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='187237'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.res.ui.client' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='295735'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.poi' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='10166965'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.rf.bundle' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='472351'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.debug.opensource' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='337222'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.brl' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='294803'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.sv' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='51171'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.synchronization.eclipseui' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='613991'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.rve' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='199347'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.debug' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='118149'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.base' version='8.11.0.1-IF015'>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.decisionservice.bundle' version='8.11.1.0-IF004'>
       <properties size='5'>
-        <property name='artifact.size' value='22842'/>
-        <property name='download.size' value='22842'/>
+        <property name='artifact.size' value='377863'/>
+        <property name='download.size' value='377863'/>
+        <property name='download.md5' value='65b8a39df2a1bbfaed1582f096377d30'/>
+        <property name='download.checksum.md5' value='65b8a39df2a1bbfaed1582f096377d30'/>
+        <property name='download.checksum.sha-256' value='9cb35dd99f50e9a69e1b5f63066548b5a5035cc3c3baaf3f35cffe7968d46714'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ibm.rules.studio.container.feature' version='8.11.1.0-IF004'>
+      <properties size='10'>
+        <property name='artifact.size' value='21758'/>
+        <property name='download.size' value='21758'/>
         <property name='maven-groupId' value='com.ibm.rules.studio'/>
-        <property name='maven-artifactId' value='com.ibm.rules.studio.base'/>
-        <property name='maven-version' value='8.11.0.1-IF015'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.container.feature'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-feature'/>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='9bec104903713f5cdcddcd9be8d05f5f'/>
+        <property name='download.checksum.md5' value='9bec104903713f5cdcddcd9be8d05f5f'/>
+        <property name='download.checksum.sha-256' value='1c7924ca177c8b5ad6bf0e44f2cbc054c7019c35e0c2bfcdea49c9e50cf4274c'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.model.decisionservice' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='199125'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.bdsl.editor' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='174180'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.infocenter' version='8.11.0.1-IF015'>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.de' version='8.11.1.0-IF004'>
       <properties size='5'>
-        <property name='artifact.size' value='26107'/>
-        <property name='download.size' value='26107'/>
+        <property name='artifact.size' value='82768'/>
+        <property name='download.size' value='82768'/>
+        <property name='download.md5' value='780b2a4531bd14ed0289f83c1d901da0'/>
+        <property name='download.checksum.md5' value='780b2a4531bd14ed0289f83c1d901da0'/>
+        <property name='download.checksum.sha-256' value='593af9d9ca09d055e10c13da4ab9851a78ac91d779d050d16df94573fda5f8df'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.decisionservice.headless' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='100074'/>
+        <property name='download.size' value='100074'/>
         <property name='maven-groupId' value='com.ibm.rules.studio'/>
-        <property name='maven-artifactId' value='com.ibm.rules.studio.infocenter'/>
-        <property name='maven-version' value='8.11.0.1-IF015'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.decisionservice.headless'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='493d70929896f35f81b29e1ab9a80581'/>
+        <property name='download.checksum.md5' value='493d70929896f35f81b29e1ab9a80581'/>
+        <property name='download.checksum.sha-256' value='5ce2e517c54c8cd1b933af5506a1a014722201d73cb42c782a4df5df6216b911'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.meta' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='39526'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.function' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='31998'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.model.decisionservice.edit' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='61772'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.language.shared' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='35414'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.syntacticeditor' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='170136'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.reporting' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='109067'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.httpclient' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='1306570'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.ruleflow' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='189160'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.icu.charsets' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='14927908'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.bdsl.viewer' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='378891'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.codec' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='296545'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.bql' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='124029'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.logging' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='51642'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.beans.syntacticeditor' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='13613'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.vocabulary.model' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='389061'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.ui' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='173491'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.brl.bel.ui' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='20764'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.brm' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='11160'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.dt' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='268842'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.scribejava' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='215578'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.bom.editor' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='624749'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.shared' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='379061'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.tokenmodel' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='369845'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.res.ui' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='555027'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.validation' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='1600814'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.cloud.branding' version='8.11.0.1-IF015'>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.engine' version='8.11.1.0-IF004'>
       <properties size='5'>
-        <property name='artifact.size' value='9862'/>
-        <property name='download.size' value='9862'/>
-        <property name='maven-groupId' value='com.ibm.rules.studio'/>
-        <property name='maven-artifactId' value='com.ibm.rules.studio.cloud.branding'/>
-        <property name='maven-version' value='8.11.0.1-IF015'/>
+        <property name='artifact.size' value='13549401'/>
+        <property name='download.size' value='13549401'/>
+        <property name='download.md5' value='133a7cc31994aff2afbccf393305ba8c'/>
+        <property name='download.checksum.md5' value='133a7cc31994aff2afbccf393305ba8c'/>
+        <property name='download.checksum.sha-256' value='680065b564cf6cb708edf0fa1861cdde2bd7a290f1e13d31c5c41a8b3ff34c81'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.nl' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='65183'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.views.eclipse.diagrammer.runtime' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='2876067'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.args4j' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='40940'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.vocabulary' version='8.11.0.1-IF015'>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.lang' version='8.11.1.0-IF004'>
       <properties size='5'>
-        <property name='artifact.size' value='75101'/>
-        <property name='download.size' value='75101'/>
+        <property name='artifact.size' value='528159'/>
+        <property name='download.size' value='528159'/>
+        <property name='download.md5' value='f0c4e0a47568a385092865f0e45b863a'/>
+        <property name='download.checksum.md5' value='f0c4e0a47568a385092865f0e45b863a'/>
+        <property name='download.checksum.sha-256' value='477168cd1a72c8da26b2ebc5eb901606a52b9283d9ebfab7241663b2b4cf8d44'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.vocabulary' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='74192'/>
+        <property name='download.size' value='74192'/>
         <property name='maven-groupId' value='com.ibm.rules.studio'/>
         <property name='maven-artifactId' value='ilog.rules.studio.model.vocabulary'/>
-        <property name='maven-version' value='8.11.0.1-IF015'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='3440fb2744689415bd63bc06309ae5a4'/>
+        <property name='download.checksum.md5' value='3440fb2744689415bd63bc06309ae5a4'/>
+        <property name='download.checksum.sha-256' value='6c917af0e14cafc4b714319b9335b436d54d2d2eceefa98903fb33a5cafafa1c'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.irl' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='123122'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.engine' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='13508974'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.launching' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='153261'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.javascript' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='34205'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.synchronization.shared' version='8.11.0.1-IF015'>
-      <properties size='5'>
-        <property name='artifact.size' value='589514'/>
-        <property name='download.size' value='589514'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.vocabulary.ui' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='146024'/>
+        <property name='download.size' value='146024'/>
         <property name='maven-groupId' value='com.ibm.rules.studio'/>
-        <property name='maven-artifactId' value='ilog.rules.synchronization.shared'/>
-        <property name='maven-version' value='8.11.0.1-IF015'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.vocabulary.ui'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='7df03dba425215510ee5c5f34f92a329'/>
+        <property name='download.checksum.md5' value='7df03dba425215510ee5c5f34f92a329'/>
+        <property name='download.checksum.sha-256' value='21277f267f1f2991f61b2af5dcaef9f7a18dffc816230dfce039604196437022'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.decisionservice.headless' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='104374'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.res.tools' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='2006729'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.res' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='279773'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='154014'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.automation' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='46409'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.ui.diagram' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='723810'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.shared' version='8.11.0.1-IF015'>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.it' version='8.11.1.0-IF004'>
       <properties size='5'>
-        <property name='artifact.size' value='347704'/>
-        <property name='download.size' value='347704'/>
+        <property name='artifact.size' value='67311'/>
+        <property name='download.size' value='67311'/>
+        <property name='download.md5' value='e8dfed4e960ec33bb3479a2e5b153717'/>
+        <property name='download.checksum.md5' value='e8dfed4e960ec33bb3479a2e5b153717'/>
+        <property name='download.checksum.sha-256' value='60889b0db79afac82f5f2263c392598d120222f42f8fa192d58c308ad2b3d9d6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.decisionservice.ui' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='1078198'/>
+        <property name='download.size' value='1078198'/>
         <property name='maven-groupId' value='com.ibm.rules.studio'/>
-        <property name='maven-artifactId' value='ilog.rules.studio.shared'/>
-        <property name='maven-version' value='8.11.0.1-IF015'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.decisionservice.ui'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='7cf3ff6c313e4da8fb67580bdb41e247'/>
+        <property name='download.checksum.md5' value='7cf3ff6c313e4da8fb67580bdb41e247'/>
+        <property name='download.checksum.sha-256' value='6cc98ea8804ac3abc18af41df55324c2772f51141a798148cc7c1483bf84e7d9'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.bom.wizards' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='215265'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.slf4j' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='51027'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.ui.opensource' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='117838'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.log4j' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='477'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.zh' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='84060'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.xmlbeans' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='2195285'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.commonbrm.model' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='353173'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.views.eclipse.framework.runtime' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='6551040'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.dom4j' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='306146'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.ui' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='2273866'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.dttemplate' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='44546'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.fr' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='82504'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.dtreeeditor' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='60515'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.rule' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='46701'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.technical' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='120723'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.ui' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='228971'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.meta.ui' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='440731'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.query' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='160893'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.pl' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='69612'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.dvs' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='10732400'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.brl.bel' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='134929'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.bom' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='258846'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model' version='8.11.0.1-IF015'>
+    <artifact classifier='osgi.bundle' id='ilog.rules.commonbrm.extension' version='8.11.1.0-IF004'>
       <properties size='5'>
-        <property name='artifact.size' value='1295536'/>
-        <property name='download.size' value='1295536'/>
+        <property name='artifact.size' value='192246'/>
+        <property name='download.size' value='192246'/>
+        <property name='download.md5' value='2f212c090ad4d43a1b5811708f608151'/>
+        <property name='download.checksum.md5' value='2f212c090ad4d43a1b5811708f608151'/>
+        <property name='download.checksum.sha-256' value='bf857b8d738161634f4c0e141b33dc6a8d37b9879f1264e304e7e42945f6175e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.args4j' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='40937'/>
+        <property name='download.size' value='40937'/>
+        <property name='download.md5' value='6949212a6483c0a52d167f594d73945c'/>
+        <property name='download.checksum.md5' value='6949212a6483c0a52d167f594d73945c'/>
+        <property name='download.checksum.sha-256' value='deafcf11e5d4f62f9c7f4e824788698bd2dc770c9362f24ebad12be22b2c33b6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.dvs' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='10805705'/>
+        <property name='download.size' value='10805705'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.dvs'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='24c06a9c11fd1371926e707d7b1c48ce'/>
+        <property name='download.checksum.md5' value='24c06a9c11fd1371926e707d7b1c48ce'/>
+        <property name='download.checksum.sha-256' value='ab480c36e7fd7a47d12ea981ab8f3012f7dbcf75fe83dc6bcf1b15bd88c16045'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.ar' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='70425'/>
+        <property name='download.size' value='70425'/>
+        <property name='download.md5' value='b25b783dda15e8cb56feb40d50e36c42'/>
+        <property name='download.checksum.md5' value='b25b783dda15e8cb56feb40d50e36c42'/>
+        <property name='download.checksum.sha-256' value='52bcde84c2a0dd9d0ec3f797b54d36095f0235eeaf81786ffd56aa2f3cb57538'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.rule' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='45755'/>
+        <property name='download.size' value='45755'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.editor.rule'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='987e7da70b1f68be2c47a9da49731f05'/>
+        <property name='download.checksum.md5' value='987e7da70b1f68be2c47a9da49731f05'/>
+        <property name='download.checksum.sha-256' value='9a1f7e3e117b536a119d87ae9b8c487ab8a8d966484b7cb5378d89c142c797d1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.compress' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='925336'/>
+        <property name='download.size' value='925336'/>
+        <property name='download.md5' value='93121b6074d0a65cc471c25a8b9c35d2'/>
+        <property name='download.checksum.md5' value='93121b6074d0a65cc471c25a8b9c35d2'/>
+        <property name='download.checksum.sha-256' value='72620457327adaf20df31f2aa9556b61c639814b040179e0aa3911d86d0fd582'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.query' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='158987'/>
+        <property name='download.size' value='158987'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.model.query'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='a6c38fef2fb5aed70b9c5b155e31cbbd'/>
+        <property name='download.checksum.md5' value='a6c38fef2fb5aed70b9c5b155e31cbbd'/>
+        <property name='download.checksum.sha-256' value='07a28700c827ca1755e2a5db11db9a1f9f76c3317dadd4dfd30256c0668bac73'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.meta.ui' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='436610'/>
+        <property name='download.size' value='436610'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.meta.ui'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='8c79015ab6bb2c417fac3f269427a13a'/>
+        <property name='download.checksum.md5' value='8c79015ab6bb2c417fac3f269427a13a'/>
+        <property name='download.checksum.sha-256' value='8d7d7fdd2ef122fb8d8f2e10d389b35123effb544a5ac5c7b1a5ec7ce7332a11'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.ui' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='228405'/>
+        <property name='download.size' value='228405'/>
+        <property name='download.md5' value='0130493edd0e7ed7cc2ac5a0706ae0e1'/>
+        <property name='download.checksum.md5' value='0130493edd0e7ed7cc2ac5a0706ae0e1'/>
+        <property name='download.checksum.sha-256' value='b4098ac494564e4c14e7d50dd8a487760c4b4b1485979e922a76b028fffb9bf9'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.eclipsemonkey' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='28088'/>
+        <property name='download.size' value='28088'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.eclipsemonkey'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='2a7dae8fa294b88e15bed60e7f3f0ea9'/>
+        <property name='download.checksum.md5' value='2a7dae8fa294b88e15bed60e7f3f0ea9'/>
+        <property name='download.checksum.sha-256' value='f9770bdf803cd0da0e6a6868ca201ce99ed2037b2ca91537b63c59e149df6b3b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.fr' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='82464'/>
+        <property name='download.size' value='82464'/>
+        <property name='download.md5' value='6f359be08a76499765d2a1b21659a974'/>
+        <property name='download.checksum.md5' value='6f359be08a76499765d2a1b21659a974'/>
+        <property name='download.checksum.sha-256' value='c82e4c32dd5fbf1ca19e928c17a3e88eee9897ca358b07b64af4c1854e02a42c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.jackson' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='1817146'/>
+        <property name='download.size' value='1817146'/>
+        <property name='download.md5' value='369d778df698fbcb456f1e5a0e0f10ab'/>
+        <property name='download.checksum.md5' value='369d778df698fbcb456f1e5a0e0f10ab'/>
+        <property name='download.checksum.sha-256' value='1ef86418bb991105c7b8924b741f9b614b4fe37260adc8439ce66880114e31a8'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.xmlbeans' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='2195282'/>
+        <property name='download.size' value='2195282'/>
+        <property name='download.md5' value='4ff241460e0f7529c014b3703348b0dc'/>
+        <property name='download.checksum.md5' value='4ff241460e0f7529c014b3703348b0dc'/>
+        <property name='download.checksum.sha-256' value='37c60e4ac51d46d94445547a58de26165558b36a8ede346c8b9def1e52db5bfa'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.dt' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='267145'/>
+        <property name='download.size' value='267145'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.model.dt'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='fda09181231299eb919770bc5c9199fa'/>
+        <property name='download.checksum.md5' value='fda09181231299eb919770bc5c9199fa'/>
+        <property name='download.checksum.sha-256' value='5d7d45aaeb97074ef822b57fdf3551806e0f2b58a1c112407e70944b8f0951cc'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.brm' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='11121'/>
+        <property name='download.size' value='11121'/>
+        <property name='download.md5' value='b045c1be5e1a8584ecea11e1d452ff4c'/>
+        <property name='download.checksum.md5' value='b045c1be5e1a8584ecea11e1d452ff4c'/>
+        <property name='download.checksum.sha-256' value='f42862e6dc42079fcbb94e5317f693cbc41e491a0d4961a902fdf970d0c120fc'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.zh' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='84035'/>
+        <property name='download.size' value='84035'/>
+        <property name='download.md5' value='6ffcb527f64b21960c90fcbf0e22cc73'/>
+        <property name='download.checksum.md5' value='6ffcb527f64b21960c90fcbf0e22cc73'/>
+        <property name='download.checksum.sha-256' value='c1abec6cd4b1abcfa0b6668569fa5a3d5b782218fec82fc468e0c16e6c1b5635'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.zh_TW' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='83364'/>
+        <property name='download.size' value='83364'/>
+        <property name='download.md5' value='f9c2d9c7cd495fc87d258baae75baf36'/>
+        <property name='download.checksum.md5' value='f9c2d9c7cd495fc87d258baae75baf36'/>
+        <property name='download.checksum.sha-256' value='5401cf6f56ea098aa660fc664f1f5c8c4554170addbb90dcc74f841e7b63b199'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='1284663'/>
+        <property name='download.size' value='1284663'/>
         <property name='maven-groupId' value='com.ibm.rules.studio'/>
         <property name='maven-artifactId' value='ilog.rules.studio.model'/>
-        <property name='maven-version' value='8.11.0.1-IF015'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='081d2fb1dfdb2de03c5b61547a8c1ba3'/>
+        <property name='download.checksum.md5' value='081d2fb1dfdb2de03c5b61547a8c1ba3'/>
+        <property name='download.checksum.sha-256' value='6ef87aefb15dfc8f192d9c93fc02c1a61dd352c5862c48e590670edeb9a94351'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.it' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='67342'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.shared' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='378149'/>
+        <property name='download.size' value='378149'/>
+        <property name='download.md5' value='1b3f9f3b253eb68fdce108a319873eb1'/>
+        <property name='download.checksum.md5' value='1b3f9f3b253eb68fdce108a319873eb1'/>
+        <property name='download.checksum.sha-256' value='3d0d90b50baa713e91baedc4b8bd359bff36e126c1457210516ac7f30eab4d06'/>
       </properties>
     </artifact>
-    <artifact classifier='binary' id='com.ibm.rules.studio.cloud.feature_root' version='8.11.0.1-IF015'>
-      <properties size='6'>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.projectmap' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='112903'/>
+        <property name='download.size' value='112903'/>
         <property name='maven-groupId' value='com.ibm.rules.studio'/>
-        <property name='maven-artifactId' value='com.ibm.rules.studio.cloud.feature'/>
-        <property name='maven-version' value='8.11.0.1-IF015'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.projectmap'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='95b2208e8832037ad92ac7c42468b7db'/>
+        <property name='download.checksum.md5' value='95b2208e8832037ad92ac7c42468b7db'/>
+        <property name='download.checksum.sha-256' value='67fb640e3ba803f6b75317850c128f0d03b8a4985822cc548e83462c70c72709'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.rhino' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='677631'/>
+        <property name='download.size' value='677631'/>
+        <property name='download.md5' value='f36bc3fdb53d3ed5e78ac40b8d555db4'/>
+        <property name='download.checksum.md5' value='f36bc3fdb53d3ed5e78ac40b8d555db4'/>
+        <property name='download.checksum.sha-256' value='e93b197b5697b9e67bbbddaf9eb962e33cebc4a03b129e869da92723282b11d7'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.irl.ui' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='65760'/>
+        <property name='download.size' value='65760'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.irl.ui'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='8c9aecd94c36d319384632df88d40007'/>
+        <property name='download.checksum.md5' value='8c9aecd94c36d319384632df88d40007'/>
+        <property name='download.checksum.sha-256' value='73e6002a62319dabd810fd258c683145c649106c58d2a0e3ba29b1fb5911f287'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.dttemplate' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='43833'/>
+        <property name='download.size' value='43833'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.editor.dttemplate'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='0f297d836f24d4f949f1dda4ca9a4c2f'/>
+        <property name='download.checksum.md5' value='0f297d836f24d4f949f1dda4ca9a4c2f'/>
+        <property name='download.checksum.sha-256' value='b5f80ba7de63306ae90573de9fb401ae32a4739185162a2dfb71fe6e86109af6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.commonbrm.model' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='352488'/>
+        <property name='download.size' value='352488'/>
+        <property name='download.md5' value='404bd3b5687218b59e164d91115bc583'/>
+        <property name='download.checksum.md5' value='404bd3b5687218b59e164d91115bc583'/>
+        <property name='download.checksum.sha-256' value='d007883bcfd4c0f5b007cf469463cb699cc43279857ef2d677c9b077508479ef'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.bdsl.runtime' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='148142'/>
+        <property name='download.size' value='148142'/>
+        <property name='download.md5' value='988e3e369c658baf4b22bf7974428fe7'/>
+        <property name='download.checksum.md5' value='988e3e369c658baf4b22bf7974428fe7'/>
+        <property name='download.checksum.sha-256' value='ae050c6e61208f7fd1112bfd4586d2e1200bdee10bb089a318c8bc8b6f49f211'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.vocabulary.bom.editor' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='323270'/>
+        <property name='download.size' value='323270'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.vocabulary.bom.editor'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='01cc01719ddd7a2186590d6a9ff72226'/>
+        <property name='download.checksum.md5' value='01cc01719ddd7a2186590d6a9ff72226'/>
+        <property name='download.checksum.sha-256' value='7ba31405e3fefe65d77054ca0563f1f46e551fcc21553c4fecce1e5efff27546'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.collections' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='667026'/>
+        <property name='download.size' value='667026'/>
+        <property name='download.md5' value='a64118fc3e59517af1e748d3c9fabc6f'/>
+        <property name='download.checksum.md5' value='a64118fc3e59517af1e748d3c9fabc6f'/>
+        <property name='download.checksum.sha-256' value='3ee2c177ee39372fa2c0755a80a759ec8de3530516af407d409a563717eaa3a6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.es' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='75194'/>
+        <property name='download.size' value='75194'/>
+        <property name='download.md5' value='a45ecf872ee680cf6ec27dd28ad3d2d7'/>
+        <property name='download.checksum.md5' value='a45ecf872ee680cf6ec27dd28ad3d2d7'/>
+        <property name='download.checksum.sha-256' value='06f17a4c39cbf03b2c486e65f092f5b62e082ea3c4b0369bdb3a9b569ca59fb4'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.irleditor' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='315640'/>
+        <property name='download.size' value='315640'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.irleditor'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='f600151da6c8a16d6d99936b879e36b8'/>
+        <property name='download.checksum.md5' value='f600151da6c8a16d6d99936b879e36b8'/>
+        <property name='download.checksum.sha-256' value='76872d71661afc9ade20adb3cbca48b5aad6f0926ce60fd9e1bf6dbe91421415'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.ko' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='66155'/>
+        <property name='download.size' value='66155'/>
+        <property name='download.md5' value='36ef66ccfbe71869443a76309b991d1a'/>
+        <property name='download.checksum.md5' value='36ef66ccfbe71869443a76309b991d1a'/>
+        <property name='download.checksum.sha-256' value='52166125a277310b8ea064c8e149edfdec98f568066f14f4ce21bf015337713e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.brldf' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='781032'/>
+        <property name='download.size' value='781032'/>
+        <property name='download.md5' value='86076cfebf8114d3e2c0b1b3535fc9b3'/>
+        <property name='download.checksum.md5' value='86076cfebf8114d3e2c0b1b3535fc9b3'/>
+        <property name='download.checksum.sha-256' value='559baad5b584b7ca32a30e172537d2a09bc902d68feffd6a32dbbfba3203c22e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.views.eclipse.utilities.runtime' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='953938'/>
+        <property name='download.size' value='953938'/>
+        <property name='download.md5' value='a35ba23ef3499b8de1e74371bd2c5cb0'/>
+        <property name='download.checksum.md5' value='a35ba23ef3499b8de1e74371bd2c5cb0'/>
+        <property name='download.checksum.sha-256' value='dcd1279d5d3bc947e9a9853d5d6e63cfc6c8f9bb9f5debed297e2e6dd880ed6e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.nl' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='65146'/>
+        <property name='download.size' value='65146'/>
+        <property name='download.md5' value='355a0b8125ed5073d90c0d52bf92e6c6'/>
+        <property name='download.checksum.md5' value='355a0b8125ed5073d90c0d52bf92e6c6'/>
+        <property name='download.checksum.sha-256' value='15eb4071566d3d89b10b2b401c543c72eb6b4618d356e91fd6a067107b64a737'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.bcel' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='462121'/>
+        <property name='download.size' value='462121'/>
+        <property name='download.md5' value='dd1754b0beaa1cd74a25a4e9b99cf0f4'/>
+        <property name='download.checksum.md5' value='dd1754b0beaa1cd74a25a4e9b99cf0f4'/>
+        <property name='download.checksum.sha-256' value='63368311fd0aea92afcd5a7789ee03808459c4812a07890dc473856b33b51c40'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.javascript' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='33582'/>
+        <property name='download.size' value='33582'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.javascript'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='0f52a03fcd0485d312ea1e7d120208db'/>
+        <property name='download.checksum.md5' value='0f52a03fcd0485d312ea1e7d120208db'/>
+        <property name='download.checksum.sha-256' value='f4074b91737cbfa5dde63c3cf049b255124ec3b1e187e7717100417f86aa444b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.ruleflow' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='187107'/>
+        <property name='download.size' value='187107'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.model.ruleflow'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='522f0b8c983441c78cdbea9bd159d1b6'/>
+        <property name='download.checksum.md5' value='522f0b8c983441c78cdbea9bd159d1b6'/>
+        <property name='download.checksum.sha-256' value='cca7b94176b4016d494202c43bb33a1d03b6005612ae8406c130c436eddc6ad8'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.ui' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='2250391'/>
+        <property name='download.size' value='2250391'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.ui'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='642ee61d04f103ac994339a97c8f546e'/>
+        <property name='download.checksum.md5' value='642ee61d04f103ac994339a97c8f546e'/>
+        <property name='download.checksum.sha-256' value='debdd944f36e6cac0d88cf7979ca094f05b1e42b9cf056a96ccb457e35f8f775'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.launching' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='154432'/>
+        <property name='download.size' value='154432'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.launching'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='262a644808fc92ff63c9e4dac01862af'/>
+        <property name='download.checksum.md5' value='262a644808fc92ff63c9e4dac01862af'/>
+        <property name='download.checksum.sha-256' value='2286019b5c6f1973646049566bab611e2c435179b1a5913ae48df44514b3528a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.base' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='22285'/>
+        <property name='download.size' value='22285'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.base'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='a0f090c8a7f1fe02101b1865725dc590'/>
+        <property name='download.checksum.md5' value='a0f090c8a7f1fe02101b1865725dc590'/>
+        <property name='download.checksum.sha-256' value='e939217562da1869e1b4e4a137516dd73ba69d8abc3d69494707c38efb4e7159'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.queryeditor' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='184967'/>
+        <property name='download.size' value='184967'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.queryeditor'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='23f88446ab6f10b8817379d7719c2824'/>
+        <property name='download.checksum.md5' value='23f88446ab6f10b8817379d7719c2824'/>
+        <property name='download.checksum.sha-256' value='a6c0eb0d333f630241da2eb0dfd0a99e1157dbccd15935cb54ca0ccf9b586a19'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.synchronization.eclipseui' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='612131'/>
+        <property name='download.size' value='612131'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.synchronization.eclipseui'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='16ff34677e74a66aa6dbffb56e0b20b6'/>
+        <property name='download.checksum.md5' value='16ff34677e74a66aa6dbffb56e0b20b6'/>
+        <property name='download.checksum.sha-256' value='52952099b3f154882e0bf7ab2904d173963d501d906786f80be81bb5b303b387'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.dom4j' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='1500755'/>
+        <property name='download.size' value='1500755'/>
+        <property name='download.md5' value='f1c841e64ed9c2f3262ecf00a9f538e8'/>
+        <property name='download.checksum.md5' value='f1c841e64ed9c2f3262ecf00a9f538e8'/>
+        <property name='download.checksum.sha-256' value='ec56c8896b7cc8057413461537af83f8193df811ba76ae478b42113f851a0389'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.infocenter' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='25538'/>
+        <property name='download.size' value='25538'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.infocenter'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='5f9caf7ac96f5d26e5e72cfbaec50aa0'/>
+        <property name='download.checksum.md5' value='5f9caf7ac96f5d26e5e72cfbaec50aa0'/>
+        <property name='download.checksum.sha-256' value='8dc330714f1cceb09e070249b09bfd5ff504ed8165599f3f93afedfa3f7d5f59'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.bom' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='258065'/>
+        <property name='download.size' value='258065'/>
+        <property name='download.md5' value='56a38214df1b14a269ea2d947b6cc3ba'/>
+        <property name='download.checksum.md5' value='56a38214df1b14a269ea2d947b6cc3ba'/>
+        <property name='download.checksum.sha-256' value='53b2964dc154d839232108f75728ade3951208f731cbdce651698bc743e4e2e9'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.brltemplate' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='58822'/>
+        <property name='download.size' value='58822'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.editor.brltemplate'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='3ff482f1b4513d9743ee1bb337a7c189'/>
+        <property name='download.checksum.md5' value='3ff482f1b4513d9743ee1bb337a7c189'/>
+        <property name='download.checksum.sha-256' value='30331649f72fc9b344dcf5c7bc51e5ab058e2ce4f4cc5037e4f5485c1d50e7fc'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.dtr' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='4831676'/>
+        <property name='download.size' value='4831676'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.dtr'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='f16529a1df36eb78424241019fa93571'/>
+        <property name='download.checksum.md5' value='f16529a1df36eb78424241019fa93571'/>
+        <property name='download.checksum.sha-256' value='f793178dc28a6ed89660cefc665ae253f65bbf1c2df7528945aa30814f8fbdeb'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.views.eclipse.framework.runtime' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='6550900'/>
+        <property name='download.size' value='6550900'/>
+        <property name='download.md5' value='4d1aab6bf83afea42afac4fa7ec25ec2'/>
+        <property name='download.checksum.md5' value='4d1aab6bf83afea42afac4fa7ec25ec2'/>
+        <property name='download.checksum.sha-256' value='5c4a8393bcf2f4a985756f4da6007099a060f9988b558bc956fcbea0a161104e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.technical' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='119282'/>
+        <property name='download.size' value='119282'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.editor.technical'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='4f4ef437d443459d2da60ccac0c68700'/>
+        <property name='download.checksum.md5' value='4f4ef437d443459d2da60ccac0c68700'/>
+        <property name='download.checksum.sha-256' value='ed22985e68faa11ff8c4889db3efd97d0d0e7e80f77d5817b3882b110a48a8bd'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.views.eclipse.diagrammer.runtime' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='2875775'/>
+        <property name='download.size' value='2875775'/>
+        <property name='download.md5' value='ff2d8735c838cf614325510f7d964ff0'/>
+        <property name='download.checksum.md5' value='ff2d8735c838cf614325510f7d964ff0'/>
+        <property name='download.checksum.sha-256' value='7a5bd096fbd694cff79983293a34d1129dbe4bd374127265a386b07238ed06ec'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.brl' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='291818'/>
+        <property name='download.size' value='291818'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.model.brl'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='ce694273294440accade5e0014b248e7'/>
+        <property name='download.checksum.md5' value='ce694273294440accade5e0014b248e7'/>
+        <property name='download.checksum.sha-256' value='560c9458cc17ad6567b6b5fd6cbc5f65b7d1ada0e99277f9a96c86155f8cb6a6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.scribejava' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='215574'/>
+        <property name='download.size' value='215574'/>
+        <property name='download.md5' value='e524fcd10220cddd97caf20725b6413c'/>
+        <property name='download.checksum.md5' value='e524fcd10220cddd97caf20725b6413c'/>
+        <property name='download.checksum.sha-256' value='03e5431a0ad259d0e1f8ddb6cb2507694250f83cd76a9e8eb5603f7d7634a8eb'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.irl' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='121399'/>
+        <property name='download.size' value='121399'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.model.irl'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='694bddfd6e4d1bdf6c778c8b7a2c80e3'/>
+        <property name='download.checksum.md5' value='694bddfd6e4d1bdf6c778c8b7a2c80e3'/>
+        <property name='download.checksum.sha-256' value='127863896cf1f4364bd32e1d3b96166b6bed62bbbdd44b1a33adeaf37d3a4a2c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.ui.opensource' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='116372'/>
+        <property name='download.size' value='116372'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.ui.opensource'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='31ad3ef2a2ea743bb019630d2cb80755'/>
+        <property name='download.checksum.md5' value='31ad3ef2a2ea743bb019630d2cb80755'/>
+        <property name='download.checksum.sha-256' value='2b85e234228dad39ab0016d99e7090e8939360c2da74db87cdefeebfe257e40d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.bom.wizards' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='213205'/>
+        <property name='download.size' value='213205'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.bom.wizards'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='03e0b9c6a4fd0ad6ae004eb38a58d674'/>
+        <property name='download.checksum.md5' value='03e0b9c6a4fd0ad6ae004eb38a58d674'/>
+        <property name='download.checksum.sha-256' value='07328517e8554bf919960cfc7593dfd87b17c81e65312f08137bd6a104dcaa6a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.ui' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='171047'/>
+        <property name='download.size' value='171047'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.model.ui'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='f64620467825ec15d0cb766da6858e3f'/>
+        <property name='download.checksum.md5' value='f64620467825ec15d0cb766da6858e3f'/>
+        <property name='download.checksum.sha-256' value='c0a9fb85613e2d531f5c9487eb33821206d22934ce6d79b4a92fa52ec74074ac'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.dtableeditor' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='189061'/>
+        <property name='download.size' value='189061'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.dtableeditor'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='0c5cb524ec40074e997b9bcb33f540b6'/>
+        <property name='download.checksum.md5' value='0c5cb524ec40074e997b9bcb33f540b6'/>
+        <property name='download.checksum.sha-256' value='688f63c772e1a55893c2e55e916590ad98cd9bae332b2c85d0b8e98f90750e95'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.beans.syntacticeditor' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='13565'/>
+        <property name='download.size' value='13565'/>
+        <property name='download.md5' value='3a6ae0a6c103cc124abe4178485ac024'/>
+        <property name='download.checksum.md5' value='3a6ae0a6c103cc124abe4178485ac024'/>
+        <property name='download.checksum.sha-256' value='f81576abf17949952800fc4583ceb9b290a81fe28eb77ae6330e19f2e7f05dbd'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.logging' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='51642'/>
+        <property name='download.size' value='51642'/>
+        <property name='download.md5' value='587097d722f5ef28353c0d32e09733c1'/>
+        <property name='download.checksum.md5' value='587097d722f5ef28353c0d32e09733c1'/>
+        <property name='download.checksum.sha-256' value='e8a479de6ad1fa5c0e948d9315ffd6deaeefd08d8239f2a799e73861cc46863b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.res.ui' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='549390'/>
+        <property name='download.size' value='549390'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.res.ui'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='2a64a01013523f1b09ca42f0cbb341f4'/>
+        <property name='download.checksum.md5' value='2a64a01013523f1b09ca42f0cbb341f4'/>
+        <property name='download.checksum.sha-256' value='c8900d2a6083b13efe7b9e445b62c34752615b8bbaf8abdb5df2c32bd12c5add'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.tokenmodel' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='368658'/>
+        <property name='download.size' value='368658'/>
+        <property name='download.md5' value='1764e5e533cac35ff0fe756bd760e44c'/>
+        <property name='download.checksum.md5' value='1764e5e533cac35ff0fe756bd760e44c'/>
+        <property name='download.checksum.sha-256' value='b35dbfd410ab908e87b143fafeb4105c7445947280718e0c2c07c83761548333'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.ui.ruleprojecttemplates' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='71732'/>
+        <property name='download.size' value='71732'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.ui.ruleprojecttemplates'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='bd886a9d849a347db443de88452bc461'/>
+        <property name='download.checksum.md5' value='bd886a9d849a347db443de88452bc461'/>
+        <property name='download.checksum.sha-256' value='dc7c6bd1b05b52f9a076b837b28b8f6732fb1f29423d54c511ea48a67edeafaf'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.model.brl.l10n' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='14657'/>
+        <property name='download.size' value='14657'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.model.brl.l10n'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='b81b5e4c536c7cb7d4a518440899d5e5'/>
+        <property name='download.checksum.md5' value='b81b5e4c536c7cb7d4a518440899d5e5'/>
+        <property name='download.checksum.sha-256' value='edb04a0078ce560416ac640916e0856eee49b0347ee867b8906bf7fd006b04b1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.res' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='277164'/>
+        <property name='download.size' value='277164'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.res'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='4a0f3748ac0317f579dcf64756ba8216'/>
+        <property name='download.checksum.md5' value='4a0f3748ac0317f579dcf64756ba8216'/>
+        <property name='download.checksum.sha-256' value='6d7ea7b8743d071e3cd063305120840145dfca1b0c617899e4a67e99c0298ffd'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.container.branding' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='2393'/>
+        <property name='download.size' value='2393'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.container.branding'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='a76a98be124961b332e45fc8d82a0816'/>
+        <property name='download.checksum.md5' value='a76a98be124961b332e45fc8d82a0816'/>
+        <property name='download.checksum.sha-256' value='1c8b02e1639271b02325ba1e0442aa3378b61b90a27c527e1619e81a83054fd7'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.synchronization.shared' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='589524'/>
+        <property name='download.size' value='589524'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.synchronization.shared'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='e526ed7f5efd834d5e5cc2dfbe2ad69c'/>
+        <property name='download.checksum.md5' value='e526ed7f5efd834d5e5cc2dfbe2ad69c'/>
+        <property name='download.checksum.sha-256' value='9ad6384a725a81513dc18e5d2d82916e72419214d53562d890eaa52d74b24a95'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.vocabulary.bom' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='248497'/>
+        <property name='download.size' value='248497'/>
+        <property name='download.md5' value='55e5510722595fa6a7254ba5b6985002'/>
+        <property name='download.checksum.md5' value='55e5510722595fa6a7254ba5b6985002'/>
+        <property name='download.checksum.sha-256' value='3647f0abb7e77b8cc6d709a3512743e3e2c9e3b0165426ed0f41ec3b5dc4b69d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='152342'/>
+        <property name='download.size' value='152342'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.editor'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='14ba9be04643e008345dc5229a6e1199'/>
+        <property name='download.checksum.md5' value='14ba9be04643e008345dc5229a6e1199'/>
+        <property name='download.checksum.sha-256' value='b5c5ac6c30f7fcdf3736d428f413ee81355ae7b4dab2c3d9add8978b6ac14cf7'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.slf4j' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='51027'/>
+        <property name='download.size' value='51027'/>
+        <property name='download.md5' value='3acd3cbda34f35301e54f7197570c6cb'/>
+        <property name='download.checksum.md5' value='3acd3cbda34f35301e54f7197570c6cb'/>
+        <property name='download.checksum.sha-256' value='183fbc8a0d8854a0c5cf36d3c3db46a058dbcacaf933ed24bfcdc7f3be9aea7d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.shared' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='342375'/>
+        <property name='download.size' value='342375'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.shared'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='35a1a0d878f1b6f222920839b85089f6'/>
+        <property name='download.checksum.md5' value='35a1a0d878f1b6f222920839b85089f6'/>
+        <property name='download.checksum.sha-256' value='0e54a6c38b1f2df4fca374d079001887efe3d58b5740b3b489522ed29dc3bf15'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.ui.diagram' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='722110'/>
+        <property name='download.size' value='722110'/>
+        <property name='download.md5' value='f203a9ed41f4df8e475511cd1623cc2c'/>
+        <property name='download.checksum.md5' value='f203a9ed41f4df8e475511cd1623cc2c'/>
+        <property name='download.checksum.sha-256' value='7359f27d6701a69c95c7105dca8fe9d9ff99c205bab1b08b836a108e836d26b6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.ru' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='72081'/>
+        <property name='download.size' value='72081'/>
+        <property name='download.md5' value='0911c74590175491554aeade9bb590c2'/>
+        <property name='download.checksum.md5' value='0911c74590175491554aeade9bb590c2'/>
+        <property name='download.checksum.sha-256' value='adbd048540fa622146c9b9266fdb80935df96f8b2e77b008b300d9ff1831b09e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.bdsl.runtime.eclipse' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='21698'/>
+        <property name='download.size' value='21698'/>
+        <property name='download.md5' value='9d842db3199ee8d8d369777272e5b291'/>
+        <property name='download.checksum.md5' value='9d842db3199ee8d8d369777272e5b291'/>
+        <property name='download.checksum.sha-256' value='21f49a7f5f29586269579ea21f55f16acc659fcfad802ace345791ac316bed76'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.language.shared' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='35266'/>
+        <property name='download.size' value='35266'/>
+        <property name='download.md5' value='42cd54ca4f6e8e96513db3e3e0a20661'/>
+        <property name='download.checksum.md5' value='42cd54ca4f6e8e96513db3e3e0a20661'/>
+        <property name='download.checksum.sha-256' value='79c825d4bb2129e6dc478117a87a9a555be9c4a9c6c871f1ad8f0a9c24346bd8'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.rve' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='197340'/>
+        <property name='download.size' value='197340'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.rve'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='edbd838ddf9ce137a3ee369043e95c46'/>
+        <property name='download.checksum.md5' value='edbd838ddf9ce137a3ee369043e95c46'/>
+        <property name='download.checksum.sha-256' value='b4c6679cc8401f2262701558a48270875f99b55a3c52aab0bf64149903751625'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.res.tools' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='2008105'/>
+        <property name='download.size' value='2008105'/>
+        <property name='download.md5' value='3941c9791a89e5000c21bad3e2eb4162'/>
+        <property name='download.checksum.md5' value='3941c9791a89e5000c21bad3e2eb4162'/>
+        <property name='download.checksum.sha-256' value='7cbfe755b76570c4d7ca89401d72617ff1326cbcc220a88d88118f549f50b9cf'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.debug' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='116778'/>
+        <property name='download.size' value='116778'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.debug'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='323c575108f056bbbf4c009a722011b9'/>
+        <property name='download.checksum.md5' value='323c575108f056bbbf4c009a722011b9'/>
+        <property name='download.checksum.sha-256' value='5595d639cbaadd62c68833407bfd4a01211cf921302e1677599cd3957ac58297'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.sv' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='51126'/>
+        <property name='download.size' value='51126'/>
+        <property name='download.md5' value='fa18e5a790c3720bcbecdfe6d55c68ba'/>
+        <property name='download.checksum.md5' value='fa18e5a790c3720bcbecdfe6d55c68ba'/>
+        <property name='download.checksum.sha-256' value='c098df3c58f0dafa5c0ca39c84c00d97528395de2d9642d46023c14d0a796415'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.decisionservice' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='220801'/>
+        <property name='download.size' value='220801'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.decisionservice'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='f319ae9cf8e4884da47a6defa054f2fa'/>
+        <property name='download.checksum.md5' value='f319ae9cf8e4884da47a6defa054f2fa'/>
+        <property name='download.checksum.sha-256' value='182d4e6c2ed98e29b8ee124919143a5975fe0a6a44377511ebee808d196a1cc6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.bal' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='54485'/>
+        <property name='download.size' value='54485'/>
+        <property name='download.md5' value='9934799c18105361335b6f3f9a7b25d9'/>
+        <property name='download.checksum.md5' value='9934799c18105361335b6f3f9a7b25d9'/>
+        <property name='download.checksum.sha-256' value='e6af2cb276d1f4a56bc72339fe6e212c9717f8a8b737c762221ca628c72c7ac1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.rve' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='225516'/>
+        <property name='download.size' value='225516'/>
+        <property name='download.md5' value='f651ee1788f1caa0594b9ec3ebad1d68'/>
+        <property name='download.checksum.md5' value='f651ee1788f1caa0594b9ec3ebad1d68'/>
+        <property name='download.checksum.sha-256' value='593d552206744a06ddbc69f90136221c202869338a7f545f24f316d16c1eaba1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.debug.opensource' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='334339'/>
+        <property name='download.size' value='334339'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.debug.opensource'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='ef5fcb9955851e3369ee8c6c37702b94'/>
+        <property name='download.checksum.md5' value='ef5fcb9955851e3369ee8c6c37702b94'/>
+        <property name='download.checksum.sha-256' value='c735fab9f5e63b18cf2347c31d7ba1f8cbdf219809a2bf24a301556a93f2a242'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.xml' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='24323'/>
+        <property name='download.size' value='24323'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.editor.xml'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='c37c09e39df5cd94534a31d061ee9f6a'/>
+        <property name='download.checksum.md5' value='c37c09e39df5cd94534a31d061ee9f6a'/>
+        <property name='download.checksum.sha-256' value='5bfa3b085f06cced3dc3861c693c322e69cc3680cbd3537ef415ffb2af577aa1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.debug.ui' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='376278'/>
+        <property name='download.size' value='376278'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.debug.ui'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='41bec65977b636c3390466aceb434a45'/>
+        <property name='download.checksum.md5' value='41bec65977b636c3390466aceb434a45'/>
+        <property name='download.checksum.sha-256' value='3839ccb95ed642e15f603dd40c375cd4ca39ef1820884bcbf1f253de8fd69a30'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.iw' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='90617'/>
+        <property name='download.size' value='90617'/>
+        <property name='download.md5' value='6b101047106756153a9c870a24790ab6'/>
+        <property name='download.checksum.md5' value='6b101047106756153a9c870a24790ab6'/>
+        <property name='download.checksum.sha-256' value='2c9b6fe42c521d6ce7f2852fc84cc7e0be8c111c655a3794ad40f8aa87b5cf43'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='com.ibm.rules.studio.container.feature_root' version='8.11.1.0-IF004'>
+      <properties size='11'>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.container.feature'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='zip'/>
         <property name='maven-classifier' value='root'/>
         <property name='maven-extension' value='zip'/>
-        <property name='download.size' value='32166230'/>
+        <property name='download.size' value='30137757'/>
+        <property name='artifact.size' value='30137757'/>
+        <property name='download.md5' value='9d0a8cc859d6194046a0ea540809fe54'/>
+        <property name='download.checksum.md5' value='9d0a8cc859d6194046a0ea540809fe54'/>
+        <property name='download.checksum.sha-256' value='63cbf8e788ed3147df34138db328623d1020936eacdafbd410ba1d0a8abf0682'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.vocabulary.ui' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='147825'/>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.poi' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='10166966'/>
+        <property name='download.size' value='10166966'/>
+        <property name='download.md5' value='e3c196eba83bcbaad15124fcd7d56baf'/>
+        <property name='download.checksum.md5' value='e3c196eba83bcbaad15124fcd7d56baf'/>
+        <property name='download.checksum.sha-256' value='9886ffdaf6532fce82fc026eacf0a1e010e92acaa8f08d82a9651eaaeb2bf33d'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.compress' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='925341'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.ruleanalysis' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='113146'/>
+        <property name='download.size' value='113146'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.ruleanalysis'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='6ce7aea237b9d0b515a854df7ff9cd02'/>
+        <property name='download.checksum.md5' value='6ce7aea237b9d0b515a854df7ff9cd02'/>
+        <property name='download.checksum.sha-256' value='136f1f408e72ea5566e29be26bcb02d8d2fed887888e20b9e2034e10ae8bcfc7'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.views.eclipse.utilities.runtime' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='954039'/>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.httpclient' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='1306567'/>
+        <property name='download.size' value='1306567'/>
+        <property name='download.md5' value='aa73bf0ffd5dc36f8339f0c9bd9f6105'/>
+        <property name='download.checksum.md5' value='aa73bf0ffd5dc36f8339f0c9bd9f6105'/>
+        <property name='download.checksum.sha-256' value='22d56f8f240caf52df9228037afbcd623b2c0a483ab2e25c4dd52fa1e114bcbf'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.es' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='75247'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.doc' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='71241'/>
+        <property name='download.size' value='71241'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.doc'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='40773bcb2bdd5dfb01a4c1fa974e02ff'/>
+        <property name='download.checksum.md5' value='40773bcb2bdd5dfb01a4c1fa974e02ff'/>
+        <property name='download.checksum.sha-256' value='cbfba8440f0e0aa00218a96e314f12cc46e3ca5fcf53a3ff61a85e77001797e2'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.brldf' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='783491'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.vocabulary.model' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='387872'/>
+        <property name='download.size' value='387872'/>
+        <property name='download.md5' value='7403d01ef2786c085dfdeb2c3bdb29bb'/>
+        <property name='download.checksum.md5' value='7403d01ef2786c085dfdeb2c3bdb29bb'/>
+        <property name='download.checksum.sha-256' value='581df1cf60275ca374d6196021368555f30fb79d564f4df08a9d8148bf8cf1af'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.bdsl.runtime' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='148637'/>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.validation' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='1601109'/>
+        <property name='download.size' value='1601109'/>
+        <property name='download.md5' value='b5b2d28ee908454832fcb1ffa3cdce78'/>
+        <property name='download.checksum.md5' value='b5b2d28ee908454832fcb1ffa3cdce78'/>
+        <property name='download.checksum.sha-256' value='7a1394d6a38f60ba65e8fdb4b583dd57fcbccd12de04c71ffaedd9f70c4104bc'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.dvs.ui' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='917741'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.bom.editor' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='619733'/>
+        <property name='download.size' value='619733'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.bom.editor'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='9f7f55b9cb49f0aa5c9657a809a460d0'/>
+        <property name='download.checksum.md5' value='9f7f55b9cb49f0aa5c9657a809a460d0'/>
+        <property name='download.checksum.sha-256' value='26615ce6f2355131439e90cd3ad9bb695d259803ed649a1bfa79d4ceca9091f4'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.rhino' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='677634'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.brleditor' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='699471'/>
+        <property name='download.size' value='699471'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.brleditor'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='f1b62ac3271a609ac0d34c9140c0d50e'/>
+        <property name='download.checksum.md5' value='f1b62ac3271a609ac0d34c9140c0d50e'/>
+        <property name='download.checksum.sha-256' value='662ba50e95b474573ed534876b39eb01d354831d50c2847645676a02cad5ba2f'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.irl.ui' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='67190'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.bomupdate' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='148491'/>
+        <property name='download.size' value='148491'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.bomupdate'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='28a67ff6fc2841e8d794edd4a8647077'/>
+        <property name='download.checksum.md5' value='28a67ff6fc2841e8d794edd4a8647077'/>
+        <property name='download.checksum.sha-256' value='4e33311728f3ec83dc2efc0928c1ffbb86ccc853664137744c9486bf20c416e5'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.brl.l10n.ko' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='66184'/>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.dt.bundle' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='2147812'/>
+        <property name='download.size' value='2147812'/>
+        <property name='download.md5' value='692f00f87c794afd3356536308f99e1e'/>
+        <property name='download.checksum.md5' value='692f00f87c794afd3356536308f99e1e'/>
+        <property name='download.checksum.sha-256' value='2aa720770b8129bd198548af7616970687bb50fe69e4f2b93f4eafd5d48f89ea'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.collections' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='667029'/>
+    <artifact classifier='osgi.bundle' id='com.ibm.bdsl.editor' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='171651'/>
+        <property name='download.size' value='171651'/>
+        <property name='download.md5' value='cd59719bd2c2c3cc108affadfeb6cf50'/>
+        <property name='download.checksum.md5' value='cd59719bd2c2c3cc108affadfeb6cf50'/>
+        <property name='download.checksum.sha-256' value='fe5f3e69eabfbfb0c951d2f7c450a6fe206fbfad4e8764437ac5a3d674fa12b2'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.bcel' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='462125'/>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.studio.model.decisionservice.edit' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='60713'/>
+        <property name='download.size' value='60713'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='com.ibm.rules.studio.model.decisionservice.edit'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='3dfbd6811ce3a1ab885c27734956a668'/>
+        <property name='download.checksum.md5' value='3dfbd6811ce3a1ab885c27734956a668'/>
+        <property name='download.checksum.sha-256' value='1a28966033ccb477c11634a4f45093681c02afe5981c61091d6baec702ff5ab7'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.vocabulary.bom.editor' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='326447'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.brl.bql' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='123631'/>
+        <property name='download.size' value='123631'/>
+        <property name='download.md5' value='5cd5bedba1e30118665daee96788fc75'/>
+        <property name='download.checksum.md5' value='5cd5bedba1e30118665daee96788fc75'/>
+        <property name='download.checksum.sha-256' value='6544f37efe4952486340016ffbd01ede2b8039a860e0a9869d45a26bd23f280f'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='ilog.rules.studio.irleditor' version='8.11.0.1-IF015'>
-      <properties size='1'>
-        <property name='download.size' value='318800'/>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.reporting' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='108127'/>
+        <property name='download.size' value='108127'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.reporting'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='8e606a243c1ea856386a2f5b6aeeff1b'/>
+        <property name='download.checksum.md5' value='8e606a243c1ea856386a2f5b6aeeff1b'/>
+        <property name='download.checksum.sha-256' value='256e51fd89e2b2e3cb5ada6c5e25cecf2050b54ea92a97bfc11e4a6d0dc8efe6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.meta' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='38957'/>
+        <property name='download.size' value='38957'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.meta'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='97f6ca581df46999809aff578db2f483'/>
+        <property name='download.checksum.md5' value='97f6ca581df46999809aff578db2f483'/>
+        <property name='download.checksum.sha-256' value='cb3583b954a41362bbf5a5d55e0261c259c2624a27f998fdad2b28c6cf070f66'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.apache.commons.codec' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='296541'/>
+        <property name='download.size' value='296541'/>
+        <property name='download.md5' value='1c4978d98fb746818ff8a0dcc5338081'/>
+        <property name='download.checksum.md5' value='1c4978d98fb746818ff8a0dcc5338081'/>
+        <property name='download.checksum.sha-256' value='68d73ef3820af8f90ee5cf5821c26a12d872779943f33c6a11bb40f34ca39c36'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ilog.rules.studio.editor.function' version='8.11.1.0-IF004'>
+      <properties size='9'>
+        <property name='artifact.size' value='31183'/>
+        <property name='download.size' value='31183'/>
+        <property name='maven-groupId' value='com.ibm.rules.studio'/>
+        <property name='maven-artifactId' value='ilog.rules.studio.editor.function'/>
+        <property name='maven-version' value='8.11.1.0-IF004'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+        <property name='download.md5' value='e31989ca79581ad86570973dad8d4cbc'/>
+        <property name='download.checksum.md5' value='e31989ca79581ad86570973dad8d4cbc'/>
+        <property name='download.checksum.sha-256' value='c8ced8d581a82d4ff545c3aaf2fb77b01ba85af85b9d9c1f68ed56071d9f971a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.bdsl.viewer' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='375798'/>
+        <property name='download.size' value='375798'/>
+        <property name='download.md5' value='3b962ed447b678dc9441bffc5b931fe5'/>
+        <property name='download.checksum.md5' value='3b962ed447b678dc9441bffc5b931fe5'/>
+        <property name='download.checksum.sha-256' value='5ff5e1694c2339b251b9bd38423c214f4b48a8ffa22e165be34babffde7d4fa0'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.thirdparty.icu.charsets' version='8.11.1.0-IF004'>
+      <properties size='5'>
+        <property name='artifact.size' value='14927904'/>
+        <property name='download.size' value='14927904'/>
+        <property name='download.md5' value='4b9883c0719f39e1c253e2406525702e'/>
+        <property name='download.checksum.md5' value='4b9883c0719f39e1c253e2406525702e'/>
+        <property name='download.checksum.sha-256' value='7fb3ed6043667bf2832918dabd01f13985ead5050a78c7412b061c1a004c3ff4'/>
       </properties>
     </artifact>
   </artifacts>
