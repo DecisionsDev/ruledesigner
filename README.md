@@ -53,7 +53,7 @@ For 8.11.1 Release:
    - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
 
 For 8.12.0 Release:
-   - Eclipse IDE 2020-06 R (4.24) Modeling Tools Packages 
+   - Eclipse IDE 2022-06 R (4.24) Modeling Tools Packages 
    - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
    
 ## Installation
