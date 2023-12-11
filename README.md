@@ -85,6 +85,23 @@ You must install the update site for Rule Designer into an existing Eclipse.
 8. If you are prompted to restart Eclipse, click **Yes**.
 9. If not displayed by default, switch to the **Rule** perspective (**Window** > **Open Perspective** > **Rule**).
 
+## Offline installation
+1. Go to the https://github.com/DecisionsDev/ruledesigner/releases
+2. Download source code
+3. Uncompress it on your local machine
+4. Start Eclipse
+5. Switch to the **Java** perspective (click **Window** > **Open Perspective** > **Java**).
+6. Click **Help** > **Install New Software**.
+7. Add the update site to install:
+   - In the Install wizard, next to the **Work with** field, click **Add**.
+   - In the **Name** field, enter a name for the repository. For example, enter Rule Designer.
+   - Click Local select the p2 folder in the uncompress directory.
+8. Click **Select All**, and click **Next**. Eclipse calculates the dependencies and requirements.
+9. In the **Install** dialog, click **Next**.
+10. In the **Review Licenses** dialog, select `I accept the terms of the license agreement`, and then click **Finish**. The installation might take a few seconds to complete. If a security warning about the validity of the software opens, click **OK** to proceed with the installation.
+11. If you are prompted to restart Eclipse, click **Yes**.
+12. If not displayed by default, switch to the **Rule** perspective (**Window** > **Open Perspective** > **Rule**).
+
 ## What to do next
 If you want to establish a secure TLS connection or/and use an OpenID provider with ODM on Kubernetes, you need to import a certificate into the cacerts file and configure the OpenID provider in the JVM used to launch Rule Designer. 
 Steps to configure Rule Designer are explains :
