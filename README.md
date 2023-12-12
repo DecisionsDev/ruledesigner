@@ -77,7 +77,7 @@ You must install the update site for Rule Designer into an existing Eclipse.
      - For 8.11.0.0: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/8.11.0/p2 .
      - For 8.11.0.1: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/8.11.0.1/p2 .
      - For 8.11.1: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/8.11.1/p2 .
-     - For 8.12.0: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/8.12.0/p2 .
+     - For 8.12.0/8.12.0.1: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/8.12.0/p2 .
    - Click **OK**.
 5. Click **Select All**, and click **Next**. Eclipse calculates the dependencies and requirements.
 6. In the **Install** dialog, click **Next**.
