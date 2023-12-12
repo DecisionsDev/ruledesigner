@@ -12,36 +12,12 @@ For 8.9.2 Release:
  - Eclipse 4.4 Luna Packages
  - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
 
-For 8.10.0 Release:
- - Eclipse 4.7 Oxygen Packages
- - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
-
-For 8.10.1 Release:
- - Eclipse 4.7.3 Oxygen Packages
- - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
-
-For 8.10.2 Release:
-  - Eclipse 4.7.3 Oxygen Packages
-  - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
-
-For 8.10.3 Release:
-   - Eclipse 4.7.3 Oxygen Packages
-   - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
-
 For 8.10.4 Release:
-   - Eclipse 4.7.3 Oxygen Packages
-   - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
-
-For 8.10.5 Release:
    - Eclipse 4.7.3 Oxygen Packages
    - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
 
 For 8.10.5.1 Release:
    - Eclipse 4.7.3 Oxygen Packages
-   - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
-
-For 8.11.0 Release:
-   - Eclipse IDE 2020-06 R (4.16) Modeling Tools Packages 
    - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
 
 For 8.11.0.1 Release:
@@ -55,7 +31,11 @@ For 8.11.1 Release:
 For 8.12.0 Release:
    - Eclipse IDE 2022-06 R (4.24) Modeling Tools Packages 
    - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
-   
+
+For 8.12.0.1 Release:
+   - Eclipse IDE 2022-06 R (4.24) Modeling Tools Packages 
+   - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
+     
 ## Installation
 You must install the update site for Rule Designer into an existing Eclipse.
 
