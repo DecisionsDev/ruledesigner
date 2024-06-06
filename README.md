@@ -10,8 +10,9 @@ In the designer, developers can edit and debug Java code and rules alongside eac
 ## Requirements
 
 For 9.0.0 Release:
-   - Eclipse IDE 2023-12(4.30) Modeling Tools Packages 
+   - Eclipse IDE 2023-12(4.30) Modeling Tools Packages uses Java Development Kit (JDK) 17.
    - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
+   - You can download the JDK from [IBM Semeru Runtimes Downloads](https://developer.ibm.com/languages/java/semeru-runtimes/downloads/).
 
 
 ## Installation
