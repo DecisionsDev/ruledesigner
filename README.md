@@ -56,8 +56,8 @@ You must install the update site for Rule Designer into an existing Eclipse.
 7. In the **Review Licenses** dialog, select `I accept the terms of the license agreement`, and then click **Finish**. If a security warning about the validity of the software opens, click **OK** to proceed with the installation.
 8. During the installation, you will be prompted with a **Trusted Authorities** dialog, select `https://raw.githubusercontent.com` in **Authoring / Update site** section and then click **Trust Selected** to continue.
 9. A **Trust Artifacts** dialog will be prompted a few moment later, click **Select All** and then click **Trust Selected** to continue the installation. The installation might take a few seconds to complete. 
-11. If you are prompted to restart Eclipse, click **Yes**.
-12. If not displayed by default, switch to the **Rule** perspective (**Window** > **Open Perspective** > **Rule**).
+10. If you are prompted to restart Eclipse, click **Yes**.
+11. If not displayed by default, switch to the **Rule** perspective (**Window** > **Open Perspective** > **Rule**).
 
 ## Offline installation
 1. Go to the https://github.com/DecisionsDev/ruledesigner/releases
@@ -73,10 +73,10 @@ You must install the update site for Rule Designer into an existing Eclipse.
 8. Click **Select All**, and click **Next**. Eclipse calculates the dependencies and requirements.
 9. In the **Install** dialog, click **Next**.
 10. In the **Review Licenses** dialog, select `I accept the terms of the license agreement`, and then click **Finish**. If a security warning about the validity of the software opens, click **OK** to proceed with the installation.
-8. During the installation, you will be prompted with a **Trusted Authorities** dialog, select `https://raw.githubusercontent.com` in **Authoring / Update site** section and then click **Trust Selected** to continue.
-9. A **Trust Artifacts** dialog will be prompted a few moment later, click **Select All** and then click **Trust Selected** to continue the installation. The installation might take a few seconds to complete. 
-11. If you are prompted to restart Eclipse, click **Yes**.
-13. If not displayed by default, switch to the **Rule** perspective (**Window** > **Open Perspective** > **Rule**).
+11. During the installation, you will be prompted with a **Trusted Authorities** dialog, select `https://raw.githubusercontent.com` in **Authoring / Update site** section and then click **Trust Selected** to continue.
+12. A **Trust Artifacts** dialog will be prompted a few moment later, click **Select All** and then click **Trust Selected** to continue the installation. The installation might take a few seconds to complete. 
+13. If you are prompted to restart Eclipse, click **Yes**.
+14. If not displayed by default, switch to the **Rule** perspective (**Window** > **Open Perspective** > **Rule**).
 
 ## What to do next
 If you want to establish a secure TLS connection or/and use an OpenID provider with ODM on Kubernetes, you need to import a certificate into the cacerts file and configure the OpenID provider in the JVM used to launch Rule Designer. 
