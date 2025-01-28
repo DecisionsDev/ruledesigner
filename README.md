@@ -84,6 +84,7 @@ Steps to configure Rule Designer are explains :
 - In the [Cloud Pak for Business Automation 24.0.1 ](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/24.0.1?topic=manager-importing-security-certificate-in-rule-designer) documentation
 - In the [Operational Decision Manager for Kubernetes 9.0.0](https://www.ibm.com/docs/en/odm/9.0.0?topic=designer-importing-security-certificate-in-rule) documentation
 
+> Note: On some macOS installations, you may encounter issues when importing a security certificate in Rule Designer. For detailed troubleshooting steps and tips, refer to the [IBM Community article on importing a security certificate](https://community.ibm.com/community/user/automation/blogs/sia-sin-tay/2025/01/13/tips-about-importing-a-security-certificate-in-rul) in Rule Designer. This guide provides specific instructions that can help resolve macOS-specific challenges.
 
 # Issues and contributions
 For issues relating specifically to this project and scripts, please use the [GitHub issue tracker](../../issues).
