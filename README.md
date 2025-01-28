@@ -81,7 +81,7 @@ You must install the update site for Rule Designer into an existing Eclipse.
 ## What to do next
 If you want to establish a secure TLS connection or/and use an OpenID provider with ODM on Kubernetes, you need to import a certificate into the cacerts file and configure the OpenID provider in the JVM used to launch Rule Designer. 
 Steps to configure Rule Designer are explains :
-- In the [Cloud Pak for Business Automation 24.0.0 ](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/24.0.0?topic=manager-importing-security-certificate-in-rule-designer) documentation
+- In the [Cloud Pak for Business Automation 24.0.1 ](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/24.0.1?topic=manager-importing-security-certificate-in-rule-designer) documentation
 - In the [Operational Decision Manager for Kubernetes 9.0.0](https://www.ibm.com/docs/en/odm/9.0.0?topic=designer-importing-security-certificate-in-rule) documentation
 
 
