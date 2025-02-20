@@ -11,11 +11,11 @@ In the designer, developers can edit and debug Java code and rules alongside eac
 
 For 8.11.0 Release:
    - Eclipse IDE 2020-06 R (4.16) Modeling Tools Packages 
-   - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
+   - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
 
 For 8.11.1.0 Release:
    - Eclipse IDE 2020-06 R (4.16) Modeling Tools Packages 
-   - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
+   - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
 
 
 
@@ -29,7 +29,7 @@ You must install the update site for Rule Designer into an existing Eclipse.
    - In the Install wizard, next to the **Work with** field, click **Add**.
    - In the **Name** field, enter a name for the repository. For example, enter Rule Designer.
    - In the **Location** field, enter
-     - For 8.11.1: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.11.1/p2 .
+     - For 8.11.1: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/8.11.1/p2 .
      
    - Click **OK**.
 5. Click **Select All**, and click **Next**. Eclipse calculates the dependencies and requirements.
