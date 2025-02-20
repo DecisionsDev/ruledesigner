@@ -11,7 +11,7 @@ In the designer, developers can edit and debug Java code and rules alongside eac
 
 For 9.0.0 Release:
    - Eclipse IDE 2023-12(4.30) Modeling Tools Packages uses Java Development Kit (JDK) 17.
-   - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
+   - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
    - You can download the JDK from [IBM Semeru Runtimes Downloads](https://developer.ibm.com/languages/java/semeru-runtimes/downloads/).
 
 
@@ -25,7 +25,7 @@ You must install the update site for Rule Designer into an existing Eclipse.
    - In the Install wizard, next to the **Work with** field, click **Add**.
    - In the **Name** field, enter a name for the repository. For example, enter Rule Designer.
    - In the **Location** field, enter
-     - For 9.0.0 (And future IFix): https://raw.githubusercontent.com/ODMDev/ruledesigner/9.0.0/p2 .
+     - For 9.0.0 (And future IFix): https://raw.githubusercontent.com/DecisionsDev/ruledesigner/9.0.0/p2 .
      
    - Click **OK**.
 5. Click **Select All**, and click **Next**. Eclipse calculates the dependencies and requirements.
