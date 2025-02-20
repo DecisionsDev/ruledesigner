@@ -11,7 +11,7 @@ In the designer, developers can edit and debug Java code and rules alongside eac
 
 For 8.10.5 Release:
    - Eclipse 4.7.3 Oxygen Packages  (download [here](https://www.eclipse.org/downloads/packages/release/oxygen/3a) )
-   - You can find all available releases at this location : https://github.com/ODMDev/ruledesigner/releases
+   - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
 
 
 ## Installation
@@ -24,7 +24,7 @@ You must install the update site for Rule Designer into an existing Eclipse.
    - In the Install wizard, next to the **Work with** field, click **Add**.
    - In the **Name** field, enter a name for the repository. For example, enter Rule Designer.
    - In the **Location** field, enter
-     - For 8.10.5: https://raw.githubusercontent.com/ODMDev/ruledesigner/8.10.5/p2 .
+     - For 8.10.5: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/8.10.5/p2 .
    - Click **OK**.
 5. Click **Select All**, and click **Next**. Eclipse calculates the dependencies and requirements.
 6. In the **Install** dialog, click **Next**.
