@@ -30,7 +30,7 @@ For 8.12.0.1 Release:
    - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
 
 For 9.0 Release:
-   - Eclipse IDE 2023-12 R (4.30) Modeling Tools Packages
+   - Eclipse IDE 2023-12 R (4.30) Eclipse IDE for Enterprise Java and Web Developers Packages
    - JDK 17
    - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
      
