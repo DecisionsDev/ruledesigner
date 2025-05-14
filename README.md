@@ -33,6 +33,11 @@ For 9.0 Release:
    - Eclipse IDE 2023-12 R (4.30) Eclipse IDE for Enterprise Java and Web Developers Packages
    - JDK 17
    - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
+
+For 9.5 Release:
+   - Eclipse IDE 2024-12 R (4.34) Eclipse IDE for Enterprise Java and Web Developers Packages
+   - JDK 21
+   - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases   
      
 ## Installation
 You must install the update site for Rule Designer into an existing Eclipse.
@@ -50,6 +55,7 @@ You must install the update site for Rule Designer into an existing Eclipse.
      - For 8.11.1: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/8.11.1/p2 .
      - For 8.12.0.1: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/8.12.0/p2 .
      - For 9.0 : https://raw.githubusercontent.com/DecisionsDev/ruledesigner/9.0.0/p2 .
+     - For 9.5 : https://raw.githubusercontent.com/DecisionsDev/ruledesigner/9.5.0/p2 .     
    - Click **OK**.
 5. Click **Select All**, and click **Next**. Eclipse calculates the dependencies and requirements.
 6. In the **Install** dialog, click **Next**.
@@ -81,13 +87,13 @@ You must install the update site for Rule Designer into an existing Eclipse.
 ## What to do next
 If you want to establish a secure TLS connection or/and use an OpenID provider with ODM on Kubernetes, you need to import a certificate into the cacerts file and configure the OpenID provider in the JVM used to launch Rule Designer. 
 Steps to configure Rule Designer are explains :
-- In the [Cloud Pak for Business Automation 24.0.1 ](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/24.0.1?topic=manager-importing-security-certificate-in-rule-designer) documentation
-- In the [Operational Decision Manager for Kubernetes 9.0.0](https://www.ibm.com/docs/en/odm/9.0.0?topic=designer-importing-security-certificate-in-rule) documentation
+- In the [Cloud Pak for Business Automation 25.0.0 ](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/25.0.0?topic=manager-importing-security-certificate-in-rule-designer) documentation
+- In the [Operational Decision Manager for Kubernetes 9.5.0](https://www.ibm.com/docs/en/odm/9.5.0?topic=designer-importing-security-certificate-in-rule) documentation
 
 > Note: On some macOS installations, you may encounter issues when importing a security certificate in Rule Designer. For detailed troubleshooting steps and tips, refer to the [IBM Community article on importing a security certificate](https://community.ibm.com/community/user/automation/blogs/sia-sin-tay/2025/01/13/tips-about-importing-a-security-certificate-in-rul) in Rule Designer. This guide provides specific instructions that can help resolve macOS-specific challenges.
 
 # Issues and contributions
-For issues relating specifically to this project and scripts, please use the [GitHub issue tracker](../../issues).
+For issues relating specifically to this project and scripts, please use the [GitHub issue tracker](https://github.com/DecisionsDev/ruledesigner/issues).
 
 # License
 The files found in this project are licensed under the [IBM Operational Decision Manager for Developers license](LICENSE).
