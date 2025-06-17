@@ -9,35 +9,25 @@ In the designer, developers can edit and debug Java code and rules alongside eac
 
 ## Requirements
 
-For 8.10.5.1 Release:
-   - Eclipse 4.7.3 Oxygen Packages
-   - JDK 8
-   - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
-
 For 8.11.0.1 Release:
    - Eclipse IDE 2020-06 R (4.16) Modeling Tools Packages
    - JDK 8
-   - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
 
 For 8.11.1 Release:
    - Eclipse IDE 2020-06 R (4.16) Modeling Tools Packages
    - JDK 8
-   - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
 
 For 8.12.0.1 Release:
    - Eclipse IDE 2022-06 R (4.24) Modeling Tools Packages
    - JDK 11
-   - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
 
 For 9.0 Release:
    - Eclipse IDE 2023-12 R (4.30) Eclipse IDE for Enterprise Java and Web Developers Packages
    - JDK 17
-   - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases
 
 For 9.5 Release:
    - Eclipse IDE 2024-12 R (4.34) Eclipse IDE for Enterprise Java and Web Developers Packages
    - JDK 21
-   - You can find all available releases at this location : https://github.com/DecisionsDev/ruledesigner/releases   
      
 ## Installation
 You must install the update site for Rule Designer into an existing Eclipse.
@@ -49,8 +39,6 @@ You must install the update site for Rule Designer into an existing Eclipse.
    - In the Install wizard, next to the **Work with** field, click **Add**.
    - In the **Name** field, enter a name for the repository. For example, enter Rule Designer.
    - In the **Location** field, enter
-     - For 8.10.5: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/8.10.5/p2 .
-     - For 8.10.5.1: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/8.10.5.1/p2 .
      - For 8.11.0.1: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/8.11.0.1/p2 .
      - For 8.11.1: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/8.11.1/p2 .
      - For 8.12.0.1: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/8.12.0/p2 .
