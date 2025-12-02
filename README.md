@@ -36,6 +36,7 @@ For 9.5 Release:
 >    Disable all the sites except the following:
 >    - https://download.eclipse.org/releases/2024-12
 >    - https://download.eclipse.org/eclipse/updates/4.34
+> 3. Click Apply > Close.
   
      
 ## Installation
