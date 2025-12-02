@@ -28,14 +28,22 @@ For 9.0 Release:
 For 9.5 Release:
    - Eclipse IDE 2024-12 R (4.34) Eclipse IDE for Enterprise Java and Web Developers Packages
    - JDK 21
+> 
+> **Mandatory** before installing Rule Designer 
+>
+> 1. Start Eclipse
+> 2. Open Window > Preferences > Install > Update > Available software sites.
+>    Disable all the sites except the following:
+>    - https://download.eclipse.org/releases/2024-12
+>    - https://download.eclipse.org/eclipse/updates/4.34
+  
      
 ## Installation
 You must install the update site for Rule Designer into an existing Eclipse.
-
 1. Start Eclipse.
 2. Switch to the **Java** perspective (click **Window** > **Open Perspective** > **Java**).
-3. Click **Help** > **Install New Software**.
-4. Add the update site to install:
+4. Click **Help** > **Install New Software**.
+5. Add the update site to install:
    - In the Install wizard, next to the **Work with** field, click **Add**.
    - In the **Name** field, enter a name for the repository. For example, enter Rule Designer.
    - In the **Location** field, enter
@@ -45,13 +53,13 @@ You must install the update site for Rule Designer into an existing Eclipse.
      - For 9.0 : https://raw.githubusercontent.com/DecisionsDev/ruledesigner/9.0.0/p2 .
      - For 9.5 : https://raw.githubusercontent.com/DecisionsDev/ruledesigner/9.5.0/p2 .     
    - Click **OK**.
-5. Click **Select All**, and click **Next**. Eclipse calculates the dependencies and requirements.
-6. In the **Install** dialog, click **Next**.
-7. In the **Review Licenses** dialog, select `I accept the terms of the license agreement`, and then click **Finish**. If a security warning about the validity of the software opens, click **OK** to proceed with the installation.
-8. During the installation, you will be prompted with a **Trusted Authorities** dialog, select `https://raw.githubusercontent.com` in **Authoring / Update site** section and then click **Trust Selected** to continue.
-9. A **Trust Artifacts** dialog will be prompted a few moment later, click **Select All** and then click **Trust Selected** to continue the installation. The installation might take a few seconds to complete. 
-10. If you are prompted to restart Eclipse, click **Yes**.
-11. If not displayed by default, switch to the **Rule** perspective (**Window** > **Open Perspective** > **Rule**).
+6. Click **Select All**, and click **Next**. Eclipse calculates the dependencies and requirements.
+7. In the **Install** dialog, click **Next**.
+8. In the **Review Licenses** dialog, select `I accept the terms of the license agreement`, and then click **Finish**. If a security warning about the validity of the software opens, click **OK** to proceed with the installation.
+9. During the installation, you will be prompted with a **Trusted Authorities** dialog, select `https://raw.githubusercontent.com` in **Authoring / Update site** section and then click **Trust Selected** to continue.
+10. A **Trust Artifacts** dialog will be prompted a few moment later, click **Select All** and then click **Trust Selected** to continue the installation. The installation might take a few seconds to complete. 
+11. If you are prompted to restart Eclipse, click **Yes**.
+12. If not displayed by default, switch to the **Rule** perspective (**Window** > **Open Perspective** > **Rule**).
 
 ## Offline installation
 1. Go to the https://github.com/DecisionsDev/ruledesigner/releases
