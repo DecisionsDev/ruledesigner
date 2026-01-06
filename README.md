@@ -24,6 +24,17 @@ For 8.12.0.1 Release:
 For 9.0 Release:
    - Eclipse IDE 2023-12 R (4.30) Eclipse IDE for Enterprise Java and Web Developers Packages
    - JDK 17
+> 
+> **Mandatory** before installing Rule Designer 
+>
+> 1. Start Eclipse
+> 2. Open Window > Preferences > Install > Update > Available software sites.   
+>    Disable **all** the sites except the following:
+>    - https://download.eclipse.org/releases/2023-12
+>    - https://download.eclipse.org/eclipse/updates/4.30      .
+> 3. Click Add and in the Location add. :
+>    - https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/release/4.30.0
+> 5. Click Apply > Close.
 
 For 9.5 Release:
    - Eclipse IDE 2024-12 R (4.34) Eclipse IDE for Enterprise Java and Web Developers Packages
@@ -32,8 +43,8 @@ For 9.5 Release:
 > **Mandatory** before installing Rule Designer 
 >
 > 1. Start Eclipse
-> 2. Open Window > Preferences > Install > Update > Available software sites.
->    Disable all the sites except the following:
+> 2. Open Window > Preferences > Install > Update > Available software sites.  
+>    Disable **all** the sites except the following:
 >    - https://download.eclipse.org/releases/2024-12
 >    - https://download.eclipse.org/eclipse/updates/4.34
 > 3. Click Apply > Close.
