@@ -33,6 +33,7 @@ If you prefer to install Rule Designer into an existing Eclipse installation, re
 - **[Installing Rule Designer offline](https://www.ibm.com/docs/en/SSQP76_9.6.0/com.ibm.odm.kube/topics/tsk_install_designer_ol.html)** - Download Rule Designer from GitHub and install it into Eclipse
 
 **Available update site URLs for online installation:**
+- **9.6**: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/9.6.0/p2
 - **9.5**: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/9.5.0/p2
 - **9.0**: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/9.0.0/p2
 - **8.12.0.1**: https://raw.githubusercontent.com/DecisionsDev/ruledesigner/8.12.0/p2
