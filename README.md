@@ -13,13 +13,16 @@ In the designer, developers can edit and debug Java code and rules alongside eac
 
 We provide **three ready-to-use installation options** that come pre-configured with Eclipse and all necessary dependencies. This is the **preferred and easiest way** to get started with Rule Designer:
 
-1. **Download the ready-to-use package** for your version from the [releases page](https://github.com/DecisionsDev/ruledesigner/releases)
+1. **Download the ready-to-use package** for your platform (Linux, macOS, or Windows) from the [releases page](https://github.com/DecisionsDev/ruledesigner/releases) f
 2. **Extract and run** 
    - **macOS only**: Before running the RuleDesigner.app , remove the quarantine attribute by running the following command:
        ```
         xattr -r -d com.apple.quarantine RuleDesigner.app
      ```
 4. **Start developing** - Eclipse with Rule Designer is ready to use immediately
+   - ruledesigner.exe (Windows)
+   - RuleDesigner.App (Mac OS)
+   - ruledesigner (Linux) 
 
 Available versions:
 - **[9.6](https://github.com/DecisionsDev/ruledesigner/releases/tag/v9.6.0)** - Eclipse 2026-12 (4.38) with JDK 21
