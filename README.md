@@ -25,7 +25,7 @@ We provide **three ready-to-use installation options** that come pre-configured 
    - ruledesigner (Linux) 
 
 Available versions:
-- **[9.6](https://github.com/DecisionsDev/ruledesigner/releases/tag/v9.6.0)** - Eclipse 2026-12 (4.38) with JDK 21
+- **[9.6](https://github.com/DecisionsDev/ruledesigner/releases/tag/v9.6.0)** - Eclipse 2025-12 (4.38) with JDK 21
 
 
 ### Alternative Installation Methods
