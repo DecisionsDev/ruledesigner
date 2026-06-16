@@ -51,12 +51,11 @@ Rule Designer supports different display modes to match your preferences. Learn 
 ### Security Certificate Import
 To securely connect Rule Designer to Decision Server and Decision Center services running in Certified Kubernetes, you need to establish a TLS connection through a security certificate. 
 
-See the detailed guide: **[Importing a security certificate in Rule Designer](https://www.ibm.com/docs/en/SSQP76_9.6.0/com.ibm.odm.kube/topics/tsk_import_certificate.html)**
+See the detailed guide: 
+- For **ODM on certified Kubernetes**: [Importing a security certificate in Rule Designer](https://www.ibm.com/docs/en/odm/9.6.0?topic=designer-importing-security-certificate-in-rule)
+- For **Cloud Pak for Business Automation 26.0.0**: [CP4BA - Importing a security certificate in Rule Designer](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/26.0.0?topic=manager-importing-security-certificate-in-rule-designer)
 
 > **Note:** On some macOS installations, you may encounter issues when importing a security certificate in Rule Designer. For detailed troubleshooting steps and tips, refer to the [IBM Community article on importing a security certificate](https://community.ibm.com/community/user/automation/blogs/sia-sin-tay/2025/01/13/tips-about-importing-a-security-certificate-in-rul) in Rule Designer.
-
-
-- [for the Cloud Pak for Business Automation 26.0.0](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/26.0.0?topic=manager-importing-security-certificate-in-rule-designer)
 
 
 # Issues and Contributions
