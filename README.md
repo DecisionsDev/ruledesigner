@@ -53,7 +53,7 @@ To securely connect Rule Designer to Decision Server and Decision Center service
 
 See the detailed guide: 
 - For **ODM on certified Kubernetes**: [Importing a security certificate in Rule Designer](https://www.ibm.com/docs/en/odm/9.6.0?topic=designer-importing-security-certificate-in-rule)
-- For **Cloud Pak for Business Automation*: [CP4BA - Importing a security certificate in Rule Designer](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/26.0.0?topic=manager-importing-security-certificate-in-rule-designer)
+- For **Cloud Pak for Business Automation**: [CP4BA - Importing a security certificate in Rule Designer](https://www.ibm.com/docs/en/cloud-paks/cp-biz-automation/26.0.0?topic=manager-importing-security-certificate-in-rule-designer)
 
 > **Note:** On some macOS installations, you may encounter issues when importing a security certificate in Rule Designer. For detailed troubleshooting steps and tips, refer to the [IBM Community article on importing a security certificate](https://community.ibm.com/community/user/automation/blogs/sia-sin-tay/2025/01/13/tips-about-importing-a-security-certificate-in-rul) in Rule Designer.
 
