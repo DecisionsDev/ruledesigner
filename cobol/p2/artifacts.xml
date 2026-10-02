@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='ODM Cobol Updates' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1789660640081'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='79'>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.cobol.nl1' version='7.1.4100.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='34749'/>
+        <property name='artifact.size' value='34749'/>
+        <property name='download.checksum.sha-512' value='623198c337b994cffcf17c7073fb14b3e7f7f51566fd8f8f4f60147affdd436f521638632c870015d39ca58b1241c75822b7180a8be40f00f6d2446a787d39a9'/>
+        <property name='download.checksum.sha-256' value='2a2c00322ad7e0057206a2f90b5452a4c519c384a324f3888a957c9f25582e20'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.ccl.discovery.ui.nl1' version='1.2.300.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='41438'/>
+        <property name='artifact.size' value='41438'/>
+        <property name='download.checksum.sha-512' value='8582b02815dacbe40177eec1638c4f64324f1fbdf994f5faf90f1be0663534f503ac61e44379d8b720225511f36d31a0a9101f4668ea2d49f9bff4d5fe59b054'/>
+        <property name='download.checksum.sha-256' value='bf6a0b538d7aa0b234d9f9b0daeabc704b6233c00170b35dd1030f4e36d94713'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='pli.importer.uid.feature' version='1.0.2.v20171106_2232'>
+      <properties size='4'>
+        <property name='download.size' value='365'/>
+        <property name='artifact.size' value='365'/>
+        <property name='download.checksum.sha-512' value='9b0d37d019efa4bad1f9c867f4e15d3c8f2ac6c1a9721a08ef37f0e9bf392267d6ef11f52375df83c212ae6be142cebcd9445a9f15aa0e044df5f37d7aafc321'/>
+        <property name='download.checksum.sha-256' value='61578c2432a5fbafb9ea68cd3f4fe894f194c294f69b50c3cedebf6554f95a83'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='cobol.importer' version='8.0.700.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='984'/>
+        <property name='artifact.size' value='984'/>
+        <property name='download.checksum.sha-512' value='f1f555f2cc7d0d868cf18c33c5137b418befbee5adde7e3deaf0cb4f06f1bee6359321dbc132f7a788ebfb75e4cc12cbf7c8689996ba05e41f31413e66265d2b'/>
+        <property name='download.checksum.sha-256' value='f49f8c306aa0ab92be8548e3b8d5402c8c822671eba9cacd88e8c5d787245980'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.adapter.typesimport' version='1.1.300.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='13963'/>
+        <property name='artifact.size' value='13963'/>
+        <property name='download.checksum.sha-512' value='9bd7f38d078abb420dc1cf58b272af88ef26a266490f0d1b66e0bb2248251d3af5a0001d66ed13a059de99f0781a72a3e361ef4d9827bc9ca856131f84b3c1cb'/>
+        <property name='download.checksum.sha-256' value='294ad565102f6631c8a808187bdb27e3ff7e7465fac633f5851dac686bd7d1e1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.lang.preference.nl1' version='7.0.400.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='17908'/>
+        <property name='artifact.size' value='17908'/>
+        <property name='download.checksum.sha-512' value='84c47060d4c41d67b4632a9aa9362b8403aad265cd6f82bc9c0abd6cfa833519bf5a0e8d1a5f2da6f537428714ea09601ae5f271a7c54ff226b0c5ac7540c0f2'/>
+        <property name='download.checksum.sha-256' value='3c1fe1db8cb55e820f7662d9e8612232f1c4ac8ccd891405e1626e3ef330e826'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='cobol.importer.nls2' version='8.0.700.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='326'/>
+        <property name='artifact.size' value='326'/>
+        <property name='download.checksum.sha-512' value='a5142cc9f8b5d96f7b1d7590c9dd6ed27b9782a02f1a6860dd52a0acc1724fc32b457177493f2870d8c287c82f3a50340e58d95b5977191be198ea2109b2b5cf'/>
+        <property name='download.checksum.sha-256' value='97332dfec7ff62ebd21c8f4550de2180b6fb19a1b4c186bbd41aeed2f9f32cdb'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.ccl.discovery.ui.nl2' version='1.2.300.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='20528'/>
+        <property name='artifact.size' value='20528'/>
+        <property name='download.checksum.sha-512' value='a3978e287538782db4ace5d4b3ff71a4550a566bcb395dbd6dbcc8a5359868b80f883f0992fef3ebe07b4865b103e440906d75f4a062922304273443cf270880'/>
+        <property name='download.checksum.sha-256' value='8def598d420e555fd380160312eaffd76b51f79d1f4dc7ea018a7175876818dd'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.ccl.pli2xsd.nl1' version='7.1.800.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='18331'/>
+        <property name='artifact.size' value='18331'/>
+        <property name='download.checksum.sha-512' value='3e622d70cb3ba6db55bffc803f2db153239947500d50dff93af8abdba93925c5d43e5c4e952faff7ed06a2f4c5f9a468671300bf67329d8fd77bf9e39e090bf5'/>
+        <property name='download.checksum.sha-256' value='98595dbf7d41cb7510249b8aae08bf444b0c0130861d273910b0fdba29a31709'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.ccl.pli.win32' version='7.5.1.v20180208_1520'>
+      <properties size='4'>
+        <property name='download.size' value='2203290'/>
+        <property name='artifact.size' value='2203290'/>
+        <property name='download.checksum.sha-512' value='bbaec87a0da8867b7a4ffa97d9653848516de76d07fa8b89c19ab9c31ccf6407eba2e2699a427d03d87e4c93d8e1e2021bd1522755a45c78d6acb2d091b08396'/>
+        <property name='download.checksum.sha-256' value='748f056ffe5cea1fac20f0e5dee286a382b43ae1e5107f95b42fd73ea24bcce3'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.adapter.typesimport.nl2' version='1.1.300.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='5398'/>
+        <property name='artifact.size' value='5398'/>
+        <property name='download.checksum.sha-512' value='4dc71e96b3ec199ee4840c30aefa8fcf0d0f877465f2ea72e19df2a7be6211ffe1ee05274737ebc4da8a1fc9813bc7a6a9c8a09b97a751a3abb08925bffd9f4d'/>
+        <property name='download.checksum.sha-256' value='dc1d12b88a839072d5120a977d8bba2930aa85cbf160264bf33633179dddd780'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ibm.lang.core.nls1' version='1.2.600.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='309'/>
+        <property name='artifact.size' value='309'/>
+        <property name='download.checksum.sha-512' value='36c30de2a336463085ec994a469286d02b334a3664729ac9d05414fce192165dfd63fa33b2babe713c05109fd8568c57ec84b4659a252e3c9a05eb08d404160a'/>
+        <property name='download.checksum.sha-256' value='cb734cd149407bea0ed89554dd03fee318ecb18c0cbfee3d04ed7b590a2121df'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.ctc.cobol2xsd' version='6.2.500.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='58384'/>
+        <property name='artifact.size' value='58384'/>
+        <property name='download.checksum.sha-512' value='1b76d84cf86d2d00547d40cd76d9499146c6425ba01b6f06679de16fb3cddcb259c9b6b405d144a6b390a4fd6bb0fdfc26d0b0874b2e7a72af8681572da3b289'/>
+        <property name='download.checksum.sha-256' value='52aaa8c79c262beaa9adb20578444dd4c67503fdbd7b2b5ac1e9c92b07775b6d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.cobol.linux' version='7.1.300.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='31222174'/>
+        <property name='artifact.size' value='31222174'/>
+        <property name='download.checksum.sha-512' value='066b4543e011fc26864b706ebcfc7bdd51f130a21099e6988b049d1baca9ea67b06236b4bf4a7a33b84725baaa5718933610d50c2bd7744253236ce24451178d'/>
+        <property name='download.checksum.sha-256' value='57adf8ed2616777d720b1bae1f0cddb23d811189c86bb4d269d84259d73ebecc'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ibm.adapter.core.nls2' version='2.3.401.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='308'/>
+        <property name='artifact.size' value='308'/>
+        <property name='download.checksum.sha-512' value='368b8cccbe2bc23f3c75db4c8875e3282dfebd0f44d829c5c8128386113d7d67a1b5e3355a470424d5af1df41bd8a152cd7c6745c8c315d5a2f0f2e948cc20f5'/>
+        <property name='download.checksum.sha-256' value='aa4dabc07544eafdfcb13b270f1db69c5e4e448d51722be0fc45c0a1d546240f'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.zrules.zxom' version='9.6.0.0-20260917_122238'>
+      <properties size='4'>
+        <property name='download.size' value='45550755'/>
+        <property name='artifact.size' value='45550755'/>
+        <property name='download.checksum.sha-512' value='baa994937182de17f839abbff7c147b753655914bf33b0b32b251ae760a64ee5f82a3a44577fb1eabaab168b291298ea6f0c1bc54c3ccf5131168cfb57680150'/>
+        <property name='download.checksum.sha-256' value='840bfe04c3bcf7ab473d9acd7ec2c44d7d869918e599cd7a4e32d2fb87e0b305'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.cobol.nl2' version='7.1.4100.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='17410'/>
+        <property name='artifact.size' value='17410'/>
+        <property name='download.checksum.sha-512' value='6b6853fc75a3f17534487b6efe0c2cd98cc8330c4d1c5e9c4b8ceb5cf5e3f02f63c925ef7afd433571556036cd9afe811bec85e076a8da6762296388a4fffed0'/>
+        <property name='download.checksum.sha-256' value='739db8f85000c4c4c80ce3dd66ad29ce66b07edede47512d04d3c9eb15f36172'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.lang.common.ui' version='7.0.400.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='19807'/>
+        <property name='artifact.size' value='19807'/>
+        <property name='download.checksum.sha-512' value='62850cfe0157868f75ad0f7d88fb7185d93ee9d2d93624dd4446dffeffba24159fef03d9e4e32aeb2788256c1919aaa5e515c44f6c86b32a0d64bf83fcac292a'/>
+        <property name='download.checksum.sha-256' value='bcc7ec78bff327df3d3f89091ef91f6a0fe0f8593fc32da5549a42d6eaa146cf'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.ccl.pli2xsd.nl2' version='7.1.800.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='10068'/>
+        <property name='artifact.size' value='10068'/>
+        <property name='download.checksum.sha-512' value='0f42c178aba518c73d01081dd4557ab5efb8bcc9371ebdbbc6363256dd1b6ff014c957ccfa31815186fb3a60950d83a43b774de456adac2226a041a1a9af5af9'/>
+        <property name='download.checksum.sha-256' value='593a01243c55d623e50790c281b88a59bb18ec88d9af586bdfbeacfb88bcba5f'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='cobol.importer.nls1' version='8.0.700.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='326'/>
+        <property name='artifact.size' value='326'/>
+        <property name='download.checksum.sha-512' value='8a68f4d513fed79462d06293da1ae285e26a2ce7db645a78a7eb7c2d211cc1d0d2d9d39a9b05349da50896ba0f9fa90b4f06c5da93bcab7cf057e7823bfa6dde'/>
+        <property name='download.checksum.sha-256' value='6a87ab9fad284af1b4f48bc8e9812e5d1d0765ee4c0c87aae8ae59e1058e16d3'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.adapter.pli.nl2' version='8.0.500.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='18053'/>
+        <property name='artifact.size' value='18053'/>
+        <property name='download.checksum.sha-512' value='984cbc449f141d0f605a99669a837b435ff6b2ca47d40ccf83d4244668e0a3c3271272075d3239f62da9b45734668d5acd03b1a257abdf6224371956cd6e17dd'/>
+        <property name='download.checksum.sha-256' value='46494635b724742d1fcb3fd3d1fcbd179c3c762dde087bd92fc4930905441dd9'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.adapter.cobol.nl2' version='7.0.300.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='17011'/>
+        <property name='artifact.size' value='17011'/>
+        <property name='download.checksum.sha-512' value='deee40b11e794009afc1759644ffc4d7f01ecb94f2f8d1024a07ac4a47c0531a760ef20407dc74ca1639cc4dbeb7477ecffa69771d1ce3065af5aca5a09f5652'/>
+        <property name='download.checksum.sha-256' value='068b6eccdcb15058c1c8b007db2ebe54167d4efc31a08ff67f1e314cab5c828c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.propertygroup.ui.nl1' version='6.3.200.v201508241429'>
+      <properties size='4'>
+        <property name='download.size' value='24491'/>
+        <property name='artifact.size' value='24491'/>
+        <property name='download.checksum.sha-512' value='1f99d1d5783eaab41159cc488e9b96d24beb6b7c73e7a8e8bee74184d64180a009a84aaa34ed84a43c314399d431c331301bf4996c46b6c23706460b8cd8f6da'/>
+        <property name='download.checksum.sha-256' value='0a4fd7e1669e52d45b78a2a6c5d18f979d1842dc2eb437de9fc032188cee4603'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ibm.lang.core.nls2' version='1.2.600.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='309'/>
+        <property name='artifact.size' value='309'/>
+        <property name='download.checksum.sha-512' value='a6133b460022ce4872ace57f35b573ee5418087e7a6f145a49917b178c76b46cf448dd1813de7325b2972c16275a362f196a57c5243f632e62d56c66b82b3d96'/>
+        <property name='download.checksum.sha-256' value='1b1bc11281ddb9b22812605541b4873f0da9a42d8dfe27ab81983766dc2c1126'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.tdlang.nl2' version='6.3.400.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='6534'/>
+        <property name='artifact.size' value='6534'/>
+        <property name='download.checksum.sha-512' value='f8d141e83f8b2d720f163e94bc8b4252a5cfbd757c72f7dede383569ba77e8da82f5ba27a012955c0c107606e40b3bca004bc6beb38ceb1916f45b7da285cd46'/>
+        <property name='download.checksum.sha-256' value='95347fa366acfd9eea897ef40136e407375127466e0d00993b1458aef187aaa2'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='pli.importer.nls2' version='8.1.0.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='308'/>
+        <property name='artifact.size' value='308'/>
+        <property name='download.checksum.sha-512' value='3a4e65affc8286a3262fe2f77bdef0adbe3208b690cb0924e983085e1f30519233cdad41898d1605732b235a990055cae78dd531a0e04943314638d3994712df'/>
+        <property name='download.checksum.sha-256' value='2a0fb76fbb4d230d00c12af3eefe3a7add171b57ab603444ba4aa2461059e732'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ibm.adapter.core.nls1' version='2.3.401.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='307'/>
+        <property name='artifact.size' value='307'/>
+        <property name='download.checksum.sha-512' value='a194543ce82a0a7780204250f9cc6e9a2960dc40adcb1b38b50085d19348e07593bf5489e492504da933f91fc9c5bfa363756f39c0297f734b6bcb41a3074946'/>
+        <property name='download.checksum.sha-256' value='818ae8d8802d34276db9a7f23b222181513a93c62bccfc7a16bfd2b215e5b8d6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='pli.importer.nls1' version='8.1.0.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='307'/>
+        <property name='artifact.size' value='307'/>
+        <property name='download.checksum.sha-512' value='2efc56943f88bbb1b020657c05428a858c0e0c38832a55267db8bee6925e3f799763b8f3ca6ce383e1b388e95bc961997783719770d06086d3b7a24ac0285ace'/>
+        <property name='download.checksum.sha-256' value='7a50bd2c3e13765805a4c19cb37429e98bbd5f5c5c0be4b8bfd378dcd4ce808f'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.lang.preference' version='7.0.400.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='9625'/>
+        <property name='artifact.size' value='9625'/>
+        <property name='download.checksum.sha-512' value='e20e2557856d0cc217ae97cc095465f79dc5b5c6530c200ca86e2f537c00c8f96f13ad3aa56f4e30517ba01b461e5f6d563e1576a53b9e06948c7b49a7ff1327'/>
+        <property name='download.checksum.sha-256' value='0ffe1629bac4ea0197386a68d36076a3b85f3b227d60c14e70aec26315528aa1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.tdlang' version='6.3.400.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='233819'/>
+        <property name='artifact.size' value='233819'/>
+        <property name='download.checksum.sha-512' value='c5514c3af4b32177f52eda8173cc3720e8bbfd7417f4413082ea8e06450e6d855774b9324744c990e6fc058a35af5db99abb3a9181ab4d49a556472787f0b913'/>
+        <property name='download.checksum.sha-256' value='ac7bd749971efa470d70398e34cd261337aa29c526b732696f3d9a4523a82276'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.ccl.discovery.ui' version='1.2.300.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='247620'/>
+        <property name='artifact.size' value='247620'/>
+        <property name='download.checksum.sha-512' value='98920c6e5e54560d93482c5b7f768e445b2cce257cd91eee9f337cd3f1de39343a4e6d4d2df07388629d7d13ff0dee320e748e407214eb2a3b53b2a512d24c07'/>
+        <property name='download.checksum.sha-256' value='c03b30e9de1af820aaebb1851cfcfcf5e7088cae05529a70f28b403504b8e988'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ibm.propertygroup.feature' version='6.6.201.v20160720_2230'>
+      <properties size='4'>
+        <property name='download.size' value='4950'/>
+        <property name='artifact.size' value='4950'/>
+        <property name='download.checksum.sha-512' value='af982c7b8ceafe6c4b2863bdac14e3860280b6804f71b21ada90850f1a7f6626da98b49e1da5f98a34a3a770211243cddff2578ab4161f10d79864cce192128e'/>
+        <property name='download.checksum.sha-256' value='55b7b849f9476819f19fc5a50d812552e265990e6c0bedc75b6b2a3a2e060e17'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='pli.importer.uid' version='1.0.2.v20171106_2232'>
+      <properties size='4'>
+        <property name='download.size' value='52425'/>
+        <property name='artifact.size' value='52425'/>
+        <property name='download.checksum.sha-512' value='278eaf643b8f0bad50161e1a323a4e7a3b92789d34fa47ea83bd7ca7be0dea74dd3e9c47e118e1c759476fba748b6a29eb6476b467c14497705238f680a18037'/>
+        <property name='download.checksum.sha-256' value='ae4d1d1e04219a48c388d97e05a79a03a03c1e75ff35022f872de7bc6da5062a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.lang.common.ui.nl2' version='7.0.400.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='7350'/>
+        <property name='artifact.size' value='7350'/>
+        <property name='download.checksum.sha-512' value='09e49612def2927898d8f514c352dcffe732d47d9a7205c222bb25fac81e6db620844a2fcf12e997396c50e851fa5160c30a73f8981348db7d3fe9e86a2dc70c'/>
+        <property name='download.checksum.sha-256' value='12bb580a3ed5dafc2746c2798bfead4a7630aa84a822f221fbbb154b70f3e4fd'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.ccl.pli.preference.ui' version='7.0.900.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='46062'/>
+        <property name='artifact.size' value='46062'/>
+        <property name='download.checksum.sha-512' value='0286e3d1c6eb93352d79f751f5245e9763dd590a8f1d4d3e5110169889080590c5b2487a0b11cadf5e66a4f07ca74d1acc821cce3f0a426baae4da32536f0a7d'/>
+        <property name='download.checksum.sha-256' value='fc1953f285b9bb3a3973c3ec23fecf10e9bb92250b8d37519445f0982d71406c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.adapter.cobol.nl1' version='7.0.300.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='34178'/>
+        <property name='artifact.size' value='34178'/>
+        <property name='download.checksum.sha-512' value='5fdb78c2aa7ce94944708eb228874f8385c2f3b4e90f3717cfe24354231031c916f0cd32d3fff46c70569cfc26096217c6eae42d24013f4cb3e38a7978e3ec20'/>
+        <property name='download.checksum.sha-256' value='2ff6612885daca53936e8eeba3d7129cf9b8af9d43f1082df927463bd0168751'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ibm.lang.core' version='1.2.600.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='881'/>
+        <property name='artifact.size' value='881'/>
+        <property name='download.checksum.sha-512' value='8855d6ea38c858039a329883511a95bf5205a5ada204c5a419cfc482a53e0fa9a23ad48479bf04cc5db0ed8a2bb80836ea51b4e21b5d8e3648b12652946be53c'/>
+        <property name='download.checksum.sha-256' value='99245c9da3df82b8a07927381c31a03f860939949074bec6cea47d0f93d46fbb'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.tdlang.nl1' version='6.3.400.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='10376'/>
+        <property name='artifact.size' value='10376'/>
+        <property name='download.checksum.sha-512' value='0c6421c495a4e17d360cefeba85ad61cd084c79d7371eec576e806cf20f928b68a2cbbdcb83e05762fd26cdc801935fade1ba6ac8e08ed11af7ff521b0e55560'/>
+        <property name='download.checksum.sha-256' value='b0b9c49d7a7fae1d7c413d420cfd2a8f0635ad47a7fda817c62cb4f8c007708b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.cobol.preference.ui' version='7.0.500.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='48062'/>
+        <property name='artifact.size' value='48062'/>
+        <property name='download.checksum.sha-512' value='c06df328ea0a158ff7bdb6d540d8e8742f9c92afd2186ca4adbec98f6ed010909d61145d14992fa0c421da3e7ac8eed8588826b6cf5ddfa81e19a6d7d7ef8b2a'/>
+        <property name='download.checksum.sha-256' value='e13ceb2382500777cdc85dc6a3b8c4e6558ce9b79d35cbc24bba4e72576cbdee'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.ctc.cobol2xsd.nl1' version='6.2.500.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='18131'/>
+        <property name='artifact.size' value='18131'/>
+        <property name='download.checksum.sha-512' value='251b1282b21b3079ef5c2ea516b45e1b2e2427746e0a34543efd7ed89d7492cea43d2f05037952c234f4970d0a27157bbd4621aa40c36ce38305de2cc4e18b78'/>
+        <property name='download.checksum.sha-256' value='1e87e5eab99b6bf62a35c0570caa665abf486636551cc396669873e3910165ec'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.adapter.framework.nl2' version='7.1.400.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='13141'/>
+        <property name='artifact.size' value='13141'/>
+        <property name='download.checksum.sha-512' value='fd671d1dd4477ccfade284917d5df5bbde234dbf0ddf23d5a6912aa3ca106657c4809a3434cbc259289bcd8c28001a5fee4e10d300cceb6bf99e0e35fc8b0f0c'/>
+        <property name='download.checksum.sha-256' value='7568b9d0b820580637335a59aba9e24144325a3ebf75b913ff790326196c497e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.adapter.command' version='6.2.802.v20171220_2101'>
+      <properties size='4'>
+        <property name='download.size' value='55825'/>
+        <property name='artifact.size' value='55825'/>
+        <property name='download.checksum.sha-512' value='5a067add1e4349bf1fed54a1103c24c51ad5be05bddeab953f86d83a112ede036b198ee370fe28ce3030d370ff7c90b5908d993fa26414cbb4daf9ce1c944af6'/>
+        <property name='download.checksum.sha-256' value='056b22895ef1d5286baa03f3c26f10852839413609e1f35fad284dac15598904'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.propertygroup.ui' version='6.3.250.v20160720_2230'>
+      <properties size='4'>
+        <property name='download.size' value='440185'/>
+        <property name='artifact.size' value='440185'/>
+        <property name='download.checksum.sha-512' value='12e9a62f6b39637192fc9b6bc6cf028a1d8f4931620b7bfbff8003cbeec0e744785977a4ee2967ee2c7e717d776437bea4e7a94889f95f808308aaebdd69c933'/>
+        <property name='download.checksum.sha-256' value='b465c047ef327bad15d8b816a129c9456120c4a6e8a039d8ce7bd336a41c5bd3'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.zrules.pli' version='9.6.0.0-20260917_122238'>
+      <properties size='4'>
+        <property name='download.size' value='16957344'/>
+        <property name='artifact.size' value='16957344'/>
+        <property name='download.checksum.sha-512' value='c1d22d69db11672049b1776650642e29fe71255dcbd92af40eab94b4ff1a95071f2b305403fe4cedef1bac422a86708a95580f33312941fb5c9620f6ce2eddef'/>
+        <property name='download.checksum.sha-256' value='31c7c0cd02daaea9b705d7cbab0912eda5f0e22c663e633d9281a871a73fa895'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='pli.importer.win32' version='7.1.1.v20180208_1520'>
+      <properties size='4'>
+        <property name='download.size' value='870'/>
+        <property name='artifact.size' value='870'/>
+        <property name='download.checksum.sha-512' value='a18d83ffea1e91723c585ad1375f3deb4c513fdb15641c60be46a1c77aaec934c069485e325519325ed77a7c8e1eb00b65326234cb345d7fe803953e57aed4bd'/>
+        <property name='download.checksum.sha-256' value='75b1e269b6d71beb0150e9e2628aa59daf497cbf1f54b544b0fcda63ee5a21aa'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.ctc.cobol2xsd.nl2' version='6.2.500.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='10165'/>
+        <property name='artifact.size' value='10165'/>
+        <property name='download.checksum.sha-512' value='bac10041603730be6f6a22b5e6a109c3d3265c036fa478d04cc1914b0d0268cd82c3039efb282dc9d509661814ac850d5d3c00c602766a3a5b142e9fc15ce801'/>
+        <property name='download.checksum.sha-256' value='e48695587f93f2bbaa0d3c4d096faa77f877a690e1629d896e99c767af2344b6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.cobol.preference.ui.nl2' version='7.0.500.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='14391'/>
+        <property name='artifact.size' value='14391'/>
+        <property name='download.checksum.sha-512' value='9f16ec6e71c462102922e9a08aa4f963172f0a6c044e967296f61c257ec2c15b2aeb3ff895752e9de2249329e7070a544cdad30430d47ea34aa8752b377e73f9'/>
+        <property name='download.checksum.sha-256' value='50e55187f2d235c5fb49f1e7901928a5ff478516d3db6345f7ec29c9bb4dee69'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.propertygroup.nl2' version='6.5.100.v201508241429'>
+      <properties size='4'>
+        <property name='download.size' value='8740'/>
+        <property name='artifact.size' value='8740'/>
+        <property name='download.checksum.sha-512' value='2574cfb3e38c536153180df31742932b8aff1a0e28f9abc596bc0dffb5f4980caec6790b56e294ea39ccacf8ae106cd3ff869d14edbca7ee8248decc8ba24ca2'/>
+        <property name='download.checksum.sha-256' value='8ed4218454d9634351aa4d16843c9d3bbe9358f975ff872f840826f1e5580159'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.adapter.framework' version='7.1.400.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='152050'/>
+        <property name='artifact.size' value='152050'/>
+        <property name='download.checksum.sha-512' value='db26ed0ed49f5e00c6adca80c16a19cd5a364747d4b82b82f7dbff1f612fecc40b404311646fab92c48e76e7c655e94110f91693c2ce0cc6fe245fd879a4cea7'/>
+        <property name='download.checksum.sha-256' value='d1eef6c4e61875011d146c68fca136d52408eeffdf0ced74630829f7018fe116'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.adapter.framework.nl1' version='7.1.400.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='24628'/>
+        <property name='artifact.size' value='24628'/>
+        <property name='download.checksum.sha-512' value='17a73611a8fefdc04bda11c100636e8f5b65f30b91c29df11a56db6d7b08764119d57ccdae7f86f0f20fc98f2a63ed38f6ea4a9fdc2340b2d5d62a0e18b86eaf'/>
+        <property name='download.checksum.sha-256' value='36d3788dcac6e20130a59936b2dc49c59fe10c1149519a362855aadb2685e77f'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.adapter.pli.nl1' version='8.0.500.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='36770'/>
+        <property name='artifact.size' value='36770'/>
+        <property name='download.checksum.sha-512' value='301418f65b1593d857f223a2a28f9090f0b41edbef67c67f1abe54a54e6f0c513800cc26cd5c7c7402b3479a9903dac15bd1a28d056c2d0f0ab182079b879bd2'/>
+        <property name='download.checksum.sha-256' value='c4e3b09a34c111ea5e4ea030a98e9060cb162a6cffe01c393362b4e74035b4f8'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ibm.propertygroup.feature.nls2' version='6.6.200.v201508241429'>
+      <properties size='4'>
+        <property name='download.size' value='279'/>
+        <property name='artifact.size' value='279'/>
+        <property name='download.checksum.sha-512' value='b58e213706292628e175253fe636b2dc4155ad20430985da05dd50247bfab61daf549667fdb0a63f65b47ed88b616be25594b3bedc6c918cbeea083381b14bd4'/>
+        <property name='download.checksum.sha-256' value='c2544a95c6c0d6d611683348c78f5b56764c5338c61e27be967b2f79335e479c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.ccl.pli.preference.ui.nl1' version='7.0.900.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='32292'/>
+        <property name='artifact.size' value='32292'/>
+        <property name='download.checksum.sha-512' value='91aba87c8b74179bc93a367d643ce3610a6942f1fb053afade6825270c500c3d038a06b9a5f6f0e572004a502cd6fdeaf254a5984b17311e70708aad796bb707'/>
+        <property name='download.checksum.sha-256' value='905196e4201b60a1d621cffd82d0e7e76474ef03271aec175068de82b10b193d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.ccl.pli.nl2' version='7.3.0.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='13885'/>
+        <property name='artifact.size' value='13885'/>
+        <property name='download.checksum.sha-512' value='f4fa5b7c984b3b128e9fc5690a554e5fd017b0ae71d0ca66ab7914c097882621297b8958c501fe2b4053e9c073474def2a065e92057c0ffce85397beb5cd845c'/>
+        <property name='download.checksum.sha-256' value='cb10fb8ed7e66c8859051865d7de2cdacddc3efa63aa52afae307c1c6e9880f9'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='pli.importer' version='8.1.1.v20180208_1520'>
+      <properties size='4'>
+        <property name='download.size' value='919'/>
+        <property name='artifact.size' value='919'/>
+        <property name='download.checksum.sha-512' value='9d1603c1393097cc06937c9f390631557eb7ab06259144a464c3b357507e981c60f10115ed07880b533458043bd0aed44ed0c836b1365a17fe0b3618ad1a6660'/>
+        <property name='download.checksum.sha-256' value='cb7745a9d87fd75fd291fdaeb7e37c906a4561f7563e1396404df402e916f0c0'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.ccl.pli.nl1' version='7.3.0.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='27155'/>
+        <property name='artifact.size' value='27155'/>
+        <property name='download.checksum.sha-512' value='9f09710e054f1dd15090c4c218c6f9c906ebe8d5685398d184d98e2c149c6f7fdcf4cebf0b9bf1105bb098f6b2e0532945de9795c39bfdcc89ed90a5350857a7'/>
+        <property name='download.checksum.sha-256' value='adfa592153932d9e735149c7bf79ce584890a88a8f0440c4c4b8fac55434266a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='cobol.importer.win32' version='8.0.600.v20170808_2251'>
+      <properties size='4'>
+        <property name='download.size' value='946'/>
+        <property name='artifact.size' value='946'/>
+        <property name='download.checksum.sha-512' value='1380ed58fbcbc99fa2e2ee97579cea7e2cddd0c51ca4cb69f38e81764da2dc891e24ea9f21c1e88a3d4cc0d10148163caf1fe1c4acad029ff85b1b2225a47eea'/>
+        <property name='download.checksum.sha-256' value='6cbc457345007b1cd0fcc7b78fa7c525cc1f2b553645f00384857476e11b90cc'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.adapter.cobol' version='7.0.300.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='69950'/>
+        <property name='artifact.size' value='69950'/>
+        <property name='download.checksum.sha-512' value='83607547879068b711a0a5bf82ef56dcec82a4b163853fdd824551e0a8ab2fd7ea3fe05e01e2d7448dddf09d5211137e7fe504642b0f922df36d2cb8cb55afa0'/>
+        <property name='download.checksum.sha-256' value='0206918ec6ce110928c9bfefd3a991c12bfd684eef540ecbdd0c274aa8fbb85a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.ccl.pli2xsd' version='7.1.800.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='42402'/>
+        <property name='artifact.size' value='42402'/>
+        <property name='download.checksum.sha-512' value='626a46be5b0bc92a9c57f8028ecbd528f21e022ada04864b80bccadcc3c7463b7b7b018d7c1e5b66cfd93efc2e76ac97569b079eddcc8bf7d453bd71c0adb0a8'/>
+        <property name='download.checksum.sha-256' value='d03dfaefb11971ed6a7ed1ca7669bdaa4f57d2d0235d7155d65d63bf28863ad9'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.lang.common.ui.nl1' version='7.0.400.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='10792'/>
+        <property name='artifact.size' value='10792'/>
+        <property name='download.checksum.sha-512' value='49206db0b148ecc481e1e1fc189ff15ac2c130870762196ea2bbbd1eab672113928a3adf44fee12a20b53d03b17f6703d70a7f3d1c942be02b7a64b537f57748'/>
+        <property name='download.checksum.sha-256' value='5475449eeb94ab0efbc6493e40d1738ede5915faaffa0b1ac80dad5afcd74c8a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.ccl.discpub.ui.core' version='1.0.300.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='16164'/>
+        <property name='artifact.size' value='16164'/>
+        <property name='download.checksum.sha-512' value='6eee508c947aebb8c4ec396bb50f6980ec8f22ecdb7d7b6dece9764ac3a6eeffdbd74d030b1401c9e382489b44a741909c3b031ac4243c5019cf25a4cbc2dc36'/>
+        <property name='download.checksum.sha-256' value='012c8039ca3b16bdde886aae24f21c5e9574838f3d1aaefc63e696f97383ed09'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ibm.propertygroup.feature.nls1' version='6.6.200.v201508241429'>
+      <properties size='4'>
+        <property name='download.size' value='279'/>
+        <property name='artifact.size' value='279'/>
+        <property name='download.checksum.sha-512' value='20209d5ce229a5d557a019115181abf803effd679c0d7b180a20ff44474ecbb97ea71b062210e6140d133acc19a7df49fad31fdf5cb0a6cc3b1acbebdc9ac92d'/>
+        <property name='download.checksum.sha-256' value='07e4731c41bc61975e086dc1bc41261add6f0615917535b5d3fa7ee1fdf3095b'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.adapter.typesimport.nl1' version='1.1.300.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='7437'/>
+        <property name='artifact.size' value='7437'/>
+        <property name='download.checksum.sha-512' value='8b4abe597bf710907ca934c5a6f051c704fd799649389227fb256185df9090580eee82e7c981aeb13ffea8582733bb81166a923b8602e5c27bed08f6212b42ee'/>
+        <property name='download.checksum.sha-256' value='c6eae42086dcd2b6256da5228013f3e94c47160aea661f1f18def579ab29e2bc'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.adapter.command.nl1' version='6.2.801.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='26344'/>
+        <property name='artifact.size' value='26344'/>
+        <property name='download.checksum.sha-512' value='280dcbbf94e564247c641807fe994a10990d010cd61808c1026b69ffebb3f690e870d967f1597ab4a4eb211b9170bf1a8e8ce13916d0121956bdc28249fb7a9b'/>
+        <property name='download.checksum.sha-256' value='158c98d9d06a3c7d467e78b02430ea04cdd4d0b4e2156a7292494ce78e60feae'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.ccl.pli.preference.ui.nl2' version='7.0.900.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='16278'/>
+        <property name='artifact.size' value='16278'/>
+        <property name='download.checksum.sha-512' value='393c66881b94166f2e2fcf15ede265e50850ba994f3810a7ed1d847f74f1e8049d5838c25ebfd202501a89d8461391fd38f9435bb25e14a4227bfbfc93da7ea1'/>
+        <property name='download.checksum.sha-256' value='0aed7e0e114995190f28b46dfe1b3edf8e903631348432c0b0de2854eda1966c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ibm.rules.cobol.feature' version='9.6.0.0-20260917_122238'>
+      <properties size='4'>
+        <property name='download.size' value='1914'/>
+        <property name='artifact.size' value='1914'/>
+        <property name='download.checksum.sha-512' value='3cd724d7001da46c5dbd4f16a1decc272967bd20767888e3dbad6ea608160b5f84d7fc6ad0597519141a6441aeafb80c9e3e706088254c9536bf5690c1833639'/>
+        <property name='download.checksum.sha-256' value='877d7ead3cb4725d5238c5e081f08fa87a7c670ba3c39a5e3d6b330a1064fa8e'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.propertygroup.ui.nl2' version='6.3.200.v201508241429'>
+      <properties size='4'>
+        <property name='download.size' value='11640'/>
+        <property name='artifact.size' value='11640'/>
+        <property name='download.checksum.sha-512' value='ce3637a3b5e179373fa1b9d42355d3e9ec70d74c54b16633d828bfd083c718e3b30bae25090b4a6b08f21525ea47eef9681f7814356d088ce4c9535dcf5b1121'/>
+        <property name='download.checksum.sha-256' value='bf5d501c626945cd767ebbc5e73a75aa5ef5741e756adaa810b9b44cb17402ab'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ibm.rules.pli.feature' version='9.6.0.0-20260917_122238'>
+      <properties size='4'>
+        <property name='download.size' value='1909'/>
+        <property name='artifact.size' value='1909'/>
+        <property name='download.checksum.sha-512' value='fc40b7c8d093ae7aa4c68edaccd0bd2497b4f92dad2d8818d90a177a9975a5a8cd7d07c027ed65325758b670c24cc045192764f1e84a011d56196e7054d43d83'/>
+        <property name='download.checksum.sha-256' value='3c08c4d579cbe35737f4de57969075faf69735681a586d013303d96db0be884d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.adapter.command.nl2' version='6.2.801.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='13805'/>
+        <property name='artifact.size' value='13805'/>
+        <property name='download.checksum.sha-512' value='ebe419ec5b7200614bd1f043d3fb0401ae7e16bcc58cf9b26c3c1a3ff9d7fb4ad287298b5c95650456af80aeb6186f0c7e3aeb9b5adc53376b00cfab9f5be939'/>
+        <property name='download.checksum.sha-256' value='07d9257ce00d1dc93ed120f8d36d2013986b8fcf30e246da683ada0b3f5ffb8a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='cobol.importer.linux' version='8.0.300.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='942'/>
+        <property name='artifact.size' value='942'/>
+        <property name='download.checksum.sha-512' value='a4cfefc5446e6147041b08fffb9fdaf08f87eae616f14172b91fc1e636f2f91e7f12eef90dcb9f831e52d9a355238768cf0c2f7e8fe102aeb49f499f915dd829'/>
+        <property name='download.checksum.sha-256' value='a767af3a6c2eab5d67920836227a02cb80ab42d69d5b523130de83d62d943d6d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.cobol.win32' version='8.0.200.v20170808_2251'>
+      <properties size='4'>
+        <property name='download.size' value='15719434'/>
+        <property name='artifact.size' value='15719434'/>
+        <property name='download.checksum.sha-512' value='12df98d49ee2a4b281764799fcf29811519d00043ba82000a57483927284346df1a761d8d21130e6823284843450243521033106b9913e4d21e70bdc532c0d48'/>
+        <property name='download.checksum.sha-256' value='7dcc427db86239c4af31b19cfd2ab3b738918b22299d24ceaf7d5f0b7f972826'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.adapter.pli' version='8.0.500.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='60156'/>
+        <property name='artifact.size' value='60156'/>
+        <property name='download.checksum.sha-512' value='8739a5ff5413f621fad3ce1e0ee08ba770bffcbc2ae96160e7723268537f74159da1a08fe86070239635e0e5b5031ffed269e5f54fddb4fe82c6284fa32dc2a2'/>
+        <property name='download.checksum.sha-256' value='e32ba1e9748f3d64b19358e343bee459069e9e1da33d2eff1d182765ee42f442'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ibm.adapter.core' version='2.3.402.v20171220_2101'>
+      <properties size='4'>
+        <property name='download.size' value='908'/>
+        <property name='artifact.size' value='908'/>
+        <property name='download.checksum.sha-512' value='aa21d83bba6af5af847fc42babe263744d05b72b123946aca6289e2cecd1fcdd6963cf269266f4a1d2b7c7d1c3413b0a31ff06d4a48f5a0073b162546132a441'/>
+        <property name='download.checksum.sha-256' value='409acb877257a2acbeeeeeb713990de20ccdbfffaab647fb93a56c29178ea1a9'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.propertygroup' version='6.5.101.v20160720_2230'>
+      <properties size='4'>
+        <property name='download.size' value='104098'/>
+        <property name='artifact.size' value='104098'/>
+        <property name='download.checksum.sha-512' value='3fb78a9673f9cda5246898955c5670850ea1e39c2c3c08fea43616cbdeeeb56f985358df16a1035608a3bce0200e2c28525a770a59fcece39d31f533773f0d6d'/>
+        <property name='download.checksum.sha-256' value='c9a379f551b561029c3bfe574bb7aec78e1fa11e25ed259ff29f01381a9ce473'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.propertygroup.nl1' version='6.5.100.v201508241429'>
+      <properties size='4'>
+        <property name='download.size' value='17903'/>
+        <property name='artifact.size' value='17903'/>
+        <property name='download.checksum.sha-512' value='25546c890df65df20459d284af2d4b43af19d96f26f24a766303d3cadb115cab45bf4909f4fe253f3ebe941eb48337785f5e53fe0b2f281ecbfcc385985360a2'/>
+        <property name='download.checksum.sha-256' value='e675f3446a89670911d98af41a7f58a30013c22af94acd6e53d2a51a03a66cf7'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.cobol.preference.ui.nl1' version='7.0.500.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='27375'/>
+        <property name='artifact.size' value='27375'/>
+        <property name='download.checksum.sha-512' value='6f679c01854d9659fee9ad5b77bf64f026ae8d35d844dbaa69d0a17a91c5206cbbb8e9bd0b52aab113af9106849b5f32e2f3006f9f5496a47ed21347aca3d02b'/>
+        <property name='download.checksum.sha-256' value='16882393ed4f3f68645da73a4a8f5aabc048afb07b66666d2d3ede38b52012bd'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.lang.preference.nl2' version='7.0.400.v201711011805'>
+      <properties size='4'>
+        <property name='download.size' value='10206'/>
+        <property name='artifact.size' value='10206'/>
+        <property name='download.checksum.sha-512' value='b07cbde07fdcc3ce8cb6441764a99364343bc14e49ff41ae03109736fcf48a92e5da516b4471225c527f6fec082bce5b8a00d41f93bb1d2ebe56c46e59ff4a24'/>
+        <property name='download.checksum.sha-256' value='5eca52102d548527e95996534bb9da2340f71d6ffe06ef3444deaf9c31cecbbd'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.ccl.pli' version='7.3.1.v20180208_1520'>
+      <properties size='4'>
+        <property name='download.size' value='305687'/>
+        <property name='artifact.size' value='305687'/>
+        <property name='download.checksum.sha-512' value='989bb351aa8f36c2b6e4947800e342083cb86cfbaaa5eedf726ad7f361f2006c79f9cab53ffa235486d711307e6f78744fa6124e9091ee4e967b0d21e5a23825'/>
+        <property name='download.checksum.sha-256' value='ced29826c63789ea9b093f9434f0548c72bb13c3b0105ec19d7271c9eac746c0'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.etools.cobol' version='7.1.4100.v20170809_2215'>
+      <properties size='4'>
+        <property name='download.size' value='206498'/>
+        <property name='artifact.size' value='206498'/>
+        <property name='download.checksum.sha-512' value='8e7b956185e7a145d13fd646c6b8b54e7ada39eafde4ea1be9a5b9852f050e584c0d2ac0d32df29cecd6ef32693fedb78ee65c82a28c45fb87474573b02b6f49'/>
+        <property name='download.checksum.sha-256' value='f0ccb3564513a2f9388f9479618eea4764801a6dbe3e2e2d8dfdfff4432fedb1'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
