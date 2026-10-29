@@ -2,7 +2,7 @@
 <?metadataRepository version='1.2.0'?>
 <repository name='ODM Cobol Updates' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
   <properties size='1'>
-    <property name='p2.timestamp' value='1789660639128'/>
+    <property name='p2.timestamp' value='1792522791120'/>
   </properties>
   <units size='106'>
     <unit id='com.ibm.lang.preference' version='7.0.400.v20170809_2215'>
@@ -83,36 +83,6 @@
           </instruction>
         </instructions>
       </touchpointData>
-    </unit>
-    <unit id='0-IF005.com.ibm.rules.studio.cobol.lib.category' version='1.0.0._689HCWcLrCvEEXeLAqAWKSTHv2W8'>
-      <properties size='2'>
-        <property name='org.eclipse.equinox.p2.name' value='ODM Rules Cobol Library Features'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='0-IF005.com.ibm.rules.studio.cobol.lib.category' version='1.0.0._689HCWcLrCvEEXeLAqAWKSTHv2W8'/>
-      </provides>
-      <requires size='19'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.lang.core.nls1.feature.group' range='[1.2.600.v201711011805,1.2.600.v201711011805]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='pli.importer.feature.group' range='[8.1.1.v20180208_1520,8.1.1.v20180208_1520]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='cobol.importer.win32.feature.group' range='[8.0.600.v20170808_2251,8.0.600.v20170808_2251]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='pli.importer.nls2.feature.group' range='[8.1.0.v201711011805,8.1.0.v201711011805]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='pli.importer.win32.feature.group' range='[7.1.1.v20180208_1520,7.1.1.v20180208_1520]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='cobol.importer.linux.feature.group' range='[8.0.300.v20170809_2215,8.0.300.v20170809_2215]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='cobol.importer.nls1.feature.group' range='[8.0.700.v201711011805,8.0.700.v201711011805]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='cobol.importer.feature.group' range='[8.0.700.v20170809_2215,8.0.700.v20170809_2215]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='pli.importer.uid.feature.feature.group' range='[1.0.2.v20171106_2232,1.0.2.v20171106_2232]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.adapter.core.feature.group' range='[2.3.402.v20171220_2101,2.3.402.v20171220_2101]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.lang.core.feature.group' range='[1.2.600.v20170809_2215,1.2.600.v20170809_2215]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.lang.core.nls2.feature.group' range='[1.2.600.v201711011805,1.2.600.v201711011805]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.propertygroup.feature.nls2.feature.group' range='[6.6.200.v201508241429,6.6.200.v201508241429]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.adapter.core.nls1.feature.group' range='[2.3.401.v201711011805,2.3.401.v201711011805]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='cobol.importer.nls2.feature.group' range='[8.0.700.v201711011805,8.0.700.v201711011805]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.propertygroup.feature.feature.group' range='[6.6.201.v20160720_2230,6.6.201.v20160720_2230]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.adapter.core.nls2.feature.group' range='[2.3.401.v201711011805,2.3.401.v201711011805]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.propertygroup.feature.nls1.feature.group' range='[6.6.200.v201508241429,6.6.200.v201508241429]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='pli.importer.nls1.feature.group' range='[8.1.0.v201711011805,8.1.0.v201711011805]'/>
-      </requires>
     </unit>
     <unit id='com.ibm.etools.cobol.linux' version='7.1.300.v20170809_2215'>
       <update id='com.ibm.etools.cobol.linux' range='[0.0.0,7.1.300.v20170809_2215)' severity='0'/>
@@ -218,27 +188,32 @@
         </instructions>
       </touchpointData>
     </unit>
-    <unit id='com.ibm.rules.pli.feature.feature.group' version='9.6.0.0-20260917_122238' singleton='false'>
-      <update id='com.ibm.rules.pli.feature.feature.group' range='[0.0.0,9.6.0.0-20260917_122238)' severity='0'/>
-      <properties size='5'>
-        <property name='org.eclipse.equinox.p2.name' value='IBM Decision Server PLI management'/>
-        <property name='org.eclipse.equinox.p2.description' value='PLI support for rules.'/>
-        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+    <unit id='com.ibm.rules.cobol.feature.feature.jar' version='9.6.0.0-20261020_182236'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='IBM Decision Server COBOL management'/>
+        <property name='org.eclipse.equinox.p2.description' value='COBOL support for rules.'/>
         <property name='df_LT.license' value='IBM Decision Server.&#xA;This software and documentation is made available only pursuant to the terms of an IBM Decision Server license agreement.'/>
         <property name='df_LT.copyright' value='© Copyright IBM Corp. 1987, 2018. IBM, the IBM logo, WebSphere are trademarks or registered trademarks of International Business Machines Corporation in many jurisdictions worldwide. Adobe, the Adobe logo, PostScript, and the PostScript logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States, and/or other countries. Microsoft, Windows, Windows NT, and the Windows logo are trademarks of Microsoft Corporation in the United States, other countries, or both. Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in the United States, other countries, or both. Other company, product, or service names may be trademarks or service marks of others.'/>
       </properties>
-      <provides size='2'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.pli.feature.feature.group' version='9.6.0.0-20260917_122238'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.cobol.feature.feature.jar' version='9.6.0.0-20261020_182236'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.ibm.rules.cobol.feature' version='9.6.0.0-20261020_182236'/>
       </provides>
-      <requires size='2'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.zrules.pli' range='[9.6.0.0-20260917_122238,9.6.0.0-20260917_122238]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.pli.feature.feature.jar' range='[9.6.0.0-20260917_122238,9.6.0.0-20260917_122238]'>
-          <filter>
-            (org.eclipse.update.install.features=true)
-          </filter>
-        </required>
-      </requires>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.ibm.rules.cobol.feature' version='9.6.0.0-20261020_182236'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
       <licenses size='1'>
         <license uri='%25licenseURL' url='%25licenseURL'>
           %license
@@ -561,108 +536,6 @@
         </instructions>
       </touchpointData>
     </unit>
-    <unit id='com.ibm.rules.zrules.pli' version='9.6.0.0-20260917_122238' generation='2'>
-      <update id='com.ibm.rules.zrules.pli' range='[0.0.0,9.6.0.0-20260917_122238)' severity='0'/>
-      <properties size='17'>
-        <property name='fr.Plugin.Name' value='Pug-in XOM PL/I'/>
-        <property name='df_LT.Plugin.Name' value='PL/I XOM Plug-in'/>
-        <property name='ru.Plugin.Name' value='Модуль PL/I XOM'/>
-        <property name='ja.Plugin.Name' value='PL/I XOM Plug-in'/>
-        <property name='zh_TW.Plugin.Name' value='PL/I XOM 外掛程式'/>
-        <property name='it.Plugin.Name' value='Plug-in XOM PL/I'/>
-        <property name='ko.Plugin.Name' value='PL/I XOM 플러그인'/>
-        <property name='pt_BR.Plugin.Name' value='Plug-in XOM PL/I'/>
-        <property name='de.Plugin.Name' value='PL/I-XOM-Plug-in'/>
-        <property name='es.Plugin.Name' value='Plug-in de XOM de PL/I'/>
-        <property name='zh.Plugin.Name' value='PL/I XOM 插件'/>
-        <property name='sv.Plugin.Name' value='PL/I XOM Plug-in'/>
-        <property name='nl.Plugin.Name' value='PL/I XOM-plugin'/>
-        <property name='pl.Plugin.Name' value='Wtyczka modelu PL/I XOM'/>
-        <property name='org.eclipse.equinox.p2.name' value='%Plugin.Name'/>
-        <property name='org.eclipse.equinox.p2.provider' value='IBM'/>
-        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
-      </properties>
-      <provides size='25'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.zrules.pli' version='9.6.0.0-20260917_122238'/>
-        <provided namespace='osgi.bundle' name='com.ibm.rules.zrules.pli' version='9.6.0.0-20260917_122238'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.pli.valuecheck' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.config.pli' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.modelimp' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.modelimp.pli' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.studio.ui' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.studio.ui.celleditor' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.studio.ui.model' version='0.0.0'/>
-        <provided namespace='osgi.identity' name='com.ibm.rules.zrules.pli' version='9.6.0.0-20260917_122238'>
-          <properties size='1'>
-            <property name='type' value='osgi.bundle'/>
-          </properties>
-        </provided>
-        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='fr' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='ru' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='ja' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='zh_TW' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='it' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='ko' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='pt_BR' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='de' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='es' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='zh' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='sv' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='nl' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='pl' version='1.0.0'/>
-      </provides>
-      <requires size='28'>
-        <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='org.eclipse.ui.console' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='com.ibm.rules.thirdparty.icu.charsets' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.brl.brldf' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.bom.wizards' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.model' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.ui' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.model.vocabulary' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.model.dt' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.bom.editor' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.model.brl' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.editor' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.vocabulary.bom' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.vocabulary.model' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='com.ibm.etools.tdlang' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='com.ibm.rules.studio.projectmap' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.res' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.bomupdate' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.brl.bom' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='com.ibm.ccl.pli.preference.ui' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='com.ibm.ccl.pli' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='com.ibm.rules.zrules.zxom' range='9.6.0'/>
-        <required namespace='osgi.bundle' name='com.ibm.rules.studio.decisionservice' range='0.0.0'/>
-        <required namespace='java.package' name='com.ibm.rules.studio.decisionservice.deployment' range='0.0.0'/>
-        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.6))'>
-          <description>
-            com.ibm.rules.zrules.pli
-          </description>
-        </requiredProperties>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.zrules.pli.source' range='[9.6.0.0-20260917_122238,9.6.0.0-20260917_122238]' optional='true'>
-          <filter>
-            (org.eclipse.update.install.sources=true)
-          </filter>
-        </required>
-      </requires>
-      <artifacts size='1'>
-        <artifact classifier='osgi.bundle' id='com.ibm.rules.zrules.pli' version='9.6.0.0-20260917_122238'/>
-      </artifacts>
-      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-      <touchpointData size='1'>
-        <instructions size='1'>
-          <instruction key='manifest'>
-            Bundle-SymbolicName: com.ibm.rules.zrules.pli;singleton:=true&#xA;Bundle-Version: 9.6.0.0-20260917_122238
-          </instruction>
-        </instructions>
-      </touchpointData>
-    </unit>
     <unit id='pli.importer.feature.group' version='8.1.1.v20180208_1520' singleton='false'>
       <update id='pli.importer.feature.group' range='[0.0.0,8.1.1.v20180208_1520)' severity='0'/>
       <properties size='9'>
@@ -842,19 +715,6 @@
           </instruction>
         </instructions>
       </touchpointData>
-    </unit>
-    <unit id='0-IF005.com.ibm.rules.studio.cobol.category' version='1.0.0.7Z7M-cJHDA6773E7EU7gAYkAEEEIc'>
-      <properties size='2'>
-        <property name='org.eclipse.equinox.p2.name' value='ODM Rules Cobol Features'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='0-IF005.com.ibm.rules.studio.cobol.category' version='1.0.0.7Z7M-cJHDA6773E7EU7gAYkAEEEIc'/>
-      </provides>
-      <requires size='2'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.pli.feature.feature.group' range='[9.6.0.0-20260917_122238,9.6.0.0-20260917_122238]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.cobol.feature.feature.group' range='[9.6.0.0-20260917_122238,9.6.0.0-20260917_122238]'/>
-      </requires>
     </unit>
     <unit id='cobol.importer.feature.group' version='8.0.700.v20170809_2215' singleton='false'>
       <update id='cobol.importer.feature.group' range='[0.0.0,8.0.700.v20170809_2215)' severity='0'/>
@@ -1097,36 +957,6 @@
           </instruction>
         </instructions>
       </touchpointData>
-    </unit>
-    <unit id='com.ibm.rules.cobol.feature.feature.group' version='9.6.0.0-20260917_122238' singleton='false'>
-      <update id='com.ibm.rules.cobol.feature.feature.group' range='[0.0.0,9.6.0.0-20260917_122238)' severity='0'/>
-      <properties size='5'>
-        <property name='org.eclipse.equinox.p2.name' value='IBM Decision Server COBOL management'/>
-        <property name='org.eclipse.equinox.p2.description' value='COBOL support for rules.'/>
-        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
-        <property name='df_LT.license' value='IBM Decision Server.&#xA;This software and documentation is made available only pursuant to the terms of an IBM Decision Server license agreement.'/>
-        <property name='df_LT.copyright' value='© Copyright IBM Corp. 1987, 2018. IBM, the IBM logo, WebSphere are trademarks or registered trademarks of International Business Machines Corporation in many jurisdictions worldwide. Adobe, the Adobe logo, PostScript, and the PostScript logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States, and/or other countries. Microsoft, Windows, Windows NT, and the Windows logo are trademarks of Microsoft Corporation in the United States, other countries, or both. Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in the United States, other countries, or both. Other company, product, or service names may be trademarks or service marks of others.'/>
-      </properties>
-      <provides size='2'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.cobol.feature.feature.group' version='9.6.0.0-20260917_122238'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
-      </provides>
-      <requires size='2'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.zrules.zxom' range='[9.6.0.0-20260917_122238,9.6.0.0-20260917_122238]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.cobol.feature.feature.jar' range='[9.6.0.0-20260917_122238,9.6.0.0-20260917_122238]'>
-          <filter>
-            (org.eclipse.update.install.features=true)
-          </filter>
-        </required>
-      </requires>
-      <licenses size='1'>
-        <license uri='%25licenseURL' url='%25licenseURL'>
-          %license
-        </license>
-      </licenses>
-      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
-        %copyright
-      </copyright>
     </unit>
     <unit id='pli.importer.nls2.feature.jar' version='8.1.0.v201711011805'>
       <properties size='1'>
@@ -1521,41 +1351,6 @@
         </required>
       </requires>
     </unit>
-    <unit id='com.ibm.rules.cobol.feature.feature.jar' version='9.6.0.0-20260917_122238'>
-      <properties size='4'>
-        <property name='org.eclipse.equinox.p2.name' value='IBM Decision Server COBOL management'/>
-        <property name='org.eclipse.equinox.p2.description' value='COBOL support for rules.'/>
-        <property name='df_LT.license' value='IBM Decision Server.&#xA;This software and documentation is made available only pursuant to the terms of an IBM Decision Server license agreement.'/>
-        <property name='df_LT.copyright' value='© Copyright IBM Corp. 1987, 2018. IBM, the IBM logo, WebSphere are trademarks or registered trademarks of International Business Machines Corporation in many jurisdictions worldwide. Adobe, the Adobe logo, PostScript, and the PostScript logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States, and/or other countries. Microsoft, Windows, Windows NT, and the Windows logo are trademarks of Microsoft Corporation in the United States, other countries, or both. Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in the United States, other countries, or both. Other company, product, or service names may be trademarks or service marks of others.'/>
-      </properties>
-      <provides size='3'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.cobol.feature.feature.jar' version='9.6.0.0-20260917_122238'/>
-        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
-        <provided namespace='org.eclipse.update.feature' name='com.ibm.rules.cobol.feature' version='9.6.0.0-20260917_122238'/>
-      </provides>
-      <filter>
-        (org.eclipse.update.install.features=true)
-      </filter>
-      <artifacts size='1'>
-        <artifact classifier='org.eclipse.update.feature' id='com.ibm.rules.cobol.feature' version='9.6.0.0-20260917_122238'/>
-      </artifacts>
-      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-      <touchpointData size='1'>
-        <instructions size='1'>
-          <instruction key='zipped'>
-            true
-          </instruction>
-        </instructions>
-      </touchpointData>
-      <licenses size='1'>
-        <license uri='%25licenseURL' url='%25licenseURL'>
-          %license
-        </license>
-      </licenses>
-      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
-        %copyright
-      </copyright>
-    </unit>
     <unit id='com.ibm.lang.preference.nl2' version='7.0.400.v201711011805'>
       <update id='com.ibm.lang.preference.nl2' range='[0.0.0,7.0.400.v201711011805)' severity='0'/>
       <properties size='3'>
@@ -1778,6 +1573,36 @@
         %copyright
       </copyright>
     </unit>
+    <unit id='com.ibm.rules.cobol.feature.feature.group' version='9.6.0.0-20261020_182236' singleton='false'>
+      <update id='com.ibm.rules.cobol.feature.feature.group' range='[0.0.0,9.6.0.0-20261020_182236)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='IBM Decision Server COBOL management'/>
+        <property name='org.eclipse.equinox.p2.description' value='COBOL support for rules.'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='IBM Decision Server.&#xA;This software and documentation is made available only pursuant to the terms of an IBM Decision Server license agreement.'/>
+        <property name='df_LT.copyright' value='© Copyright IBM Corp. 1987, 2018. IBM, the IBM logo, WebSphere are trademarks or registered trademarks of International Business Machines Corporation in many jurisdictions worldwide. Adobe, the Adobe logo, PostScript, and the PostScript logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States, and/or other countries. Microsoft, Windows, Windows NT, and the Windows logo are trademarks of Microsoft Corporation in the United States, other countries, or both. Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in the United States, other countries, or both. Other company, product, or service names may be trademarks or service marks of others.'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.cobol.feature.feature.group' version='9.6.0.0-20261020_182236'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.zrules.zxom' range='[9.6.0.0-20261020_182236,9.6.0.0-20261020_182236]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.cobol.feature.feature.jar' range='[9.6.0.0-20261020_182236,9.6.0.0-20261020_182236]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
     <unit id='com.ibm.propertygroup.feature.nls1.feature.jar' version='6.6.200.v201508241429'>
       <properties size='1'>
         <property name='org.eclipse.equinox.p2.name' value='com.ibm.propertygroup.feature.nls1'/>
@@ -1961,6 +1786,108 @@
           </filter>
         </required>
       </requires>
+    </unit>
+    <unit id='com.ibm.rules.zrules.pli' version='9.6.0.0-20261020_182236' generation='2'>
+      <update id='com.ibm.rules.zrules.pli' range='[0.0.0,9.6.0.0-20261020_182236)' severity='0'/>
+      <properties size='17'>
+        <property name='fr.Plugin.Name' value='Pug-in XOM PL/I'/>
+        <property name='df_LT.Plugin.Name' value='PL/I XOM Plug-in'/>
+        <property name='ru.Plugin.Name' value='Модуль PL/I XOM'/>
+        <property name='ja.Plugin.Name' value='PL/I XOM Plug-in'/>
+        <property name='zh_TW.Plugin.Name' value='PL/I XOM 外掛程式'/>
+        <property name='it.Plugin.Name' value='Plug-in XOM PL/I'/>
+        <property name='ko.Plugin.Name' value='PL/I XOM 플러그인'/>
+        <property name='pt_BR.Plugin.Name' value='Plug-in XOM PL/I'/>
+        <property name='de.Plugin.Name' value='PL/I-XOM-Plug-in'/>
+        <property name='es.Plugin.Name' value='Plug-in de XOM de PL/I'/>
+        <property name='zh.Plugin.Name' value='PL/I XOM 插件'/>
+        <property name='sv.Plugin.Name' value='PL/I XOM Plug-in'/>
+        <property name='nl.Plugin.Name' value='PL/I XOM-plugin'/>
+        <property name='pl.Plugin.Name' value='Wtyczka modelu PL/I XOM'/>
+        <property name='org.eclipse.equinox.p2.name' value='%Plugin.Name'/>
+        <property name='org.eclipse.equinox.p2.provider' value='IBM'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='25'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.zrules.pli' version='9.6.0.0-20261020_182236'/>
+        <provided namespace='osgi.bundle' name='com.ibm.rules.zrules.pli' version='9.6.0.0-20261020_182236'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.pli.valuecheck' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.config.pli' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.modelimp' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.modelimp.pli' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.studio.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.studio.ui.celleditor' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.studio.ui.model' version='0.0.0'/>
+        <provided namespace='osgi.identity' name='com.ibm.rules.zrules.pli' version='9.6.0.0-20261020_182236'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='fr' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='ru' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='ja' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='zh_TW' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='it' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='ko' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='pt_BR' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='de' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='es' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='zh' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='sv' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='nl' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='pl' version='1.0.0'/>
+      </provides>
+      <requires size='28'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.console' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.rules.thirdparty.icu.charsets' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.brl.brldf' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.bom.wizards' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.model' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.model.vocabulary' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.model.dt' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.bom.editor' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.model.brl' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.editor' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.vocabulary.bom' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.vocabulary.model' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.etools.tdlang' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.rules.studio.projectmap' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.res' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.bomupdate' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.brl.bom' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.ccl.pli.preference.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.ccl.pli' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.rules.zrules.zxom' range='9.6.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.rules.studio.decisionservice' range='0.0.0'/>
+        <required namespace='java.package' name='com.ibm.rules.studio.decisionservice.deployment' range='0.0.0'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.6))'>
+          <description>
+            com.ibm.rules.zrules.pli
+          </description>
+        </requiredProperties>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.zrules.pli.source' range='[9.6.0.0-20261020_182236,9.6.0.0-20261020_182236]' optional='true'>
+          <filter>
+            (org.eclipse.update.install.sources=true)
+          </filter>
+        </required>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.ibm.rules.zrules.pli' version='9.6.0.0-20261020_182236'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.ibm.rules.zrules.pli;singleton:=true&#xA;Bundle-Version: 9.6.0.0-20261020_182236
+          </instruction>
+        </instructions>
+      </touchpointData>
     </unit>
     <unit id='com.ibm.etools.ctc.cobol2xsd' version='6.2.500.v20170809_2215' singleton='false' generation='2'>
       <update id='com.ibm.etools.ctc.cobol2xsd' range='[0.0.0,6.2.500.v20170809_2215)' severity='0'/>
@@ -2234,6 +2161,41 @@
         </instructions>
       </touchpointData>
     </unit>
+    <unit id='com.ibm.rules.pli.feature.feature.jar' version='9.6.0.0-20261020_182236'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='IBM Decision Server PLI management'/>
+        <property name='org.eclipse.equinox.p2.description' value='PLI support for rules.'/>
+        <property name='df_LT.license' value='IBM Decision Server.&#xA;This software and documentation is made available only pursuant to the terms of an IBM Decision Server license agreement.'/>
+        <property name='df_LT.copyright' value='© Copyright IBM Corp. 1987, 2018. IBM, the IBM logo, WebSphere are trademarks or registered trademarks of International Business Machines Corporation in many jurisdictions worldwide. Adobe, the Adobe logo, PostScript, and the PostScript logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States, and/or other countries. Microsoft, Windows, Windows NT, and the Windows logo are trademarks of Microsoft Corporation in the United States, other countries, or both. Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in the United States, other countries, or both. Other company, product, or service names may be trademarks or service marks of others.'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.pli.feature.feature.jar' version='9.6.0.0-20261020_182236'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.ibm.rules.pli.feature' version='9.6.0.0-20261020_182236'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.ibm.rules.pli.feature' version='9.6.0.0-20261020_182236'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
+    </unit>
     <unit id='com.ibm.lang.core.nls1.feature.group' version='1.2.600.v201711011805' singleton='false'>
       <update id='com.ibm.lang.core.nls1.feature.group' range='[0.0.0,1.2.600.v201711011805)' severity='0'/>
       <properties size='2'>
@@ -2253,6 +2215,148 @@
           </filter>
         </required>
       </requires>
+    </unit>
+    <unit id='com.ibm.rules.zrules.zxom' version='9.6.0.0-20261020_182236' generation='2'>
+      <update id='com.ibm.rules.zrules.zxom' range='[0.0.0,9.6.0.0-20261020_182236)' severity='0'/>
+      <properties size='17'>
+        <property name='fr.Plugin.Name' value='Plug-in Zxom'/>
+        <property name='df_LT.Plugin.Name' value='Zxom Plug-in'/>
+        <property name='ru.Plugin.Name' value='Модуль Zxom'/>
+        <property name='ja.Plugin.Name' value='Zxom Plug-in'/>
+        <property name='zh_TW.Plugin.Name' value='Zxom 外掛程式'/>
+        <property name='it.Plugin.Name' value='Plug-in Zxom'/>
+        <property name='ko.Plugin.Name' value='Zxom 플러그인'/>
+        <property name='pt_BR.Plugin.Name' value='Plug-in do Zxom'/>
+        <property name='de.Plugin.Name' value='Zxom-Plug-in'/>
+        <property name='es.Plugin.Name' value='Plug-in Zxom'/>
+        <property name='zh.Plugin.Name' value='Zxom 插件'/>
+        <property name='sv.Plugin.Name' value='Zxom Plug-in'/>
+        <property name='nl.Plugin.Name' value='Plugin Zxom'/>
+        <property name='pl.Plugin.Name' value='Wtyczka Zxom'/>
+        <property name='org.eclipse.equinox.p2.name' value='%Plugin.Name'/>
+        <property name='org.eclipse.equinox.p2.provider' value='IBM'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      </properties>
+      <provides size='67'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.zrules.zxom' version='9.6.0.0-20261020_182236'/>
+        <provided namespace='osgi.bundle' name='com.ibm.rules.zrules.zxom' version='9.6.0.0-20261020_182236'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.bom' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.cbl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.codegen' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.config' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.model' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.property' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.celleditor' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.model' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.modelimp' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.ui.config' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.ui.method' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.ui.problem' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.util' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.varedit' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.tools' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.util' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.cobol.var' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.bom' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.builder' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.cobolbom' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.compiler.cobol' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.compiler.model' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.config' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.item' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.item.collection' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.item.config' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.item.elementary' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.pli.valuecheck' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.config' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.config.cobol' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.config.old' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.modelimp' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.modelimp.cobol' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.ui.converter.extension' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.remote' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.studio.cpcontainer' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.studio.excluder' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.studio.extension' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.studio.model' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.studio.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.tools' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.xml' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.xml.imp' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.rules.zxom.xom' version='0.0.0'/>
+        <provided namespace='java.package' name='ilog.rules.res.session.rawdata.internal.converter' version='0.0.0'/>
+        <provided namespace='java.package' name='ilog.rules.res.session.rawdata.internal.marshal' version='0.0.0'/>
+        <provided namespace='osgi.identity' name='com.ibm.rules.zrules.zxom' version='9.6.0.0-20261020_182236'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='fr' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='ru' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='ja' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='zh_TW' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='it' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='ko' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='pt_BR' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='de' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='es' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='zh' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='sv' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='nl' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='pl' version='1.0.0'/>
+      </provides>
+      <requires size='26'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.console' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.rules.thirdparty.icu.charsets' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.brl.brldf' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.bom.wizards' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.model' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.model.vocabulary' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.model.dt' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.bom.editor' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.model.brl' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.editor' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.vocabulary.bom' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.vocabulary.model' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.etools.cobol' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.etools.tdlang' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.rules.studio.projectmap' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.etools.cobol.preference.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.res' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.studio.bomupdate' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='ilog.rules.brl.bom' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.rules.studio.decisionservice' range='0.0.0'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=11))'>
+          <description>
+            com.ibm.rules.zrules.zxom
+          </description>
+        </requiredProperties>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.zrules.zxom.source' range='[9.6.0.0-20261020_182236,9.6.0.0-20261020_182236]' optional='true'>
+          <filter>
+            (org.eclipse.update.install.sources=true)
+          </filter>
+        </required>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.ibm.rules.zrules.zxom' version='9.6.0.0-20261020_182236'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.ibm.rules.zrules.zxom;singleton:=true&#xA;Bundle-Version: 9.6.0.0-20261020_182236
+          </instruction>
+        </instructions>
+      </touchpointData>
     </unit>
     <unit id='com.ibm.adapter.framework' version='7.1.400.v20170809_2215'>
       <update id='com.ibm.adapter.framework' range='[0.0.0,7.1.400.v20170809_2215)' severity='0'/>
@@ -2709,8 +2813,8 @@
         <provided namespace='java.package' name='java.awt.desktop' version='0.0.0'/>
         <provided namespace='java.package' name='javax.imageio.plugins.jpeg' version='0.0.0'/>
         <provided namespace='java.package' name='javax.lang.model.type' version='0.0.0'/>
-        <provided namespace='java.package' name='java.util.zip' version='0.0.0'/>
         <provided namespace='java.package' name='java.security.cert' version='0.0.0'/>
+        <provided namespace='java.package' name='java.util.zip' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.transform.dom' version='0.0.0'/>
         <provided namespace='java.package' name='java.nio.file' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.lang.management' version='0.0.0'/>
@@ -2732,27 +2836,27 @@
         <provided namespace='java.package' name='com.sun.net.httpserver' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.jdi.connect' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom.events' version='0.0.0'/>
+        <provided namespace='java.package' name='java.awt.datatransfer' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.plaf' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.text.html' version='0.0.0'/>
-        <provided namespace='java.package' name='java.awt.datatransfer' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.jdi.event' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.dynalink' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.plaf.metal' version='0.0.0'/>
         <provided namespace='java.package' name='java.net.spi' version='0.0.0'/>
         <provided namespace='java.package' name='java.rmi.activation' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.colorchooser' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.xml' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.logging' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.dynalink.support' version='0.0.0'/>
         <provided namespace='java.package' name='javax.security.auth.x500' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.stream' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.lang.model' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.jshell.spi' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.lang.model' version='0.0.0'/>
         <provided namespace='java.package' name='java.lang.annotation' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.jfr' version='0.0.0'/>
         <provided namespace='java.package' name='javax.imageio.spi' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.naming.directory' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.java.diagnostics.utils.commands' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.naming.directory' version='0.0.0'/>
         <provided namespace='java.package' name='java.time.chrono' version='0.0.0'/>
         <provided namespace='java.package' name='ibm.security.internal.spec' version='0.0.0'/>
         <provided namespace='java.package' name='javax.management.loading' version='0.0.0'/>
@@ -2774,14 +2878,14 @@
         <provided namespace='java.package' name='javax.security.auth.login' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom.html' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.security.auth.login' version='0.0.0'/>
-        <provided namespace='java.package' name='java.rmi' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.java.diagnostics.utils.plugins' version='0.0.0'/>
+        <provided namespace='java.package' name='java.rmi' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.jdi.connect.spi' version='0.0.0'/>
         <provided namespace='java.package' name='java.beans' version='0.0.0'/>
         <provided namespace='java.package' name='javax.sql' version='0.0.0'/>
         <provided namespace='java.package' name='javax.print.event' version='0.0.0'/>
-        <provided namespace='java.package' name='java.util.prefs' version='0.0.0'/>
         <provided namespace='java.package' name='javax.imageio.metadata' version='0.0.0'/>
+        <provided namespace='java.package' name='java.util.prefs' version='0.0.0'/>
         <provided namespace='java.package' name='java.net' version='0.0.0'/>
         <provided namespace='java.package' name='javax.naming.spi' version='0.0.0'/>
         <provided namespace='java.package' name='javax.imageio.plugins.bmp' version='0.0.0'/>
@@ -2792,13 +2896,13 @@
         <provided namespace='java.package' name='javax.security.auth.spi' version='0.0.0'/>
         <provided namespace='java.package' name='javax.sound.sampled' version='0.0.0'/>
         <provided namespace='java.package' name='java.rmi.server' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.xml.parsers' version='0.0.0'/>
         <provided namespace='java.package' name='javax.sql.rowset.serial' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml.parsers' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.plaf.synth' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.plaf.basic' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.tree' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.net' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.function' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.net' version='0.0.0'/>
         <provided namespace='java.package' name='openj9.lang.management' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.image.renderable' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.dynalink.linker' version='0.0.0'/>
@@ -2820,8 +2924,8 @@
         <provided namespace='java.package' name='java.lang.management' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.concurrent.atomic' version='0.0.0'/>
         <provided namespace='java.package' name='javax.rmi.ssl' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.le.conditionhandling' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.event' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.le.conditionhandling' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.color' version='0.0.0'/>
         <provided namespace='java.package' name='javax.management.openmbean' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.text.rtf' version='0.0.0'/>
@@ -2860,8 +2964,8 @@
         <provided namespace='java.package' name='javax.print.attribute.standard' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.dtfj.runtime' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.jshell.tool' version='0.0.0'/>
-        <provided namespace='java.package' name='com.sun.tools.jconsole' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.javadoc' version='0.0.0'/>
+        <provided namespace='java.package' name='com.sun.tools.jconsole' version='0.0.0'/>
         <provided namespace='java.package' name='java.lang' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.security.jarsigner' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.security.auth' version='0.0.0'/>
@@ -2902,8 +3006,8 @@
         <provided namespace='java.package' name='java.nio.file.spi' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.crypto.dsig.keyinfo' version='0.0.0'/>
         <provided namespace='java.package' name='javax.accessibility' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.xml.namespace' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.source.tree' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml.namespace' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.font' version='0.0.0'/>
         <provided namespace='java.package' name='java.security.interfaces' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.tools.attach.spi' version='0.0.0'/>
@@ -2927,8 +3031,8 @@
         <provided namespace='java.package' name='javax.lang.model.util' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.security.auth.callback' version='0.0.0'/>
         <provided namespace='java.package' name='javax.security.sasl' version='0.0.0'/>
-        <provided namespace='java.package' name='com.sun.security.auth.module' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.cuda' version='0.0.0'/>
+        <provided namespace='java.package' name='com.sun.security.auth.module' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.crypto.dom' version='0.0.0'/>
         <provided namespace='java.package' name='javax.naming.ldap' version='0.0.0'/>
         <provided namespace='java.package' name='java.time.zone' version='0.0.0'/>
@@ -2985,16 +3089,16 @@
         <provided namespace='java.package' name='javax.imageio.plugins.jpeg' version='0.0.0'/>
         <provided namespace='java.package' name='javax.lang.model.type' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.transform.dom' version='0.0.0'/>
-        <provided namespace='java.package' name='java.security.cert' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.zip' version='0.0.0'/>
+        <provided namespace='java.package' name='java.security.cert' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.lang.management' version='0.0.0'/>
         <provided namespace='java.package' name='java.nio.file' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom.views' version='0.0.0'/>
         <provided namespace='java.package' name='java.time' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.java.diagnostics.utils' version='0.0.0'/>
         <provided namespace='java.package' name='javax.security.auth.callback' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.xml.stream.util' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.oti.shared' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml.stream.util' version='0.0.0'/>
         <provided namespace='java.package' name='javax.lang.model.element' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom.bootstrap' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.nio.sctp' version='0.0.0'/>
@@ -3007,32 +3111,32 @@
         <provided namespace='java.package' name='com.sun.jdi.connect' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom.events' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.datatransfer' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.swing.text.html' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.plaf' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.text.html' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.jdi.event' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.dynalink' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.plaf.metal' version='0.0.0'/>
         <provided namespace='java.package' name='java.net.spi' version='0.0.0'/>
+        <provided namespace='java.package' name='java.util.logging' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.colorchooser' version='0.0.0'/>
-        <provided namespace='java.package' name='java.util.logging' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.dynalink.support' version='0.0.0'/>
         <provided namespace='java.package' name='javax.security.auth.x500' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.stream' version='0.0.0'/>
-        <provided namespace='java.package' name='jdk.jshell.spi' version='0.0.0'/>
         <provided namespace='java.package' name='javax.lang.model' version='0.0.0'/>
+        <provided namespace='java.package' name='jdk.jshell.spi' version='0.0.0'/>
         <provided namespace='java.package' name='java.lang.annotation' version='0.0.0'/>
         <provided namespace='java.package' name='javax.imageio.spi' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.naming.directory' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.java.diagnostics.utils.commands' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.naming.directory' version='0.0.0'/>
         <provided namespace='java.package' name='ibm.security.internal.spec' version='0.0.0'/>
         <provided namespace='java.package' name='java.time.chrono' version='0.0.0'/>
         <provided namespace='java.package' name='javax.management.loading' version='0.0.0'/>
         <provided namespace='java.package' name='javax.security.auth' version='0.0.0'/>
         <provided namespace='java.package' name='java.math' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom' version='0.0.0'/>
-        <provided namespace='java.package' name='java.awt.geom' version='0.0.0'/>
         <provided namespace='java.package' name='javax.transaction.xa' version='0.0.0'/>
+        <provided namespace='java.package' name='java.awt.geom' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.transform.stax' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom.traversal' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.swing.interop' version='0.0.0'/>
@@ -3061,10 +3165,10 @@
         <provided namespace='java.package' name='java.time.format' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.concurrent' version='0.0.0'/>
         <provided namespace='java.package' name='javax.security.auth.spi' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.sound.sampled' version='0.0.0'/>
         <provided namespace='java.package' name='java.rmi.server' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.sql.rowset.serial' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.sound.sampled' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.parsers' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.sql.rowset.serial' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.plaf.synth' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.plaf.basic' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.tree' version='0.0.0'/>
@@ -3118,20 +3222,20 @@
         <provided namespace='java.package' name='java.lang.ref' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.regex' version='0.0.0'/>
         <provided namespace='java.package' name='org.ietf.jgss' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.jvm' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.crypto.plus.provider' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.jvm' version='0.0.0'/>
         <provided namespace='java.package' name='javax.sound.midi.spi' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.filechooser' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.crypto.dsig.spec' version='0.0.0'/>
         <provided namespace='java.package' name='java.lang.reflect' version='0.0.0'/>
         <provided namespace='java.package' name='java.security' version='0.0.0'/>
         <provided namespace='java.package' name='org.xml.sax.helpers' version='0.0.0'/>
+        <provided namespace='java.package' name='com.sun.tools.attach' version='0.0.0'/>
         <provided namespace='java.package' name='javax.naming.ldap.spi' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.jshell' version='0.0.0'/>
-        <provided namespace='java.package' name='com.sun.tools.attach' version='0.0.0'/>
         <provided namespace='java.package' name='javax.print.attribute.standard' version='0.0.0'/>
-        <provided namespace='java.package' name='jdk.jshell.tool' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.dtfj.runtime' version='0.0.0'/>
+        <provided namespace='java.package' name='jdk.jshell.tool' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.tools.jconsole' version='0.0.0'/>
         <provided namespace='java.package' name='java.lang' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.security.jarsigner' version='0.0.0'/>
@@ -3153,8 +3257,8 @@
         <provided namespace='java.package' name='com.sun.source.doctree' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.net.httpserver.spi' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.dnd' version='0.0.0'/>
-        <provided namespace='java.package' name='jdk.jshell.execution' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.gpu' version='0.0.0'/>
+        <provided namespace='java.package' name='jdk.jshell.execution' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.im' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.text.html.parser' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.transform' version='0.0.0'/>
@@ -3163,8 +3267,8 @@
         <provided namespace='java.package' name='com.ibm.dtfj.java' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.tools.javac' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.jdi' version='0.0.0'/>
-        <provided namespace='java.package' name='java.nio.charset.spi' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.security.jgss' version='0.0.0'/>
+        <provided namespace='java.package' name='java.nio.charset.spi' version='0.0.0'/>
         <provided namespace='java.package' name='java.text.spi' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.spi' version='0.0.0'/>
         <provided namespace='java.package' name='javax.management.timer' version='0.0.0'/>
@@ -3200,8 +3304,8 @@
         <provided namespace='java.package' name='javax.security.sasl' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.cuda' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.security.auth.module' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.xml.crypto.dom' version='0.0.0'/>
         <provided namespace='java.package' name='javax.naming.ldap' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml.crypto.dom' version='0.0.0'/>
         <provided namespace='java.package' name='java.time.zone' version='0.0.0'/>
         <provided namespace='java.package' name='netscape.javascript' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.im.spi' version='0.0.0'/>
@@ -3260,11 +3364,11 @@
         <provided namespace='java.package' name='java.awt.desktop' version='0.0.0'/>
         <provided namespace='java.package' name='javax.imageio.plugins.jpeg' version='0.0.0'/>
         <provided namespace='java.package' name='javax.lang.model.type' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.xml.transform.dom' version='0.0.0'/>
-        <provided namespace='java.package' name='java.security.cert' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.zip' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.lang.management' version='0.0.0'/>
+        <provided namespace='java.package' name='java.security.cert' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml.transform.dom' version='0.0.0'/>
         <provided namespace='java.package' name='java.nio.file' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.lang.management' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom.views' version='0.0.0'/>
         <provided namespace='java.package' name='java.time' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.java.diagnostics.utils' version='0.0.0'/>
@@ -3281,10 +3385,10 @@
         <provided namespace='java.package' name='com.sun.net.httpserver' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.jdi.connect' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom.events' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.swing.plaf' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.text.html' version='0.0.0'/>
-        <provided namespace='java.package' name='java.awt.datatransfer' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.plaf' version='0.0.0'/>
         <provided namespace='java.package' name='java.lang.foreign' version='0.0.0'/>
+        <provided namespace='java.package' name='java.awt.datatransfer' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.jdi.event' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.dynalink' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.plaf.metal' version='0.0.0'/>
@@ -3295,15 +3399,15 @@
         <provided namespace='java.package' name='jdk.dynalink.support' version='0.0.0'/>
         <provided namespace='java.package' name='javax.security.auth.x500' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.stream' version='0.0.0'/>
-        <provided namespace='java.package' name='jdk.jshell.spi' version='0.0.0'/>
         <provided namespace='java.package' name='javax.lang.model' version='0.0.0'/>
+        <provided namespace='java.package' name='jdk.jshell.spi' version='0.0.0'/>
         <provided namespace='java.package' name='java.lang.annotation' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.jfr' version='0.0.0'/>
         <provided namespace='java.package' name='javax.imageio.spi' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.java.diagnostics.utils.commands' version='0.0.0'/>
         <provided namespace='java.package' name='javax.naming.directory' version='0.0.0'/>
-        <provided namespace='java.package' name='java.time.chrono' version='0.0.0'/>
         <provided namespace='java.package' name='ibm.security.internal.spec' version='0.0.0'/>
+        <provided namespace='java.package' name='java.time.chrono' version='0.0.0'/>
         <provided namespace='java.package' name='javax.management.loading' version='0.0.0'/>
         <provided namespace='java.package' name='javax.security.auth' version='0.0.0'/>
         <provided namespace='java.package' name='java.math' version='0.0.0'/>
@@ -3320,11 +3424,11 @@
         <provided namespace='java.package' name='javax.xml.transform.stream' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.datatype' version='0.0.0'/>
         <provided namespace='java.package' name='javax.print' version='0.0.0'/>
-        <provided namespace='java.package' name='org.w3c.dom.html' version='0.0.0'/>
         <provided namespace='java.package' name='javax.security.auth.login' version='0.0.0'/>
+        <provided namespace='java.package' name='org.w3c.dom.html' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.security.auth.login' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.java.diagnostics.utils.plugins' version='0.0.0'/>
         <provided namespace='java.package' name='java.rmi' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.java.diagnostics.utils.plugins' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.jdi.connect.spi' version='0.0.0'/>
         <provided namespace='java.package' name='java.beans' version='0.0.0'/>
         <provided namespace='java.package' name='javax.sql' version='0.0.0'/>
@@ -3338,18 +3442,18 @@
         <provided namespace='java.package' name='java.time.format' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.concurrent' version='0.0.0'/>
         <provided namespace='java.package' name='javax.security.auth.spi' version='0.0.0'/>
-        <provided namespace='java.package' name='java.rmi.server' version='0.0.0'/>
         <provided namespace='java.package' name='javax.sound.sampled' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.xml.parsers' version='0.0.0'/>
+        <provided namespace='java.package' name='java.rmi.server' version='0.0.0'/>
         <provided namespace='java.package' name='javax.sql.rowset.serial' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml.parsers' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.plaf.synth' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.plaf.basic' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.tree' version='0.0.0'/>
-        <provided namespace='java.package' name='openj9.lang.management' version='0.0.0'/>
         <provided namespace='java.package' name='javax.net' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.function' version='0.0.0'/>
-        <provided namespace='java.package' name='jdk.dynalink.linker' version='0.0.0'/>
+        <provided namespace='java.package' name='openj9.lang.management' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.image.renderable' version='0.0.0'/>
+        <provided namespace='java.package' name='jdk.dynalink.linker' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.nio.file' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom.ls' version='0.0.0'/>
         <provided namespace='java.package' name='javax.smartcardio' version='0.0.0'/>
@@ -3369,8 +3473,8 @@
         <provided namespace='java.package' name='java.lang.management' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.concurrent.atomic' version='0.0.0'/>
         <provided namespace='java.package' name='javax.rmi.ssl' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.swing.event' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.le.conditionhandling' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.event' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.color' version='0.0.0'/>
         <provided namespace='java.package' name='javax.management.openmbean' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.text.rtf' version='0.0.0'/>
@@ -3392,31 +3496,31 @@
         <provided namespace='java.package' name='java.lang.constant' version='0.0.0'/>
         <provided namespace='java.package' name='java.nio' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.jdi.request' version='0.0.0'/>
-        <provided namespace='java.package' name='java.lang.instrument' version='0.0.0'/>
         <provided namespace='java.package' name='java.lang.ref' version='0.0.0'/>
+        <provided namespace='java.package' name='java.lang.instrument' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.regex' version='0.0.0'/>
         <provided namespace='java.package' name='org.ietf.jgss' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.crypto.plus.provider' version='0.0.0'/>
         <provided namespace='java.package' name='javax.sound.midi.spi' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.jvm' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.crypto.plus.provider' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.filechooser' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.crypto.dsig.spec' version='0.0.0'/>
         <provided namespace='java.package' name='java.lang.reflect' version='0.0.0'/>
         <provided namespace='java.package' name='java.security' version='0.0.0'/>
         <provided namespace='java.package' name='org.xml.sax.helpers' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.naming.ldap.spi' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.tools.attach' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.jshell' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.naming.ldap.spi' version='0.0.0'/>
         <provided namespace='java.package' name='javax.print.attribute.standard' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.dtfj.runtime' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.jshell.tool' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.dtfj.runtime' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.tools.jconsole' version='0.0.0'/>
         <provided namespace='java.package' name='java.lang' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.security.jarsigner' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.security.auth' version='0.0.0'/>
         <provided namespace='java.package' name='javax.security.auth.kerberos' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.crypto' version='0.0.0'/>
         <provided namespace='java.package' name='java.sql' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.crypto' version='0.0.0'/>
         <provided namespace='java.package' name='java.util' version='0.0.0'/>
         <provided namespace='java.package' name='java.nio.channels' version='0.0.0'/>
         <provided namespace='java.package' name='java.time.temporal' version='0.0.0'/>
@@ -3431,8 +3535,8 @@
         <provided namespace='java.package' name='com.sun.source.doctree' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.net.httpserver.spi' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.dnd' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.gpu' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.jshell.execution' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.gpu' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.im' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.text.html.parser' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.transform' version='0.0.0'/>
@@ -3441,10 +3545,10 @@
         <provided namespace='java.package' name='com.ibm.dtfj.java' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.tools.javac' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.jdi' version='0.0.0'/>
-        <provided namespace='java.package' name='com.sun.security.jgss' version='0.0.0'/>
         <provided namespace='java.package' name='java.nio.charset.spi' version='0.0.0'/>
-        <provided namespace='java.package' name='java.text.spi' version='0.0.0'/>
+        <provided namespace='java.package' name='com.sun.security.jgss' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.spi' version='0.0.0'/>
+        <provided namespace='java.package' name='java.text.spi' version='0.0.0'/>
         <provided namespace='java.package' name='javax.management.timer' version='0.0.0'/>
         <provided namespace='java.package' name='java.security.spec' version='0.0.0'/>
         <provided namespace='java.package' name='java.nio.file.spi' version='0.0.0'/>
@@ -3479,8 +3583,8 @@
         <provided namespace='java.package' name='javax.security.sasl' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.security.auth.module' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.cuda' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.naming.ldap' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.crypto.dom' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.naming.ldap' version='0.0.0'/>
         <provided namespace='java.package' name='java.time.zone' version='0.0.0'/>
         <provided namespace='java.package' name='netscape.javascript' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.im.spi' version='0.0.0'/>
@@ -3543,9 +3647,9 @@
         <provided namespace='java.package' name='java.awt.desktop' version='0.0.0'/>
         <provided namespace='java.package' name='javax.imageio.plugins.jpeg' version='0.0.0'/>
         <provided namespace='java.package' name='javax.lang.model.type' version='0.0.0'/>
-        <provided namespace='java.package' name='java.util.zip' version='0.0.0'/>
-        <provided namespace='java.package' name='java.security.cert' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.transform.dom' version='0.0.0'/>
+        <provided namespace='java.package' name='java.security.cert' version='0.0.0'/>
+        <provided namespace='java.package' name='java.util.zip' version='0.0.0'/>
         <provided namespace='java.package' name='java.nio.file' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.lang.management' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom.views' version='0.0.0'/>
@@ -3564,17 +3668,17 @@
         <provided namespace='java.package' name='com.sun.net.httpserver' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.jdi.connect' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom.events' version='0.0.0'/>
-        <provided namespace='java.package' name='java.awt.datatransfer' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.swing.plaf' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.text.html' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.plaf' version='0.0.0'/>
         <provided namespace='java.package' name='java.lang.foreign' version='0.0.0'/>
+        <provided namespace='java.package' name='java.awt.datatransfer' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.jdi.event' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.dynalink' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.plaf.metal' version='0.0.0'/>
         <provided namespace='java.package' name='java.net.spi' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.colorchooser' version='0.0.0'/>
-        <provided namespace='java.package' name='java.util.logging' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml' version='0.0.0'/>
+        <provided namespace='java.package' name='java.util.logging' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.dynalink.support' version='0.0.0'/>
         <provided namespace='java.package' name='javax.security.auth.x500' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.stream' version='0.0.0'/>
@@ -3592,8 +3696,8 @@
         <provided namespace='java.package' name='javax.security.auth' version='0.0.0'/>
         <provided namespace='java.package' name='java.math' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom' version='0.0.0'/>
-        <provided namespace='java.package' name='java.awt.geom' version='0.0.0'/>
         <provided namespace='java.package' name='javax.transaction.xa' version='0.0.0'/>
+        <provided namespace='java.package' name='java.awt.geom' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.transform.stax' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom.traversal' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt' version='0.0.0'/>
@@ -3613,8 +3717,8 @@
         <provided namespace='java.package' name='java.beans' version='0.0.0'/>
         <provided namespace='java.package' name='javax.sql' version='0.0.0'/>
         <provided namespace='java.package' name='javax.print.event' version='0.0.0'/>
-        <provided namespace='java.package' name='java.util.prefs' version='0.0.0'/>
         <provided namespace='java.package' name='javax.imageio.metadata' version='0.0.0'/>
+        <provided namespace='java.package' name='java.util.prefs' version='0.0.0'/>
         <provided namespace='java.package' name='java.net' version='0.0.0'/>
         <provided namespace='java.package' name='javax.naming.spi' version='0.0.0'/>
         <provided namespace='java.package' name='javax.imageio.plugins.bmp' version='0.0.0'/>
@@ -3624,16 +3728,16 @@
         <provided namespace='java.package' name='javax.security.auth.spi' version='0.0.0'/>
         <provided namespace='java.package' name='javax.sound.sampled' version='0.0.0'/>
         <provided namespace='java.package' name='java.rmi.server' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.sql.rowset.serial' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.parsers' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.sql.rowset.serial' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.plaf.synth' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.plaf.basic' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.tree' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.net' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.function' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.net' version='0.0.0'/>
         <provided namespace='java.package' name='openj9.lang.management' version='0.0.0'/>
-        <provided namespace='java.package' name='jdk.dynalink.linker' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.image.renderable' version='0.0.0'/>
+        <provided namespace='java.package' name='jdk.dynalink.linker' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.nio.file' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom.ls' version='0.0.0'/>
         <provided namespace='java.package' name='javax.smartcardio' version='0.0.0'/>
@@ -3654,8 +3758,8 @@
         <provided namespace='java.package' name='java.lang.management' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.concurrent.atomic' version='0.0.0'/>
         <provided namespace='java.package' name='javax.rmi.ssl' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.swing.event' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.le.conditionhandling' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.event' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.color' version='0.0.0'/>
         <provided namespace='java.package' name='javax.management.openmbean' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.text.rtf' version='0.0.0'/>
@@ -3681,8 +3785,8 @@
         <provided namespace='java.package' name='java.lang.instrument' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.regex' version='0.0.0'/>
         <provided namespace='java.package' name='org.ietf.jgss' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.crypto.plus.provider' version='0.0.0'/>
         <provided namespace='java.package' name='javax.sound.midi.spi' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.crypto.plus.provider' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.jvm' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.filechooser' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.crypto.dsig.spec' version='0.0.0'/>
@@ -3690,8 +3794,8 @@
         <provided namespace='java.package' name='java.security' version='0.0.0'/>
         <provided namespace='java.package' name='org.xml.sax.helpers' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.jshell' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.naming.ldap.spi' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.tools.attach' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.naming.ldap.spi' version='0.0.0'/>
         <provided namespace='java.package' name='javax.print.attribute.standard' version='0.0.0'/>
         <provided namespace='java.package' name='com.ibm.dtfj.runtime' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.jshell.tool' version='0.0.0'/>
@@ -3701,12 +3805,12 @@
         <provided namespace='java.package' name='jdk.security.jarsigner' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.security.auth' version='0.0.0'/>
         <provided namespace='java.package' name='javax.security.auth.kerberos' version='0.0.0'/>
-        <provided namespace='java.package' name='java.sql' version='0.0.0'/>
         <provided namespace='java.package' name='javax.crypto' version='0.0.0'/>
+        <provided namespace='java.package' name='java.sql' version='0.0.0'/>
         <provided namespace='java.package' name='java.util' version='0.0.0'/>
         <provided namespace='java.package' name='java.lang.classfile.constantpool' version='0.0.0'/>
-        <provided namespace='java.package' name='java.time.temporal' version='0.0.0'/>
         <provided namespace='java.package' name='java.nio.channels' version='0.0.0'/>
+        <provided namespace='java.package' name='java.time.temporal' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom.stylesheets' version='0.0.0'/>
         <provided namespace='java.package' name='java.nio.charset' version='0.0.0'/>
         <provided namespace='java.package' name='javax.sound.midi' version='0.0.0'/>
@@ -3718,8 +3822,8 @@
         <provided namespace='java.package' name='com.sun.source.doctree' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.net.httpserver.spi' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.dnd' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.gpu' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.jshell.execution' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.gpu' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.im' version='0.0.0'/>
         <provided namespace='java.package' name='javax.swing.text.html.parser' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.transform' version='0.0.0'/>
@@ -3728,17 +3832,17 @@
         <provided namespace='java.package' name='com.ibm.dtfj.java' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.tools.javac' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.jdi' version='0.0.0'/>
-        <provided namespace='java.package' name='java.nio.charset.spi' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.security.jgss' version='0.0.0'/>
-        <provided namespace='java.package' name='java.text.spi' version='0.0.0'/>
+        <provided namespace='java.package' name='java.nio.charset.spi' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.spi' version='0.0.0'/>
+        <provided namespace='java.package' name='java.text.spi' version='0.0.0'/>
         <provided namespace='java.package' name='javax.management.timer' version='0.0.0'/>
         <provided namespace='java.package' name='java.security.spec' version='0.0.0'/>
         <provided namespace='java.package' name='java.nio.file.spi' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.crypto.dsig.keyinfo' version='0.0.0'/>
         <provided namespace='java.package' name='javax.accessibility' version='0.0.0'/>
-        <provided namespace='java.package' name='javax.xml.namespace' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.source.tree' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml.namespace' version='0.0.0'/>
         <provided namespace='java.package' name='java.awt.font' version='0.0.0'/>
         <provided namespace='java.package' name='java.security.interfaces' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.tools.attach.spi' version='0.0.0'/>
@@ -3765,8 +3869,8 @@
         <provided namespace='java.package' name='com.sun.security.auth.callback' version='0.0.0'/>
         <provided namespace='java.package' name='java.lang.runtime' version='0.0.0'/>
         <provided namespace='java.package' name='javax.security.sasl' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.cuda' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.security.auth.module' version='0.0.0'/>
+        <provided namespace='java.package' name='com.ibm.cuda' version='0.0.0'/>
         <provided namespace='java.package' name='javax.xml.crypto.dom' version='0.0.0'/>
         <provided namespace='java.package' name='javax.naming.ldap' version='0.0.0'/>
         <provided namespace='java.package' name='java.time.zone' version='0.0.0'/>
@@ -3780,8 +3884,8 @@
         <provided namespace='java.package' name='java.lang.module' version='0.0.0'/>
         <provided namespace='java.package' name='com.sun.source.util' version='0.0.0'/>
         <provided namespace='java.package' name='jdk.management' version='0.0.0'/>
-        <provided namespace='java.package' name='java.io' version='0.0.0'/>
         <provided namespace='java.package' name='javax.sql.rowset' version='0.0.0'/>
+        <provided namespace='java.package' name='java.io' version='0.0.0'/>
         <provided namespace='java.package' name='java.util.jar' version='0.0.0'/>
         <provided namespace='java.package' name='javax.crypto.interfaces' version='0.0.0'/>
         <provided namespace='java.package' name='org.w3c.dom.ranges' version='0.0.0'/>
@@ -4166,6 +4270,36 @@
         </instructions>
       </touchpointData>
     </unit>
+    <unit id='0-IF006.com.ibm.rules.studio.cobol.lib.category' version='1.0.0._689HCWcLrCvEEXeLAqAWKSTHv2W8'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='ODM Rules Cobol Library Features'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='0-IF006.com.ibm.rules.studio.cobol.lib.category' version='1.0.0._689HCWcLrCvEEXeLAqAWKSTHv2W8'/>
+      </provides>
+      <requires size='19'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.lang.core.nls1.feature.group' range='[1.2.600.v201711011805,1.2.600.v201711011805]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='pli.importer.feature.group' range='[8.1.1.v20180208_1520,8.1.1.v20180208_1520]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='cobol.importer.win32.feature.group' range='[8.0.600.v20170808_2251,8.0.600.v20170808_2251]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='pli.importer.nls2.feature.group' range='[8.1.0.v201711011805,8.1.0.v201711011805]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='pli.importer.win32.feature.group' range='[7.1.1.v20180208_1520,7.1.1.v20180208_1520]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='cobol.importer.linux.feature.group' range='[8.0.300.v20170809_2215,8.0.300.v20170809_2215]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='cobol.importer.nls1.feature.group' range='[8.0.700.v201711011805,8.0.700.v201711011805]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='cobol.importer.feature.group' range='[8.0.700.v20170809_2215,8.0.700.v20170809_2215]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='pli.importer.uid.feature.feature.group' range='[1.0.2.v20171106_2232,1.0.2.v20171106_2232]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.adapter.core.feature.group' range='[2.3.402.v20171220_2101,2.3.402.v20171220_2101]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.lang.core.feature.group' range='[1.2.600.v20170809_2215,1.2.600.v20170809_2215]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.lang.core.nls2.feature.group' range='[1.2.600.v201711011805,1.2.600.v201711011805]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.propertygroup.feature.nls2.feature.group' range='[6.6.200.v201508241429,6.6.200.v201508241429]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.adapter.core.nls1.feature.group' range='[2.3.401.v201711011805,2.3.401.v201711011805]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='cobol.importer.nls2.feature.group' range='[8.0.700.v201711011805,8.0.700.v201711011805]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.propertygroup.feature.feature.group' range='[6.6.201.v20160720_2230,6.6.201.v20160720_2230]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.adapter.core.nls2.feature.group' range='[2.3.401.v201711011805,2.3.401.v201711011805]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.propertygroup.feature.nls1.feature.group' range='[6.6.200.v201508241429,6.6.200.v201508241429]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='pli.importer.nls1.feature.group' range='[8.1.0.v201711011805,8.1.0.v201711011805]'/>
+      </requires>
+    </unit>
     <unit id='com.ibm.adapter.typesimport' version='1.1.300.v20170809_2215' singleton='false' generation='2'>
       <update id='com.ibm.adapter.typesimport' range='[0.0.0,1.1.300.v20170809_2215)' severity='0'/>
       <properties size='4'>
@@ -4241,41 +4375,6 @@
         </instructions>
       </touchpointData>
     </unit>
-    <unit id='com.ibm.rules.pli.feature.feature.jar' version='9.6.0.0-20260917_122238'>
-      <properties size='4'>
-        <property name='org.eclipse.equinox.p2.name' value='IBM Decision Server PLI management'/>
-        <property name='org.eclipse.equinox.p2.description' value='PLI support for rules.'/>
-        <property name='df_LT.license' value='IBM Decision Server.&#xA;This software and documentation is made available only pursuant to the terms of an IBM Decision Server license agreement.'/>
-        <property name='df_LT.copyright' value='© Copyright IBM Corp. 1987, 2018. IBM, the IBM logo, WebSphere are trademarks or registered trademarks of International Business Machines Corporation in many jurisdictions worldwide. Adobe, the Adobe logo, PostScript, and the PostScript logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States, and/or other countries. Microsoft, Windows, Windows NT, and the Windows logo are trademarks of Microsoft Corporation in the United States, other countries, or both. Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in the United States, other countries, or both. Other company, product, or service names may be trademarks or service marks of others.'/>
-      </properties>
-      <provides size='3'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.pli.feature.feature.jar' version='9.6.0.0-20260917_122238'/>
-        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
-        <provided namespace='org.eclipse.update.feature' name='com.ibm.rules.pli.feature' version='9.6.0.0-20260917_122238'/>
-      </provides>
-      <filter>
-        (org.eclipse.update.install.features=true)
-      </filter>
-      <artifacts size='1'>
-        <artifact classifier='org.eclipse.update.feature' id='com.ibm.rules.pli.feature' version='9.6.0.0-20260917_122238'/>
-      </artifacts>
-      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-      <touchpointData size='1'>
-        <instructions size='1'>
-          <instruction key='zipped'>
-            true
-          </instruction>
-        </instructions>
-      </touchpointData>
-      <licenses size='1'>
-        <license uri='%25licenseURL' url='%25licenseURL'>
-          %license
-        </license>
-      </licenses>
-      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
-        %copyright
-      </copyright>
-    </unit>
     <unit id='com.ibm.ccl.discpub.ui.core' version='1.0.300.v20170809_2215'>
       <update id='com.ibm.ccl.discpub.ui.core' range='[0.0.0,1.0.300.v20170809_2215)' severity='0'/>
       <properties size='3'>
@@ -4317,6 +4416,36 @@
           </instruction>
         </instructions>
       </touchpointData>
+    </unit>
+    <unit id='com.ibm.rules.pli.feature.feature.group' version='9.6.0.0-20261020_182236' singleton='false'>
+      <update id='com.ibm.rules.pli.feature.feature.group' range='[0.0.0,9.6.0.0-20261020_182236)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='IBM Decision Server PLI management'/>
+        <property name='org.eclipse.equinox.p2.description' value='PLI support for rules.'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+        <property name='df_LT.license' value='IBM Decision Server.&#xA;This software and documentation is made available only pursuant to the terms of an IBM Decision Server license agreement.'/>
+        <property name='df_LT.copyright' value='© Copyright IBM Corp. 1987, 2018. IBM, the IBM logo, WebSphere are trademarks or registered trademarks of International Business Machines Corporation in many jurisdictions worldwide. Adobe, the Adobe logo, PostScript, and the PostScript logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States, and/or other countries. Microsoft, Windows, Windows NT, and the Windows logo are trademarks of Microsoft Corporation in the United States, other countries, or both. Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc. in the United States, other countries, or both. Other company, product, or service names may be trademarks or service marks of others.'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.pli.feature.feature.group' version='9.6.0.0-20261020_182236'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.zrules.pli' range='[9.6.0.0-20261020_182236,9.6.0.0-20261020_182236]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.pli.feature.feature.jar' range='[9.6.0.0-20261020_182236,9.6.0.0-20261020_182236]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <licenses size='1'>
+        <license uri='%25licenseURL' url='%25licenseURL'>
+          %license
+        </license>
+      </licenses>
+      <copyright uri='%25copyrightURL' url='%25copyrightURL'>
+        %copyright
+      </copyright>
     </unit>
     <unit id='com.ibm.propertygroup.feature.nls2.feature.group' version='6.6.200.v201508241429' singleton='false'>
       <update id='com.ibm.propertygroup.feature.nls2.feature.group' range='[0.0.0,6.6.200.v201508241429)' severity='0'/>
@@ -4415,148 +4544,6 @@
         </instructions>
       </touchpointData>
     </unit>
-    <unit id='com.ibm.rules.zrules.zxom' version='9.6.0.0-20260917_122238' generation='2'>
-      <update id='com.ibm.rules.zrules.zxom' range='[0.0.0,9.6.0.0-20260917_122238)' severity='0'/>
-      <properties size='17'>
-        <property name='fr.Plugin.Name' value='Plug-in Zxom'/>
-        <property name='df_LT.Plugin.Name' value='Zxom Plug-in'/>
-        <property name='ru.Plugin.Name' value='Модуль Zxom'/>
-        <property name='ja.Plugin.Name' value='Zxom Plug-in'/>
-        <property name='zh_TW.Plugin.Name' value='Zxom 外掛程式'/>
-        <property name='it.Plugin.Name' value='Plug-in Zxom'/>
-        <property name='ko.Plugin.Name' value='Zxom 플러그인'/>
-        <property name='pt_BR.Plugin.Name' value='Plug-in do Zxom'/>
-        <property name='de.Plugin.Name' value='Zxom-Plug-in'/>
-        <property name='es.Plugin.Name' value='Plug-in Zxom'/>
-        <property name='zh.Plugin.Name' value='Zxom 插件'/>
-        <property name='sv.Plugin.Name' value='Zxom Plug-in'/>
-        <property name='nl.Plugin.Name' value='Plugin Zxom'/>
-        <property name='pl.Plugin.Name' value='Wtyczka Zxom'/>
-        <property name='org.eclipse.equinox.p2.name' value='%Plugin.Name'/>
-        <property name='org.eclipse.equinox.p2.provider' value='IBM'/>
-        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
-      </properties>
-      <provides size='67'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.zrules.zxom' version='9.6.0.0-20260917_122238'/>
-        <provided namespace='osgi.bundle' name='com.ibm.rules.zrules.zxom' version='9.6.0.0-20260917_122238'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.bom' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.cbl' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.codegen' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.config' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.model' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.property' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.celleditor' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.model' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.modelimp' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.ui' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.ui.config' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.ui.method' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.ui.problem' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.util' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.studio.varedit' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.tools' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.util' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.cobol.var' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.bom' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.builder' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.cobolbom' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.compiler.cobol' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.compiler.model' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.config' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.item' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.item.collection' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.item.config' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.item.elementary' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.pli.valuecheck' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.config' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.config.cobol' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.config.old' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.modelimp' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.modelimp.cobol' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.ui' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.rawdata.ui.converter.extension' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.remote' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.studio.cpcontainer' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.studio.excluder' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.studio.extension' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.studio.model' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.studio.ui' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.tools' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.xml' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.xml.imp' version='0.0.0'/>
-        <provided namespace='java.package' name='com.ibm.rules.zxom.xom' version='0.0.0'/>
-        <provided namespace='java.package' name='ilog.rules.res.session.rawdata.internal.converter' version='0.0.0'/>
-        <provided namespace='java.package' name='ilog.rules.res.session.rawdata.internal.marshal' version='0.0.0'/>
-        <provided namespace='osgi.identity' name='com.ibm.rules.zrules.zxom' version='9.6.0.0-20260917_122238'>
-          <properties size='1'>
-            <property name='type' value='osgi.bundle'/>
-          </properties>
-        </provided>
-        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='fr' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='ru' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='ja' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='zh_TW' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='it' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='ko' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='pt_BR' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='de' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='es' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='zh' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='sv' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='nl' version='1.0.0'/>
-        <provided namespace='org.eclipse.equinox.p2.localization' name='pl' version='1.0.0'/>
-      </provides>
-      <requires size='26'>
-        <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='org.eclipse.ui.console' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='com.ibm.rules.thirdparty.icu.charsets' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.brl.brldf' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.bom.wizards' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.model' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.ui' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.model.vocabulary' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.model.dt' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.bom.editor' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.model.brl' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.editor' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.vocabulary.bom' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.vocabulary.model' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='com.ibm.etools.cobol' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='com.ibm.etools.tdlang' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='com.ibm.rules.studio.projectmap' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='com.ibm.etools.cobol.preference.ui' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.res' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.studio.bomupdate' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='ilog.rules.brl.bom' range='0.0.0'/>
-        <required namespace='osgi.bundle' name='com.ibm.rules.studio.decisionservice' range='0.0.0'/>
-        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=11))'>
-          <description>
-            com.ibm.rules.zrules.zxom
-          </description>
-        </requiredProperties>
-        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.zrules.zxom.source' range='[9.6.0.0-20260917_122238,9.6.0.0-20260917_122238]' optional='true'>
-          <filter>
-            (org.eclipse.update.install.sources=true)
-          </filter>
-        </required>
-      </requires>
-      <artifacts size='1'>
-        <artifact classifier='osgi.bundle' id='com.ibm.rules.zrules.zxom' version='9.6.0.0-20260917_122238'/>
-      </artifacts>
-      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-      <touchpointData size='1'>
-        <instructions size='1'>
-          <instruction key='manifest'>
-            Bundle-SymbolicName: com.ibm.rules.zrules.zxom;singleton:=true&#xA;Bundle-Version: 9.6.0.0-20260917_122238
-          </instruction>
-        </instructions>
-      </touchpointData>
-    </unit>
     <unit id='com.ibm.adapter.core.nls2.feature.group' version='2.3.401.v201711011805' singleton='false'>
       <update id='com.ibm.adapter.core.nls2.feature.group' range='[0.0.0,2.3.401.v201711011805)' severity='0'/>
       <properties size='2'>
@@ -4638,6 +4625,19 @@
           </instruction>
         </instructions>
       </touchpointData>
+    </unit>
+    <unit id='0-IF006.com.ibm.rules.studio.cobol.category' version='1.0.0.7Z7M-cJHDA6773E7EUA7E7kAcEEIU'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='ODM Rules Cobol Features'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='0-IF006.com.ibm.rules.studio.cobol.category' version='1.0.0.7Z7M-cJHDA6773E7EUA7E7kAcEEIU'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.pli.feature.feature.group' range='[9.6.0.0-20261020_182236,9.6.0.0-20261020_182236]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.rules.cobol.feature.feature.group' range='[9.6.0.0-20261020_182236,9.6.0.0-20261020_182236]'/>
+      </requires>
     </unit>
     <unit id='com.ibm.adapter.pli.nl2' version='8.0.500.v201711011805'>
       <update id='com.ibm.adapter.pli.nl2' range='[0.0.0,8.0.500.v201711011805)' severity='0'/>

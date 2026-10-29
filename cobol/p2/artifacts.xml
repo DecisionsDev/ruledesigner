@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='ODM Cobol Updates' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='1'>
-    <property name='p2.timestamp' value='1789660640081'/>
+    <property name='p2.timestamp' value='1792522792464'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
@@ -40,6 +40,14 @@
         <property name='artifact.size' value='984'/>
         <property name='download.checksum.sha-512' value='f1f555f2cc7d0d868cf18c33c5137b418befbee5adde7e3deaf0cb4f06f1bee6359321dbc132f7a788ebfb75e4cc12cbf7c8689996ba05e41f31413e66265d2b'/>
         <property name='download.checksum.sha-256' value='f49f8c306aa0ab92be8548e3b8d5402c8c822671eba9cacd88e8c5d787245980'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ibm.rules.cobol.feature' version='9.6.0.0-20261020_182236'>
+      <properties size='4'>
+        <property name='download.size' value='1914'/>
+        <property name='artifact.size' value='1914'/>
+        <property name='download.checksum.sha-512' value='828c5fd67eb0b8575350bc11a640313f6ac8cd5d840557cfece3e150571d837cd6a6f2745b0c3a4c97994d674cb8f33b8a600a2a7bc0f936d1f219a65aeaa3ac'/>
+        <property name='download.checksum.sha-256' value='ef4a0bd05cb6b4ea0e292b78ea5a00702e54c512141a60eb67571da4cc0f61ba'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.ibm.adapter.typesimport' version='1.1.300.v20170809_2215'>
@@ -130,14 +138,6 @@
         <property name='download.checksum.sha-256' value='aa4dabc07544eafdfcb13b270f1db69c5e4e448d51722be0fc45c0a1d546240f'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.zrules.zxom' version='9.6.0.0-20260917_122238'>
-      <properties size='4'>
-        <property name='download.size' value='45550755'/>
-        <property name='artifact.size' value='45550755'/>
-        <property name='download.checksum.sha-512' value='baa994937182de17f839abbff7c147b753655914bf33b0b32b251ae760a64ee5f82a3a44577fb1eabaab168b291298ea6f0c1bc54c3ccf5131168cfb57680150'/>
-        <property name='download.checksum.sha-256' value='840bfe04c3bcf7ab473d9acd7ec2c44d7d869918e599cd7a4e32d2fb87e0b305'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='com.ibm.etools.cobol.nl2' version='7.1.4100.v201711011805'>
       <properties size='4'>
         <property name='download.size' value='17410'/>
@@ -184,6 +184,14 @@
         <property name='artifact.size' value='17011'/>
         <property name='download.checksum.sha-512' value='deee40b11e794009afc1759644ffc4d7f01ecb94f2f8d1024a07ac4a47c0531a760ef20407dc74ca1639cc4dbeb7477ecffa69771d1ce3065af5aca5a09f5652'/>
         <property name='download.checksum.sha-256' value='068b6eccdcb15058c1c8b007db2ebe54167d4efc31a08ff67f1e314cab5c828c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.ibm.rules.pli.feature' version='9.6.0.0-20261020_182236'>
+      <properties size='4'>
+        <property name='download.size' value='1908'/>
+        <property name='artifact.size' value='1908'/>
+        <property name='download.checksum.sha-512' value='0c0156b1eb4371671f7b5ebac456be0d362e1e460d2c181f24077cb69a9b64159656e0c4bad4fe7f41620d2856297ff7913b16e84fb777bc98c2a697a9b3fd14'/>
+        <property name='download.checksum.sha-256' value='913d73ac1052434acd3bcabc562c063bb377527080c26bd46b6e8a5c63b691dd'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.ibm.propertygroup.ui.nl1' version='6.3.200.v201508241429'>
@@ -354,14 +362,6 @@
         <property name='download.checksum.sha-256' value='b465c047ef327bad15d8b816a129c9456120c4a6e8a039d8ce7bd336a41c5bd3'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.ibm.rules.zrules.pli' version='9.6.0.0-20260917_122238'>
-      <properties size='4'>
-        <property name='download.size' value='16957344'/>
-        <property name='artifact.size' value='16957344'/>
-        <property name='download.checksum.sha-512' value='c1d22d69db11672049b1776650642e29fe71255dcbd92af40eab94b4ff1a95071f2b305403fe4cedef1bac422a86708a95580f33312941fb5c9620f6ce2eddef'/>
-        <property name='download.checksum.sha-256' value='31c7c0cd02daaea9b705d7cbab0912eda5f0e22c663e633d9281a871a73fa895'/>
-      </properties>
-    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='pli.importer.win32' version='7.1.1.v20180208_1520'>
       <properties size='4'>
         <property name='download.size' value='870'/>
@@ -400,6 +400,14 @@
         <property name='artifact.size' value='152050'/>
         <property name='download.checksum.sha-512' value='db26ed0ed49f5e00c6adca80c16a19cd5a364747d4b82b82f7dbff1f612fecc40b404311646fab92c48e76e7c655e94110f91693c2ce0cc6fe245fd879a4cea7'/>
         <property name='download.checksum.sha-256' value='d1eef6c4e61875011d146c68fca136d52408eeffdf0ced74630829f7018fe116'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.zrules.zxom' version='9.6.0.0-20261020_182236'>
+      <properties size='4'>
+        <property name='download.size' value='45551079'/>
+        <property name='artifact.size' value='45551079'/>
+        <property name='download.checksum.sha-512' value='a964ed6d4002ca0f9e5e7b5cd7b7b4c08e5e06e9ccd679fc0d399aa40ad747bd3855c849624a386437d938fa6aec6043c80b8ceb623d4f27ab1490efe4d5d998'/>
+        <property name='download.checksum.sha-256' value='0df85281859ff14b5f0d19020a6bf7e45388c292fdb0bc91ef8511c8eaf38661'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.ibm.adapter.framework.nl1' version='7.1.400.v201711011805'>
@@ -530,14 +538,6 @@
         <property name='download.checksum.sha-256' value='0aed7e0e114995190f28b46dfe1b3edf8e903631348432c0b0de2854eda1966c'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='com.ibm.rules.cobol.feature' version='9.6.0.0-20260917_122238'>
-      <properties size='4'>
-        <property name='download.size' value='1914'/>
-        <property name='artifact.size' value='1914'/>
-        <property name='download.checksum.sha-512' value='3cd724d7001da46c5dbd4f16a1decc272967bd20767888e3dbad6ea608160b5f84d7fc6ad0597519141a6441aeafb80c9e3e706088254c9536bf5690c1833639'/>
-        <property name='download.checksum.sha-256' value='877d7ead3cb4725d5238c5e081f08fa87a7c670ba3c39a5e3d6b330a1064fa8e'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='com.ibm.propertygroup.ui.nl2' version='6.3.200.v201508241429'>
       <properties size='4'>
         <property name='download.size' value='11640'/>
@@ -546,12 +546,12 @@
         <property name='download.checksum.sha-256' value='bf5d501c626945cd767ebbc5e73a75aa5ef5741e756adaa810b9b44cb17402ab'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='com.ibm.rules.pli.feature' version='9.6.0.0-20260917_122238'>
+    <artifact classifier='osgi.bundle' id='com.ibm.rules.zrules.pli' version='9.6.0.0-20261020_182236'>
       <properties size='4'>
-        <property name='download.size' value='1909'/>
-        <property name='artifact.size' value='1909'/>
-        <property name='download.checksum.sha-512' value='fc40b7c8d093ae7aa4c68edaccd0bd2497b4f92dad2d8818d90a177a9975a5a8cd7d07c027ed65325758b670c24cc045192764f1e84a011d56196e7054d43d83'/>
-        <property name='download.checksum.sha-256' value='3c08c4d579cbe35737f4de57969075faf69735681a586d013303d96db0be884d'/>
+        <property name='download.size' value='16957292'/>
+        <property name='artifact.size' value='16957292'/>
+        <property name='download.checksum.sha-512' value='d432775f5f8f12533b018ec7b2758ec28761807b17e0b557941928e9f6822b07abda58151d640ed585da745d3615266b8721d759c656402a21108ed8eed18062'/>
+        <property name='download.checksum.sha-256' value='bb7e1fa10c1897508bb98f57731ef65d3d4ce809ce6b0894757f69f6fdc35c1b'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.ibm.adapter.command.nl2' version='6.2.801.v201711011805'>
